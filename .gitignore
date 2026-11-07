@@ -1,0 +1,44 @@
+# Ambientes virtuais e dependências
+.venv/
+venv/
+env/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Arquivos de ambiente e segredos
+.env
+.env.*
+*.pem
+*.key
+*.token
+
+# Bancos de dados e travas de processo
+*.db
+*.sqlite
+*.sqlite3
+*.lock
+
+# Arquivos de mídia e cache temporário
+*.mp4
+*.mp3
+*.wav
+*.m4a
+*.part
+*.ytdl
+uploads/
+output_noite86/
+NOITE86_FACTORY/
+
+# Dados dinâmicos de runtime e logs
+autonomous_engine/latest_trends.json
+autonomous_engine/queue.db
+*.log
+
+# Caches de IDE e testes
+.pytest_cache/
+.coverage
+htmlcov/
+.DS_Store
+Thumbs.db

@@ -1,0 +1,757 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>VICE DISTRICT // Retro-Futuristic Streetwear & Lifestyle 1986</title>
+  <meta name="description" content="Coleção autônoma inspirada nas noites elétricas de Leonida e na cultura retro-futurista de Miami anos 80. Peças exclusivas de alta qualidade.">
+
+  <!-- Tailwind CSS CDN -->
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+            'vice-void': '#09090f',
+            'vice-dark': '#12121f',
+            'vice-elevated': '#1a1a2e',
+            'neon-pink': '#ff007f',
+            'neon-cyan': '#00f0ff',
+            'neon-purple': '#8a2be2',
+            'sunset-amber': '#ffa800',
+            'neon-green': '#00ff9d',
+          }
+        }
+      }
+    }
+  </script>
+
+  <!-- Custom Neon & Scanlines Stylesheet -->
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body class="bg-vice-void text-gray-100 min-h-screen flex flex-col selection:bg-neon-pink selection:text-white">
+
+  <!-- Announcement Bar -->
+  <div id="announcement-bar" class="bg-gradient-to-r from-neon-pink via-neon-purple to-neon-cyan py-2 px-4 text-xs font-bold text-white shadow-md relative z-40">
+    <div class="max-w-7xl mx-auto flex flex-col sm:flex-row items-center justify-between gap-2">
+      <div class="flex items-center gap-2 text-center sm:text-left">
+        <span class="bg-black/30 px-2 py-0.5 rounded text-[10px] tracking-wider uppercase border border-white/20">Drop 01</span>
+        <span>⚡ FRETE GRÁTIS PARA TODO O BRASIL ACIMA DE R$ 199 // USE CUPOM: <strong class="underline tracking-wider">VICE10</strong></span>
+      </div>
+
+      <!-- Currency Toggle Container -->
+      <div id="currency-toggle" class="flex items-center gap-1 bg-black/40 p-1 rounded-md border border-white/20">
+        <button id="currency-btn-brl" onclick="StoreApp.setCurrency('BRL')" class="px-3 py-1 text-xs font-bold rounded bg-neon-pink text-white transition-all">
+          R$ BRL
+        </button>
+        <button id="currency-btn-usd" onclick="StoreApp.setCurrency('USD')" class="px-3 py-1 text-xs font-bold rounded text-gray-400 hover:text-white transition-all">
+          $ USD
+        </button>
+      </div>
+    </div>
+  </div>
+
+  <!-- Header & Navigation -->
+  <header class="sticky top-0 z-30 glass-surface border-b border-gray-800">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 h-20 flex items-center justify-between gap-4">
+      
+      <!-- Brand Logo -->
+      <a href="#" class="flex items-center gap-3 group">
+        <div class="h-10 w-10 flex-shrink-0">
+          <img src="assets/palm_logo.svg" alt="Vice District Palm Logo" class="h-full w-full object-contain filter group-hover:drop-shadow-[0_0_10px_#00F0FF] transition-all">
+        </div>
+        <div>
+          <span class="text-xl sm:text-2xl font-black tracking-widest text-white block group-hover:text-neon-pink transition-colors">
+            VICE<span class="text-neon-cyan">DISTRICT</span>
+          </span>
+          <span class="text-[10px] font-bold tracking-widest text-neon-pink uppercase block -mt-1">
+            LEONIDA // 1986
+          </span>
+        </div>
+      </a>
+
+      <!-- Navigation Links (Desktop) -->
+      <nav class="hidden md:flex items-center gap-8 text-sm font-semibold text-gray-300">
+        <a href="#catalogo" onclick="StoreApp.setCategory('all')" class="hover:text-neon-cyan transition-colors">Coleção Noturna</a>
+        <a href="#catalogo" onclick="StoreApp.setCategory('Apparel')" class="hover:text-neon-cyan transition-colors">Vestuário</a>
+        <a href="#catalogo" onclick="StoreApp.setCategory('Accessories')" class="hover:text-neon-cyan transition-colors">Acessórios</a>
+        <a href="#catalogo" onclick="StoreApp.setCategory('Decor')" class="hover:text-neon-cyan transition-colors">Setup Decor</a>
+        <a href="#combos" class="text-neon-pink hover:text-white transition-colors font-bold">Combos VIP</a>
+      </nav>
+
+      <!-- Search & Cart -->
+      <div class="flex items-center gap-3">
+        <!-- Live Search -->
+        <div class="relative hidden sm:block w-48 lg:w-64">
+          <input type="text" id="search-input" placeholder="Buscar produtos..." class="w-full bg-black/50 border border-gray-800 rounded-lg py-1.5 pl-8 pr-3 text-xs text-white placeholder-gray-500 focus:outline-none focus:border-neon-cyan transition-all">
+          <span class="absolute left-2.5 top-2 text-gray-500 text-xs">🔍</span>
+        </div>
+
+        <!-- Cart Drawer Button Trigger -->
+        <button onclick="StoreApp.openCartDrawer()" class="relative p-2.5 rounded-lg bg-vice-dark border border-gray-800 hover:border-neon-pink hover:shadow-[0_0_15px_rgba(255,0,127,0.4)] transition-all flex items-center justify-center">
+          <span class="text-lg">🛒</span>
+          <span id="cart-badge" class="absolute -top-1.5 -right-1.5 h-5 w-5 rounded-full bg-neon-pink text-white font-extrabold text-[10px] flex items-center justify-center hidden shadow-md">
+            0
+          </span>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <!-- Hero Section with Motion Background & Multi-Layer Gradients -->
+  <section class="relative border-b border-gray-800 min-h-[600px] sm:min-h-[680px] flex items-center overflow-hidden">
+    <!-- Cinematic Motion Background Image with Parallax Ken Burns Effect -->
+    <div class="absolute inset-0 z-0 overflow-hidden pointer-events-none">
+      <img src="assets/banners/hero_sunset_drive.jpg" alt="Vice District Sunset Drive" class="w-full h-full object-cover object-center hero-motion-bg filter brightness-95">
+    </div>
+
+    <!-- Multi-Layer Cinematic Gradients -->
+    <!-- 1. Horizontal Vignette (Dark on left for text legibility, transparent on right for supercar & Ocean Drive) -->
+    <div class="absolute inset-0 z-1 bg-gradient-to-r from-vice-void via-vice-void/85 to-vice-void/30 md:via-vice-void/70 md:to-transparent pointer-events-none"></div>
+    <!-- 2. Vertical Blend Gradients (Seamless connection to header and category bar) -->
+    <div class="absolute inset-0 z-1 bg-gradient-to-t from-vice-void via-transparent to-vice-void/80 pointer-events-none"></div>
+    
+    <!-- 3. Ambient Neon Color Pulses -->
+    <div class="absolute -top-20 -left-20 w-96 h-96 bg-neon-pink/20 rounded-full blur-3xl pointer-events-none neon-aura-pulse"></div>
+    <div class="absolute top-1/2 right-10 w-96 h-96 bg-neon-cyan/20 rounded-full blur-3xl pointer-events-none neon-aura-pulse"></div>
+
+    <!-- 4. Dynamic Light Sweep Ray -->
+    <div class="absolute inset-0 z-1 overflow-hidden pointer-events-none">
+      <div class="w-1/2 h-[200%] -top-1/2 bg-gradient-to-r from-transparent via-white/10 to-transparent hero-light-sweep"></div>
+    </div>
+
+    <!-- 5. CRT Scanlines Overlay -->
+    <div class="absolute inset-0 z-2 scanlines-overlay opacity-30 pointer-events-none"></div>
+
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10 py-16 sm:py-24 w-full">
+      <div class="max-w-2xl text-left">
+        <!-- Scarcity Badge -->
+        <div class="inline-flex items-center gap-2 rounded-full border border-neon-pink/50 bg-black/60 backdrop-blur-md px-4 py-1.5 text-xs font-bold text-neon-pink mb-6 pulse-badge shadow-[0_0_15px_rgba(255,0,127,0.3)]">
+          <span class="animate-pulse">🔥</span>
+          <span>LOTE 01 DISPONÍVEL // APENAS 50 PEÇAS POR MODELO</span>
+        </div>
+
+        <!-- Main Headline -->
+        <h1 class="text-4xl sm:text-6xl md:text-7xl font-black tracking-tight text-white uppercase mb-4 leading-tight drop-shadow-[0_4px_25px_rgba(0,0,0,0.9)]">
+          VICE CITY <span class="text-neon-cyan drop-shadow-[0_0_25px_rgba(0,240,255,0.6)]">SUBMUNDO</span>
+        </h1>
+
+        <!-- Subheadline -->
+        <p class="text-base sm:text-lg text-gray-200 font-medium leading-relaxed mb-8 drop-shadow-[0_2px_10px_rgba(0,0,0,0.8)]">
+          Coleção conceitual autônoma inspirada nas noites elétricas de Leonida e na cultura retro-futurista de Miami anos 80. Peças exclusivas com estampagem HD sob demanda e entrega expressa.
+        </p>
+
+        <!-- Live Countdown Timer -->
+        <div class="mb-10 inline-block rounded-2xl border border-gray-700/80 bg-black/75 p-4 shadow-2xl backdrop-blur-xl">
+          <span class="text-[11px] font-extrabold text-gray-400 block mb-1 uppercase tracking-wider">
+            O Lote 01 Encerra Em:
+          </span>
+          <div id="countdown-timer" class="text-2xl sm:text-3xl font-black text-sunset-amber tracking-widest font-mono drop-shadow-[0_0_15px_rgba(255,168,0,0.5)]">
+            14h : 23m : 45s
+          </div>
+        </div>
+
+        <!-- Hero CTAs -->
+        <div class="flex flex-col sm:flex-row items-stretch sm:items-center gap-4">
+          <a href="#catalogo" class="px-8 py-4 rounded-xl btn-neon-pink font-extrabold text-sm uppercase tracking-wider text-center shadow-[0_0_25px_rgba(255,0,127,0.5)] hover:shadow-[0_0_35px_rgba(255,0,127,0.8)] transition-all">
+            EXPLORAR DROP 01
+          </a>
+          <a href="#combos" class="px-8 py-4 rounded-xl border border-neon-cyan/80 bg-black/60 backdrop-blur-md text-neon-cyan hover:bg-neon-cyan hover:text-gray-900 font-extrabold text-sm uppercase tracking-wider text-center transition-all shadow-[0_0_15px_rgba(0,240,255,0.3)]">
+            VER COMBOS PROMOCIONAIS (-16%)
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Category Filter Pills Bar -->
+  <section id="catalogo" class="py-8 bg-vice-void border-b border-gray-800/80 sticky top-20 z-20 glass-surface">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div id="category-filter" class="flex items-center gap-2 overflow-x-auto pb-2 scrollbar-none">
+        <button data-category="all" onclick="StoreApp.setCategory('all')" class="cat-pill px-4 py-2 rounded-full text-xs font-bold border border-neon-cyan bg-neon-cyan/10 text-neon-cyan shadow-[0_0_15px_rgba(0,240,255,0.3)] transition-all whitespace-nowrap">
+          Todos os Itens (12)
+        </button>
+        <button data-category="Apparel" onclick="StoreApp.setCategory('Apparel')" class="cat-pill px-4 py-2 rounded-full text-xs font-bold border border-gray-800 bg-[#12121f] text-gray-400 hover:text-white hover:border-gray-700 transition-all whitespace-nowrap">
+          Vestuário Noturno (3)
+        </button>
+        <button data-category="Novelty" onclick="StoreApp.setCategory('Novelty')" class="cat-pill px-4 py-2 rounded-full text-xs font-bold border border-gray-800 bg-[#12121f] text-gray-400 hover:text-white hover:border-gray-700 transition-all whitespace-nowrap">
+          Itens Ocultos & Novidades (3)
+        </button>
+        <button data-category="Accessories" onclick="StoreApp.setCategory('Accessories')" class="cat-pill px-4 py-2 rounded-full text-xs font-bold border border-gray-800 bg-[#12121f] text-gray-400 hover:text-white hover:border-gray-700 transition-all whitespace-nowrap">
+          Acessórios & Headwear (3)
+        </button>
+        <button data-category="Decor" onclick="StoreApp.setCategory('Decor')" class="cat-pill px-4 py-2 rounded-full text-xs font-bold border border-gray-800 bg-[#12121f] text-gray-400 hover:text-white hover:border-gray-700 transition-all whitespace-nowrap">
+          Setup & Tech Decor (3)
+        </button>
+      </div>
+    </div>
+  </section>
+
+  <!-- 12-Product Dynamic Grid -->
+  <main class="flex-1 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12 w-full">
+    <div class="mb-8 flex flex-col sm:flex-row items-baseline justify-between gap-2 border-b border-gray-800 pb-4">
+      <div>
+        <h2 class="text-2xl font-black text-white uppercase tracking-wider">
+          CATÁLOGO OFICIAL // <span class="text-neon-pink">DROP 01</span>
+        </h2>
+        <p class="text-xs text-gray-400 mt-1">Margem garantida acima de 65% • Produção sob demanda com estampagem HD</p>
+      </div>
+      <span class="text-xs font-semibold text-neon-cyan">
+        Exibindo 12 itens autênticos
+      </span>
+    </div>
+
+    <!-- Product Grid Target -->
+    <div id="product-grid" class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6">
+      <!-- Rendered dynamically by StoreApp.render() -->
+    </div>
+  </main>
+
+  <!-- Promotional Bundles VIP Section -->
+  <!-- Promotional Bundles VIP Section with Panoramic Skyline Background -->
+  <section id="combos" class="relative py-20 border-t border-b border-gray-800 overflow-hidden">
+    <!-- Panoramic Background -->
+    <div class="absolute inset-0 z-0">
+      <img src="assets/banners/hero_panoramic_model.jpg" alt="Vice District Skyline Banner" class="w-full h-full object-cover object-center filter brightness-50">
+      <div class="absolute inset-0 bg-gradient-to-b from-vice-void via-vice-dark/85 to-vice-void"></div>
+    </div>
+    <div class="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="text-center mb-12">
+        <span class="text-xs font-bold text-neon-pink tracking-widest uppercase block mb-2">AUMENTO DE VALOR PERCEBIDO</span>
+        <h2 class="text-3xl sm:text-4xl font-black text-white uppercase tracking-tight">
+          COMBOS PROMOCIONAIS // <span class="text-neon-cyan">DESCONTO PROGRESSIVO</span>
+        </h2>
+        <p class="text-sm text-gray-400 max-w-xl mx-auto mt-2">
+          Leve o kit completo com economia de até 16% + 5% extra no PIX e Frete Grátis garantido.
+        </p>
+      </div>
+
+      <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+        <!-- Bundle 1 -->
+        <div class="rounded-xl border border-neon-pink/50 bg-vice-void p-6 relative flex flex-col justify-between shadow-[0_0_20px_rgba(255,0,127,0.15)]">
+          <span class="absolute -top-3 right-4 bg-neon-pink text-white text-[10px] font-black px-2.5 py-0.5 rounded uppercase tracking-wider">
+            16% OFF
+          </span>
+          <div>
+            <h3 class="text-lg font-black text-white mb-2">Underground Syndicate Kit</h3>
+            <p class="text-xs text-gray-400 mb-4">Jaqueta Bomber Holográfica + Lata Secreta Stash Can + Chaveiro Pelican Bay.</p>
+            <div class="space-y-1 text-xs text-gray-300 mb-6">
+              <div class="flex items-center gap-1.5">✓ 1x Jaqueta Bomber Reversível Neon Mirage</div>
+              <div class="flex items-center gap-1.5">✓ 1x Lata de Refri Secreta Vice Rush '86</div>
+              <div class="flex items-center gap-1.5">✓ 1x Chaveiro Acrílico Folha de Ouro Pelican Bay</div>
+            </div>
+          </div>
+          <div class="border-t border-gray-800 pt-4">
+            <div class="flex items-baseline gap-2 mb-1">
+              <span class="text-xs text-gray-500 line-through">R$ 509,70</span>
+              <span class="text-2xl font-black text-white">R$ 429,90</span>
+            </div>
+            <p class="text-[11px] text-neon-green font-semibold mb-4">No PIX: R$ 408,40 (Economia de R$ 101,30)</p>
+            <button onclick="StoreApp.quickAddToCart('VC-APP-002'); StoreApp.quickAddToCart('VC-NOQ-001'); StoreApp.quickAddToCart('VC-EDC-001');" class="w-full py-2.5 rounded-lg btn-neon-pink text-xs font-bold">
+              Adicionar Combo Completo
+            </button>
+          </div>
+        </div>
+
+        <!-- Bundle 2 -->
+        <div class="rounded-xl border border-neon-cyan/50 bg-vice-void p-6 relative flex flex-col justify-between shadow-[0_0_20px_rgba(0,240,255,0.15)]">
+          <span class="absolute -top-3 right-4 bg-neon-cyan text-gray-900 text-[10px] font-black px-2.5 py-0.5 rounded uppercase tracking-wider">
+            15% OFF
+          </span>
+          <div>
+            <h3 class="text-lg font-black text-white mb-2">Vice Night Runner Pack</h3>
+            <p class="text-xs text-gray-400 mb-4">Camiseta Heavyweight 260 GSM + Boné Veludo Cotelê + Trio Aromatizante Coco.</p>
+            <div class="space-y-1 text-xs text-gray-300 mb-6">
+              <div class="flex items-center gap-1.5">✓ 1x Camiseta Heavyweight Miami Overdrive '84</div>
+              <div class="flex items-center gap-1.5">✓ 1x Boné South Beach Veludo Cotelê</div>
+              <div class="flex items-center gap-1.5">✓ 1x Trio Aromatizante Sunburst Palm</div>
+            </div>
+          </div>
+          <div class="border-t border-gray-800 pt-4">
+            <div class="flex items-baseline gap-2 mb-1">
+              <span class="text-xs text-gray-500 line-through">R$ 319,70</span>
+              <span class="text-2xl font-black text-white">R$ 269,90</span>
+            </div>
+            <p class="text-[11px] text-neon-green font-semibold mb-4">No PIX: R$ 256,40 (Frete Grátis Incluso)</p>
+            <button onclick="StoreApp.quickAddToCart('VC-APP-003'); StoreApp.quickAddToCart('VC-APP-004'); StoreApp.quickAddToCart('VC-AUT-001');" class="w-full py-2.5 rounded-lg btn-neon-cyan text-xs font-bold text-gray-900">
+              Adicionar Combo Completo
+            </button>
+          </div>
+        </div>
+
+        <!-- Bundle 3 -->
+        <div class="rounded-xl border border-neon-purple/50 bg-vice-void p-6 relative flex flex-col justify-between shadow-[0_0_20px_rgba(138,43,226,0.15)]">
+          <span class="absolute -top-3 right-4 bg-neon-purple text-white text-[10px] font-black px-2.5 py-0.5 rounded uppercase tracking-wider">
+            SETUP VIP
+          </span>
+          <div>
+            <h3 class="text-lg font-black text-white mb-2">Ocean Drive Setup Pack</h3>
+            <p class="text-xs text-gray-400 mb-4">Deskmat XXL 900x400 + Luminária Acrílica Laser Neon + Caixa de Som Retro Boombox.</p>
+            <div class="space-y-1 text-xs text-gray-300 mb-6">
+              <div class="flex items-center gap-1.5">✓ 1x Deskmat XXL Midnight Tropic 900x400</div>
+              <div class="flex items-center gap-1.5">✓ 1x Luminária Laser Ocean Drive Nocturne</div>
+              <div class="flex items-center gap-1.5">✓ 1x Speaker Bluetooth Synthwave Boombox</div>
+            </div>
+          </div>
+          <div class="border-t border-gray-800 pt-4">
+            <div class="flex items-baseline gap-2 mb-1">
+              <span class="text-xs text-gray-500 line-through">R$ 459,70</span>
+              <span class="text-2xl font-black text-white">R$ 389,90</span>
+            </div>
+            <p class="text-[11px] text-neon-green font-semibold mb-4">No PIX: R$ 370,40 (Frete Grátis Incluso)</p>
+            <button onclick="StoreApp.quickAddToCart('VC-DSK-001'); StoreApp.quickAddToCart('VC-LGT-001'); StoreApp.quickAddToCart('VC-AUD-001');" class="w-full py-2.5 rounded-lg btn-neon-pink text-xs font-bold">
+              Adicionar Combo Completo
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Trust Badges & Customer Assurance -->
+  <section class="py-12 border-b border-gray-800 bg-vice-void">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 grid grid-cols-2 md:grid-cols-4 gap-6 text-center">
+      <div class="p-4 rounded-xl border border-gray-800/60 bg-vice-dark/40">
+        <span class="text-3xl block mb-2">🚀</span>
+        <h4 class="font-bold text-sm text-white">Frete Grátis Nacional</h4>
+        <p class="text-xs text-gray-400 mt-1">Para todo o Brasil acima de R$ 199 via Sedex</p>
+      </div>
+      <div class="p-4 rounded-xl border border-gray-800/60 bg-vice-dark/40">
+        <span class="text-3xl block mb-2">⚡</span>
+        <h4 class="font-bold text-sm text-white">PIX com 5% OFF</h4>
+        <p class="text-xs text-gray-400 mt-1">Aprovação imediata e envio prioritário</p>
+      </div>
+      <div class="p-4 rounded-xl border border-gray-800/60 bg-vice-dark/40">
+        <span class="text-3xl block mb-2">🛡️</span>
+        <h4 class="font-bold text-sm text-white">Garantia Incondicional</h4>
+        <p class="text-xs text-gray-400 mt-1">7 dias para troca ou devolução sem perguntas</p>
+      </div>
+      <div class="p-4 rounded-xl border border-gray-800/60 bg-vice-dark/40">
+        <span class="text-3xl block mb-2">🇧🇷</span>
+        <h4 class="font-bold text-sm text-white">Produção Nacional</h4>
+        <p class="text-xs text-gray-400 mt-1">Padrão streetwear exportação e algodão 260 GSM</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Customer Reviews -->
+  <section class="py-16 bg-vice-dark border-b border-gray-800">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="text-center mb-10">
+        <span class="text-xs font-bold text-sunset-amber uppercase tracking-wider block mb-1">★★★★★ 4.9 DE 5 BASEADO EM 340+ AVALIAÇÕES</span>
+        <h2 class="text-3xl font-black text-white uppercase">O que dizem os primeiros compradores</h2>
+      </div>
+
+      <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+        <div class="p-5 rounded-xl border border-gray-800 bg-vice-void">
+          <div class="text-sunset-amber text-sm mb-2">★★★★★</div>
+          <p class="text-xs text-gray-300 italic mb-4">"A jaqueta bomber é um absurdo ao vivo. A cor muda com a luz e o bordado nas costas tem uma qualidade que nunca vi em marca nacional."</p>
+          <span class="text-xs font-bold text-white block">Rodrigo M. • São Paulo, SP</span>
+          <span class="text-[10px] text-gray-500">Comprou: Neon Mirage Bomber Jacket</span>
+        </div>
+        <div class="p-5 rounded-xl border border-gray-800 bg-vice-void">
+          <div class="text-sunset-amber text-sm mb-2">★★★★★</div>
+          <p class="text-xs text-gray-300 italic mb-4">"A lata secreta é genial! Ninguém percebe que é compartimento falso. Paguei no PIX e chegou em 4 dias em Curitiba."</p>
+          <span class="text-xs font-bold text-white block">Felipe S. • Curitiba, PR</span>
+          <span class="text-[10px] text-gray-500">Comprou: Vice Rush '86 Stash Can</span>
+        </div>
+        <div class="p-5 rounded-xl border border-gray-800 bg-vice-void">
+          <div class="text-sunset-amber text-sm mb-2">★★★★★</div>
+          <p class="text-xs text-gray-300 italic mb-4">"O deskmat cobriu minha mesa inteira e a luminária neon deixou o quarto com clima de filme dos anos 80. Recomendo demais!"</p>
+          <span class="text-xs font-bold text-white block">Camila T. • Belo Horizonte, MG</span>
+          <span class="text-[10px] text-gray-500">Comprou: Ocean Drive Setup Pack</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Interactive Product Modal -->
+  <div id="product-modal" class="fixed inset-0 z-50 items-center justify-center bg-black/80 backdrop-blur-md p-4 hidden">
+    <div class="relative w-full max-w-4xl max-h-[90vh] overflow-y-auto rounded-2xl border border-gray-800 bg-vice-dark p-6 shadow-2xl flex flex-col md:flex-row gap-8">
+      
+      <!-- Close Button -->
+      <button onclick="StoreApp.closeProductModal()" class="absolute top-4 right-4 h-8 w-8 rounded-full bg-gray-800 text-gray-400 hover:text-white flex items-center justify-center font-bold text-sm">
+        ✕
+      </button>
+
+      <!-- Modal Gallery Image -->
+      <div class="w-full md:w-1/2 flex flex-col items-center">
+        <div class="w-full aspect-square rounded-xl bg-vice-void overflow-hidden border border-gray-800 mb-3 flex items-center justify-center">
+          <img id="modal-product-img" src="" alt="Produto Preview" class="h-full w-full object-cover">
+        </div>
+        <div class="w-full text-center">
+          <span class="inline-block px-3 py-1 rounded bg-neon-pink/15 text-neon-pink text-xs font-bold border border-neon-pink/30 pulse-badge">
+            🔥 14 pessoas estão vendo este item agora. Apenas 6 unidades restantes!
+          </span>
+        </div>
+      </div>
+
+      <!-- Modal Info & Controls -->
+      <div class="w-full md:w-1/2 flex flex-col justify-between">
+        <div>
+          <span id="modal-product-category" class="text-xs font-bold text-neon-cyan uppercase tracking-wider block mb-1">
+            CATEGORIA
+          </span>
+          <h2 id="modal-product-title" class="text-xl sm:text-2xl font-black text-white mb-2">
+            Título do Produto
+          </h2>
+          <div class="flex items-baseline gap-3 mb-4">
+            <span id="modal-product-price" class="text-2xl font-extrabold text-white">R$ 0,00</span>
+            <span class="text-xs text-neon-green font-semibold">5% de desconto no PIX</span>
+          </div>
+
+          <p id="modal-product-description" class="text-xs text-gray-300 leading-relaxed mb-6">
+            Descrição detalhada do produto.
+          </p>
+
+          <!-- Size Selector -->
+          <div class="mb-6">
+            <span class="text-xs font-bold text-gray-300 block mb-2">Selecione o Tamanho:</span>
+            <div class="flex items-center gap-2">
+              <button data-size="P" onclick="StoreApp.selectModalSize('P')" class="size-btn h-9 w-9 rounded border border-gray-700 bg-transparent text-gray-300 font-bold text-xs hover:border-gray-500 flex items-center justify-center">P</button>
+              <button data-size="M" onclick="StoreApp.selectModalSize('M')" class="size-btn h-9 w-9 rounded border border-neon-cyan bg-neon-cyan/20 text-neon-cyan font-bold text-xs flex items-center justify-center">M</button>
+              <button data-size="G" onclick="StoreApp.selectModalSize('G')" class="size-btn h-9 w-9 rounded border border-gray-700 bg-transparent text-gray-300 font-bold text-xs hover:border-gray-500 flex items-center justify-center">G</button>
+              <button data-size="GG" onclick="StoreApp.selectModalSize('GG')" class="size-btn h-9 w-9 rounded border border-gray-700 bg-transparent text-gray-300 font-bold text-xs hover:border-gray-500 flex items-center justify-center">GG</button>
+              <button data-size="XG" onclick="StoreApp.selectModalSize('XG')" class="size-btn h-9 w-9 rounded border border-gray-700 bg-transparent text-gray-300 font-bold text-xs hover:border-gray-500 flex items-center justify-center">XG</button>
+            </div>
+          </div>
+
+          <!-- Quantity Stepper -->
+          <div class="mb-6 flex items-center gap-4">
+            <span class="text-xs font-bold text-gray-300">Quantidade:</span>
+            <div class="flex items-center rounded-lg border border-gray-700 bg-vice-void p-1">
+              <button onclick="StoreApp.adjustModalQuantity(-1)" class="h-7 w-7 rounded bg-gray-800 text-white font-bold hover:bg-gray-700">-</button>
+              <input type="text" id="modal-qty-input" value="1" readonly class="w-10 text-center text-xs font-bold text-white bg-transparent focus:outline-none">
+              <button onclick="StoreApp.adjustModalQuantity(1)" class="h-7 w-7 rounded bg-gray-800 text-white font-bold hover:bg-gray-700">+</button>
+            </div>
+          </div>
+
+          <!-- AI Prompt Reveal Accordion -->
+          <details class="mb-6 rounded-lg border border-gray-800 bg-vice-void/60 p-3 text-xs">
+            <summary class="font-bold text-neon-cyan cursor-pointer flex items-center justify-between">
+              <span>🎨 Especificações de Arte IA (Flux & Midjourney)</span>
+              <span>▼</span>
+            </summary>
+            <div class="mt-3 space-y-2 text-[11px] text-gray-400">
+              <p><strong>Flux.1 Pro:</strong> <span id="modal-prompt-flux" class="font-mono text-gray-300">...</span></p>
+              <p><strong>Midjourney v6.1:</strong> <span id="modal-prompt-mj" class="font-mono text-gray-300">...</span></p>
+            </div>
+          </details>
+
+          <!-- Features List -->
+          <ul id="modal-product-features" class="space-y-1 text-xs text-gray-400 mb-6">
+            <!-- Populated dynamically -->
+          </ul>
+        </div>
+
+        <!-- Conversion Action Buttons -->
+        <div class="grid grid-cols-2 gap-3 pt-4 border-t border-gray-800">
+          <button onclick="StoreApp.addProductFromModal()" class="w-full py-3 rounded-lg border border-neon-cyan text-neon-cyan hover:bg-neon-cyan hover:text-gray-900 font-bold text-xs uppercase tracking-wider transition-all">
+            + Adicionar
+          </button>
+          <button onclick="StoreApp.buyNowFromModal()" class="w-full py-3 rounded-lg btn-neon-pink font-bold text-xs uppercase tracking-wider">
+            Comprar Agora
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Slide-Over Cart Drawer -->
+  <div id="cart-drawer" class="fixed inset-y-0 right-0 z-50 w-full max-w-md bg-vice-dark border-l border-gray-800 p-6 flex flex-col justify-between transform translate-x-full transition-transform duration-300 shadow-2xl">
+    <div>
+      <!-- Drawer Header -->
+      <div class="flex items-center justify-between pb-4 border-b border-gray-800 mb-4">
+        <h3 class="text-base font-black text-white uppercase tracking-wider flex items-center gap-2">
+          <span>SEU CARRINHO</span>
+        </h3>
+        <button onclick="StoreApp.closeCartDrawer()" class="h-8 w-8 rounded-full bg-gray-800 text-gray-400 hover:text-white flex items-center justify-center font-bold text-sm">
+          ✕
+        </button>
+      </div>
+
+      <!-- Free Shipping Progress Bar -->
+      <div id="free-shipping-bar" class="mb-4 bg-vice-void p-3 rounded-xl border border-gray-800">
+        <p id="free-shipping-text" class="text-xs text-gray-300 mb-2">
+          Faltam apenas R$ 49,10 para FRETE GRÁTIS!
+        </p>
+        <div class="w-full bg-gray-800 h-2 rounded-full overflow-hidden">
+          <div id="free-shipping-progress" class="h-2 rounded-full bg-gradient-to-r from-neon-pink to-neon-cyan transition-all duration-500" style="width: 50%;"></div>
+        </div>
+      </div>
+
+      <!-- Cart Items List Container -->
+      <div id="cart-items-container" class="max-h-[45vh] overflow-y-auto pr-1 divide-y divide-gray-800">
+        <!-- Rendered by StoreApp.renderCartDrawer() -->
+      </div>
+    </div>
+
+    <!-- Drawer Footer: Coupon & Checkout Summary -->
+    <div class="pt-4 border-t border-gray-800">
+      <!-- Coupon Form -->
+      <div class="mb-4">
+        <div class="flex gap-2">
+          <input type="text" id="coupon-input" placeholder="CUPOM: VICE10" class="flex-1 bg-vice-void border border-gray-800 rounded-lg px-3 py-2 text-xs text-white placeholder-gray-500 focus:outline-none focus:border-neon-cyan uppercase">
+          <button onclick="StoreApp.applyCoupon()" class="px-4 py-2 rounded-lg bg-gray-800 hover:bg-gray-700 text-xs font-bold text-white transition-colors">
+            Aplicar
+          </button>
+        </div>
+        <p id="coupon-feedback" class="hidden"></p>
+      </div>
+
+      <!-- Financials Breakdown -->
+      <div class="space-y-1.5 text-xs text-gray-400 mb-4">
+        <div class="flex justify-between">
+          <span>Subtotal:</span>
+          <span id="cart-subtotal" class="font-semibold text-white">R$ 0,00</span>
+        </div>
+        <div class="flex justify-between hidden">
+          <span>Desconto Cupom (10%):</span>
+          <span id="cart-discount" class="font-bold text-neon-green">- R$ 0,00</span>
+        </div>
+        <div class="flex justify-between">
+          <span>Frete:</span>
+          <span id="cart-shipping" class="font-semibold text-white">A calcular</span>
+        </div>
+        <div class="flex justify-between text-base font-extrabold text-white pt-2 border-t border-gray-800">
+          <span>Total:</span>
+          <span id="cart-total" class="text-neon-pink">R$ 0,00</span>
+        </div>
+      </div>
+
+      <!-- Finalize Order Button -->
+      <button onclick="CheckoutSimulator.open()" class="w-full py-3.5 rounded-lg btn-neon-pink font-black text-xs uppercase tracking-wider flex items-center justify-center gap-2">
+        <span>FINALIZAR PEDIDO (CHECKOUT SEGURO)</span>
+        <span>→</span>
+      </button>
+    </div>
+  </div>
+
+  <!-- Cart Overlay Backdrop -->
+  <div id="cart-overlay" onclick="StoreApp.closeCartDrawer()" class="fixed inset-0 z-40 bg-black/60 backdrop-blur-sm hidden transition-opacity"></div>
+
+  <!-- High-Converting PIX Checkout Simulator Modal -->
+  <div id="checkout-modal" class="fixed inset-0 z-50 items-center justify-center bg-black/85 backdrop-blur-md p-4 hidden">
+    <div class="relative w-full max-w-2xl max-h-[92vh] overflow-y-auto rounded-2xl border border-neon-cyan/40 bg-vice-dark p-6 shadow-2xl">
+      
+      <!-- Close Button -->
+      <button onclick="CheckoutSimulator.close()" class="absolute top-4 right-4 h-8 w-8 rounded-full bg-gray-800 text-gray-400 hover:text-white flex items-center justify-center font-bold text-sm">
+        ✕
+      </button>
+
+      <!-- Step 1: Customer Form & Payment (Default view) -->
+      <div id="checkout-step-form">
+        <!-- Header -->
+        <div class="mb-6 border-b border-gray-800 pb-3">
+          <div class="flex items-center gap-2 text-neon-cyan text-xs font-bold uppercase tracking-widest mb-1">
+            <span>🔒 CHECKOUT CRIPTOGRAFADO 256-BIT</span>
+          </div>
+          <h2 class="text-xl font-black text-white">PAGAMENTO INSTANTÂNEO // PIX 5% OFF</h2>
+        </div>
+
+        <!-- Customer Fields Grid -->
+        <div class="grid grid-cols-1 sm:grid-cols-2 gap-4 mb-6">
+          <div>
+            <label class="block text-xs font-bold text-gray-400 mb-1">Nome Completo</label>
+            <input type="text" id="checkout-customer-name" value="Victor Rossi" class="w-full bg-vice-void border border-gray-700 rounded-lg p-2.5 text-xs text-white focus:outline-none focus:border-neon-cyan">
+          </div>
+          <div>
+            <label class="block text-xs font-bold text-gray-400 mb-1">E-mail para Rastreio</label>
+            <input type="email" id="checkout-customer-email" value="victor@email.com" class="w-full bg-vice-void border border-gray-700 rounded-lg p-2.5 text-xs text-white focus:outline-none focus:border-neon-cyan">
+          </div>
+          <div>
+            <label class="block text-xs font-bold text-gray-400 mb-1">WhatsApp (Notificações)</label>
+            <input type="tel" id="checkout-customer-phone" value="(11) 99876-5432" class="w-full bg-vice-void border border-gray-700 rounded-lg p-2.5 text-xs text-white focus:outline-none focus:border-neon-cyan">
+          </div>
+          <div>
+            <label class="block text-xs font-bold text-gray-400 mb-1">CEP de Entrega</label>
+            <input type="text" id="checkout-customer-cep" value="01310-100" class="w-full bg-vice-void border border-gray-700 rounded-lg p-2.5 text-xs text-white focus:outline-none focus:border-neon-cyan">
+          </div>
+        </div>
+
+        <!-- Payment Method Options -->
+        <div class="mb-6 grid grid-cols-2 gap-3">
+          <label class="rounded-xl border border-neon-cyan bg-neon-cyan/10 p-3 cursor-pointer flex items-center justify-between">
+            <div>
+              <span class="block text-xs font-bold text-white">PIX Instantâneo</span>
+              <span class="block text-[11px] text-neon-green font-semibold">5% de Desconto Imediato</span>
+            </div>
+            <input type="radio" name="payment_method" value="pix" checked class="text-neon-cyan focus:ring-0">
+          </label>
+          <label class="rounded-xl border border-gray-800 bg-vice-void p-3 cursor-pointer flex items-center justify-between opacity-60">
+            <div>
+              <span class="block text-xs font-bold text-white">Cartão de Crédito</span>
+              <span class="block text-[11px] text-gray-400">Até 12x sem juros</span>
+            </div>
+            <input type="radio" name="payment_method" value="card" disabled class="text-gray-500">
+          </label>
+        </div>
+
+        <!-- Interactive PIX Container -->
+        <div class="rounded-2xl border border-gray-800 bg-vice-void p-5 mb-6 text-center">
+          <div class="flex items-center justify-between mb-3 text-xs">
+            <span class="text-gray-400">Tempo para expiração do QR Code:</span>
+            <span id="pix-timer-countdown" class="font-mono font-bold text-sunset-amber">14:52</span>
+          </div>
+
+          <!-- Dynamic SVG QR Code Container -->
+          <div id="pix-qr-code" class="mb-4 flex items-center justify-center">
+            <!-- Dynamic SVG QR rendered by CheckoutSimulator.generateQr() -->
+          </div>
+
+          <!-- Copy & Paste Payload String -->
+          <div class="mb-3">
+            <label class="block text-xs font-bold text-gray-400 mb-1 text-left">Código PIX Copia e Cola:</label>
+            <div class="flex gap-2">
+              <input type="text" id="pix-copy-paste-input" readonly value="" class="flex-1 bg-black/60 border border-gray-700 rounded-lg px-3 py-2 text-xs font-mono text-neon-cyan select-all">
+              <button onclick="CheckoutSimulator.copyPix()" class="px-4 py-2 rounded-lg btn-neon-cyan text-xs font-bold">
+                COPIAR
+              </button>
+            </div>
+            <p id="pix-copy-feedback" class="text-xs text-neon-green mt-1.5 font-bold hidden">
+              ✓ Código PIX copiado para a área de transferência!
+            </p>
+          </div>
+
+          <!-- Order Summary in Checkout -->
+          <div class="border-t border-gray-800 pt-3 text-xs text-gray-400 space-y-1 text-left">
+            <div class="flex justify-between">
+              <span>Subtotal:</span>
+              <span id="checkout-summary-subtotal" class="text-white">R$ 0,00</span>
+            </div>
+            <div class="flex justify-between hidden">
+              <span>Desconto Cupom:</span>
+              <span id="checkout-summary-discount" class="text-neon-green">- R$ 0,00</span>
+            </div>
+            <div class="flex justify-between">
+              <span>Frete:</span>
+              <span id="checkout-summary-shipping" class="text-white">GRÁTIS</span>
+            </div>
+            <div class="flex justify-between text-neon-green">
+              <span>Desconto PIX (5%):</span>
+              <span id="checkout-pix-discount-amount">- R$ 0,00</span>
+            </div>
+            <div class="flex justify-between text-base font-extrabold text-white pt-2 border-t border-gray-800">
+              <span>Valor Final no PIX:</span>
+              <span id="checkout-pix-total-amount" class="text-neon-pink">R$ 0,00</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Simulation Trigger Button -->
+        <button onclick="CheckoutSimulator.simulateSuccess()" class="w-full py-4 rounded-xl btn-neon-pink font-black text-sm uppercase tracking-wider shadow-lg">
+          ✓ SIMULAR PAGAMENTO CONFIRMADO
+        </button>
+      </div>
+
+      <!-- Step 2: Order Confirmation Receipt (Shown after simulation) -->
+      <div id="checkout-success-view" class="text-center py-6 hidden">
+        <div class="inline-flex h-16 w-16 items-center justify-center rounded-full bg-neon-green/20 text-neon-green text-3xl mb-4 border border-neon-green/40">
+          ✓
+        </div>
+        <h2 class="text-2xl sm:text-3xl font-black text-white uppercase mb-2">
+          PAGAMENTO CONFIRMADO!
+        </h2>
+        <p class="text-sm text-gray-300 max-w-md mx-auto mb-6">
+          Seu pedido foi registrado e encaminhado imediatamente para o centro de triagem e produção sob demanda.
+        </p>
+
+        <!-- Receipt Box -->
+        <div class="rounded-xl border border-gray-800 bg-vice-void p-5 max-w-md mx-auto text-left text-xs space-y-2 mb-6">
+          <div class="flex justify-between border-b border-gray-800 pb-2">
+            <span class="text-gray-400">Número do Pedido:</span>
+            <strong id="order-confirmation-id" class="text-neon-cyan font-mono">#VD-84920</strong>
+          </div>
+          <div class="flex justify-between border-b border-gray-800 pb-2">
+            <span class="text-gray-400">Cliente:</span>
+            <span id="order-confirmation-customer" class="text-white">Victor Rossi</span>
+          </div>
+          <div class="flex justify-between border-b border-gray-800 pb-2">
+            <span class="text-gray-400">Forma de Pagamento:</span>
+            <span class="text-neon-green font-bold">PIX Instantâneo (Aprovado)</span>
+          </div>
+          <div class="flex justify-between border-b border-gray-800 pb-2">
+            <span class="text-gray-400">Previsão de Entrega:</span>
+            <span class="text-white">5 a 10 dias úteis via Sedex Express</span>
+          </div>
+          <div class="flex justify-between pt-1">
+            <span class="text-gray-400">Valor Total Pago:</span>
+            <strong id="order-confirmation-total" class="text-neon-pink text-sm">R$ 0,00</strong>
+          </div>
+        </div>
+
+        <div class="flex flex-col sm:flex-row gap-3 justify-center max-w-md mx-auto">
+          <button onclick="CheckoutSimulator.close()" class="px-6 py-3 rounded-lg border border-gray-700 text-gray-300 hover:text-white text-xs font-bold">
+            Voltar à Loja
+          </button>
+          <a href="https://chat.whatsapp.com/sample_vip_group" target="_blank" class="px-6 py-3 rounded-lg btn-neon-cyan text-xs font-bold text-gray-900 flex items-center justify-center gap-1.5">
+            Entrar no Grupo VIP de Rastreio 💬
+          </a>
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+  <!-- FAQ Section -->
+  <section class="py-16 bg-vice-void border-b border-gray-800">
+    <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="text-center mb-10">
+        <span class="text-xs font-bold text-neon-pink uppercase tracking-widest block mb-1">DÚVIDAS FREQUENTES</span>
+        <h2 class="text-3xl font-black text-white uppercase">Perguntas Frequentes</h2>
+      </div>
+
+      <div class="space-y-4 text-xs">
+        <details class="rounded-xl border border-gray-800 bg-vice-dark p-4 cursor-pointer">
+          <summary class="font-bold text-white text-sm flex justify-between items-center">
+            <span>Qual o prazo de produção e entrega dos pedidos?</span>
+            <span class="text-neon-cyan">▼</span>
+          </summary>
+          <p class="mt-3 text-gray-400 leading-relaxed">
+            Nossas peças são produzidas com tecnologia de ponta sob demanda. A confecção leva entre 2 a 4 dias úteis e o envio via Sedex ou Jadlog leva de 3 a 6 dias úteis para qualquer capital do Brasil.
+          </p>
+        </details>
+
+        <details class="rounded-xl border border-gray-800 bg-vice-dark p-4 cursor-pointer">
+          <summary class="font-bold text-white text-sm flex justify-between items-center">
+            <span>Os designs são oficiais de algum jogo?</span>
+            <span class="text-neon-cyan">▼</span>
+          </summary>
+          <p class="mt-3 text-gray-400 leading-relaxed">
+            Não. Todas as criações de Vice District são conceitos de vestuário e colecionáveis 100% originais inspirados na cultura retro-futurista e estética de Miami dos anos 1980. Não possuímos vínculo, filiação ou licenciamento de quaisquer estúdios ou títulos de videogame comerciais.
+          </p>
+        </details>
+
+        <details class="rounded-xl border border-gray-800 bg-vice-dark p-4 cursor-pointer">
+          <summary class="font-bold text-white text-sm flex justify-between items-center">
+            <span>Como funciona a garantia e a política de trocas?</span>
+            <span class="text-neon-cyan">▼</span>
+          </summary>
+          <p class="mt-3 text-gray-400 leading-relaxed">
+            Oferecemos 7 dias corridos a partir da entrega para troca ou devolução sem custo adicional. Caso o tamanho não fique perfeito, substituímos imediatamente.
+          </p>
+        </details>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="bg-[#06060a] border-t border-gray-900 py-12 text-xs text-gray-500">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 flex flex-col sm:flex-row items-center justify-between gap-6 text-center sm:text-left">
+      <div>
+        <span class="text-base font-black text-white tracking-widest block">VICE DISTRICT // 1986</span>
+        <p class="text-[11px] text-gray-500 mt-1">Estética retrô anos 80, noites elétricas e cultura synthwave.</p>
+      </div>
+      <div class="text-[11px] text-gray-600 max-w-md">
+        Aviso Legal: Peças conceituais de arte inspiradas na estética de Miami dos anos 1980. Não infringe marcas registradas de estúdios de videogame. Todos os direitos reservados.
+      </div>
+    </div>
+  </footer>
+
+  <!-- Application Scripts -->
+  <script src="js/checkout.js"></script>
+  <script src="js/app.js"></script>
+</body>
+</html>

@@ -1,0 +1,21 @@
+[project]
+name = "gta6-ecommerce-agents"
+version = "0.1.0"
+description = "GTA 6-Inspired E-Commerce & Multi-Agent Content Automation System"
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+    "pydantic>=2.5.0",
+    "jsonschema>=4.20.0",
+    "pytest>=7.4.0",
+    "imageio-ffmpeg>=0.4.9",
+    "requests>=2.31.0",
+    "yt-dlp>=2026.10.21",
+    "faster-whisper>=1.2.1",
+    "edge-tts>=7.3.1",
+]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+python_files = ["test_*.py"]
+addopts = "-v --tb=short"

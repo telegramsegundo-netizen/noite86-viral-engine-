@@ -1,0 +1,453 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "campaign_name": "Vice District Drop 01 Launch Blitz",
+  "coupon_code": "VICE10",
+  "discount_percentage": 10.0,
+  "total_posts": 21,
+  "target_region": "Brasil (Peak BRT Hours)",
+  "cadence": "3 posts por dia (12:30, 18:15, 21:30)",
+  "schedule": [
+    {
+      "post_id": "post_01",
+      "day": "Dia 1",
+      "time_slot": "12:30",
+      "platform": "TikTok",
+      "content_type": "Viral Clip Breakdown",
+      "hook_text": "Você percebeu esse detalhe sinistro no mapa de Leonida?",
+      "audio_suggestion": "Synthwave Synth Bassline Slowed & Reverb",
+      "caption_pt": "Se liga nos mínimos detalhes desse trailer em Vice Coast! A atmosfera retrô dos anos 80 tá surreal demais. Qual detalhe mais te hypou? Comenta aqui embaixo! 👇\n\nDrop 01 da coleção física disponível no link da bio. Use o cupom VICE10 para 10% OFF!",
+      "hashtags": [
+        "#ViceCity",
+        "#Leonida",
+        "#ViceCoast",
+        "#SynthwaveBrasil",
+        "#GamingBrasil",
+        "#ModaGamer"
+      ],
+      "linked_product_sku": "VC-APP-003",
+      "linked_product_title": "\"Miami Overdrive '84\" Heavyweight Oversized Graphic Tee",
+      "cta_text": "Garanta a Camiseta Oversized 'Miami Overdrive' no link da bio!",
+      "utm_link": "https://vicedistrict.store/drop01?utm_source=tiktok&utm_medium=social&utm_campaign=vice_launch&sku=VC-APP-003&coupon=VICE10"
+    },
+    {
+      "post_id": "post_02",
+      "day": "Dia 1",
+      "time_slot": "18:15",
+      "platform": "Instagram Reels",
+      "content_type": "Aesthetic Showcase",
+      "hook_text": "POV: Você acabou de chegar em Vice City em 1986...",
+      "audio_suggestion": "Kavinsky - Nightcall (Vice Ambient Remix)",
+      "caption_pt": "A estética Miami anos 80 é simplesmente insubstituível. Cores neon, palmeiras e noites elétricas. Montamos esse setup definitivo com o Deskmat XXL e iluminação cyberpunk. O que achou dessa vibe?\n\nPeças exclusivas com frete grátis acima de R$ 199. Link na bio!",
+      "hashtags": [
+        "#MiamiViceAesthetic",
+        "#SetupGamer",
+        "#BattlestationBrasil",
+        "#RetroWave",
+        "#Outrun"
+      ],
+      "linked_product_sku": "VC-DSK-001",
+      "linked_product_title": "\"Midnight Tropic\" XXL Stitched Gaming Deskmat (900x400)",
+      "cta_text": "Confira o Deskmat XXL Midnight Tropic na loja!",
+      "utm_link": "https://vicedistrict.store/drop01?utm_source=instagramreels&utm_medium=social&utm_campaign=vice_launch&sku=VC-DSK-001&coupon=VICE10"
+    },
+    {
+      "post_id": "post_03",
+      "day": "Dia 1",
+      "time_slot": "21:30",
+      "platform": "TikTok",
+      "content_type": "Product Unboxing",
+      "hook_text": "Parece uma lata de refri comum dos anos 80, mas olha embaixo...",
+      "audio_suggestion": "Trap Beat Lo-Fi Vice",
+      "caption_pt": "Essa lata secreta com compartimento antifurto é a coisa mais insana que você vai ver hoje! Peso real de 355ml e fundo rosqueável indetectável. Perfeito para guardar suas chaves e segredos. 🤫🔥\n\nApenas 50 unidades no primeiro lote. Cupom VICE10 ativo!",
+      "hashtags": [
+        "#AchadosShopee",
+        "#ViralTikTok",
+        "#SecretStash",
+        "#ViceDistrict",
+        "#Colecionavel"
+      ],
+      "linked_product_sku": "VC-NOQ-001",
+      "linked_product_title": "\"Vice Rush '86\" Secret Compartment Stash Can",
+      "cta_text": "Pegue a sua Lata Stash Can com 5% OFF no PIX no link da bio!",
+      "utm_link": "https://vicedistrict.store/drop01?utm_source=tiktok&utm_medium=social&utm_campaign=vice_launch&sku=VC-NOQ-001&coupon=VICE10"
+    },
+    {
+      "post_id": "post_04",
+      "day": "Dia 2",
+      "time_slot": "12:30",
+      "platform": "YouTube Shorts",
+      "content_type": "Viral Clip Breakdown",
+      "hook_text": "Os easter eggs que quase ninguém viu nas praias de Leonida!",
+      "audio_suggestion": "Retro Synth Darksynth Wave",
+      "caption_pt": "Analisamos quadro a quadro a cena da orla de Ocean Drive. As referências culturais dos anos 80 estão em todo lugar! Qual seu local favorito de Vice City? Fala nos comentários! 🌴\n\nConheça a coleção oficial de streetwear retrô inspirada em Vice District.",
+      "hashtags": [
+        "#ViceCity",
+        "#GamerLife",
+        "#Leonida",
+        "#ShortsBrasil",
+        "#ModaStreetwear"
+      ],
+      "linked_product_sku": "VC-APP-001",
+      "linked_product_title": "\"Vice Sunset\" Silk-Touch Camp Collar Bowling Shirt",
+      "cta_text": "Vista a Camisa Resort Vice Sunset - toque de seda!",
+      "utm_link": "https://vicedistrict.store/drop01?utm_source=youtubeshorts&utm_medium=social&utm_campaign=vice_launch&sku=VC-APP-001&coupon=VICE10"
+    },
+    {
+      "post_id": "post_05",
+      "day": "Dia 2",
+      "time_slot": "18:15",
+      "platform": "TikTok",
+      "content_type": "Aesthetic Showcase",
+      "hook_text": "Só quem viveu os anos 80 sabe o que significa essa jaqueta...",
+      "audio_suggestion": "Synthpop 80s Electric Drums",
+      "caption_pt": "Jaqueta Bomber Reversível Holográfica: de um lado brilho dicróico ciano e magenta, do outro navy profundo tático. Bordado de alta precisão com 40 mil pontos. É arte de vestir!\n\nEdição limitada com frete grátis e desconto no PIX.",
+      "hashtags": [
+        "#StreetwearBrasil",
+        "#BomberJacket",
+        "#Holographic",
+        "#ModaMasculina",
+        "#DropLimitado"
+      ],
+      "linked_product_sku": "VC-APP-002",
+      "linked_product_title": "\"Neon Mirage\" Reversible Holographic Bomber Jacket",
+      "cta_text": "Garanta a Jaqueta Neon Mirage no link da bio!",
+      "utm_link": "https://vicedistrict.store/drop01?utm_source=tiktok&utm_medium=social&utm_campaign=vice_launch&sku=VC-APP-002&coupon=VICE10"
+    },
+    {
+      "post_id": "post_06",
+      "day": "Dia 2",
+      "time_slot": "21:30",
+      "platform": "Instagram Reels",
+      "content_type": "Drop Announcement",
+      "hook_text": "Alerta de Drop: O Underground Syndicate Kit liberou agora!",
+      "audio_suggestion": "Cyberpunk 2080 Synth Bass",
+      "caption_pt": "O combo mais cobiçado de Leonida acabou de pousar no site: Jaqueta Bomber + Lata Secreta + Chaveiro Pelican Bay. Economize mais de 15% levando o combo completo. E ainda rola 5% extra no PIX! 🔥⚡\n\nEstoque extremamente limitado. Não perca!",
+      "hashtags": [
+        "#DropExclusivo",
+        "#StreetwearOutfit",
+        "#ViceCity",
+        "#ModaGamer",
+        "#Promoção"
+      ],
+      "linked_product_sku": "VC-APP-002",
+      "linked_product_title": "\"Neon Mirage\" Reversible Holographic Bomber Jacket",
+      "cta_text": "Acesse a loja e garanta seu Syndicate Kit antes que zere!",
+      "utm_link": "https://vicedistrict.store/drop01?utm_source=instagramreels&utm_medium=social&utm_campaign=vice_launch&sku=VC-APP-002&coupon=VICE10"
+    },
+    {
+      "post_id": "post_07",
+      "day": "Dia 3",
+      "time_slot": "12:30",
+      "platform": "TikTok",
+      "content_type": "Viral Clip Breakdown",
+      "hook_text": "Essa cena de perseguição noturna mudou tudo que sabemos!",
+      "audio_suggestion": "80s Chase Synthwave Beat",
+      "caption_pt": "A física dos carros e os reflexos neon no asfalto molhado de Leonida estão inacreditáveis. Se você é fã de carros clássicos esportivos dos anos 80, esse visual é um prato cheio. Curtiram? 🏎️💨\n\nEstampa exclusiva do esportivo clássico na bio!",
+      "hashtags": [
+        "#CarrosAntigos",
+        "#ViceCoast",
+        "#NeonVibes",
+        "#GamerBrasil",
+        "#GamerLife"
+      ],
+      "linked_product_sku": "VC-APP-003",
+      "linked_product_title": "\"Miami Overdrive '84\" Heavyweight Oversized Graphic Tee",
+      "cta_text": "Confira a camiseta 260 GSM Miami Overdrive no site!",
+      "utm_link": "https://vicedistrict.store/drop01?utm_source=tiktok&utm_medium=social&utm_campaign=vice_launch&sku=VC-APP-003&coupon=VICE10"
+    },
+    {
+      "post_id": "post_08",
+      "day": "Dia 3",
+      "time_slot": "18:15",
+      "platform": "YouTube Shorts",
+      "content_type": "Product Unboxing",
+      "hook_text": "Essa luminária neon vai transformar seu setup para sempre!",
+      "audio_suggestion": "Chill Lofi Synth Sunset",
+      "caption_pt": "Acrílico óptico cortado a laser com gravação de Ocean Drive e base de alumínio anodizado. Cores ciano e magenta com controle touch e controle remoto sem fio. Deixa qualquer quarto com clima de hotel retrô.\n\nUse o cupom VICE10 para 10% de desconto!",
+      "hashtags": [
+        "#SetupGamer",
+        "#DecoracaoQuarto",
+        "#LuminariaNeon",
+        "#ShortsBrasil",
+        "#Synthwave"
+      ],
+      "linked_product_sku": "VC-LGT-001",
+      "linked_product_title": "\"Ocean Drive Nocturne\" Laser-Etched Acrylic Neon Lamp",
+      "cta_text": "Compre a Luminária Ocean Drive Nocturne na bio!",
+      "utm_link": "https://vicedistrict.store/drop01?utm_source=youtubeshorts&utm_medium=social&utm_campaign=vice_launch&sku=VC-LGT-001&coupon=VICE10"
+    },
+    {
+      "post_id": "post_09",
+      "day": "Dia 3",
+      "time_slot": "21:30",
+      "platform": "Instagram Reels",
+      "content_type": "Aesthetic Showcase",
+      "hook_text": "Como se vestir como o rei do submundo de Miami sem parecer fantasia",
+      "audio_suggestion": "Nu-Disco Midnight Vibes",
+      "caption_pt": "O segredo do estilo Vice City está no equilíbrio: camisa resort fluida com corte boxy, boné de veludo cotelê e óculos aviador degradê rosé. Sofisticado, nostálgico e marcante. 🔥\n\nMonte seu visual noturno completo no link da bio com frete grátis!",
+      "hashtags": [
+        "#ModaMasculina",
+        "#OOTDBrasil",
+        "#EstiloRetro",
+        "#MiamiVice",
+        "#Streetwear"
+      ],
+      "linked_product_sku": "VC-EYE-001",
+      "linked_product_title": "\"Palm Mirage\" Polarized Rose-Gold Aviator Sunglasses",
+      "cta_text": "Veja os Óculos Polarizados Palm Mirage na bio!",
+      "utm_link": "https://vicedistrict.store/drop01?utm_source=instagramreels&utm_medium=social&utm_campaign=vice_launch&sku=VC-EYE-001&coupon=VICE10"
+    },
+    {
+      "post_id": "post_10",
+      "day": "Dia 4",
+      "time_slot": "12:30",
+      "platform": "TikTok",
+      "content_type": "Viral Clip Breakdown",
+      "hook_text": "O que ninguém te contou sobre a trilha sonora de Vice Coast!",
+      "audio_suggestion": "Synthwave Saxophone Solo",
+      "caption_pt": "Dos clássicos do synthpop até as batidas eletrônicas noturnas, o som dessa cidade molda toda a cultura. Para ouvir suas playlists com estilo autêntico, criamos esse speaker retrô em formato de boombox de fita cassete! 📻🎶\n\nSom de alta fidelidade com bateria de 10 horas.",
+      "hashtags": [
+        "#Musica80s",
+        "#RetroTech",
+        "#Boombox",
+        "#ViceCity",
+        "#GamerBrasil"
+      ],
+      "linked_product_sku": "VC-AUD-001",
+      "linked_product_title": "\"Synthwave Cassette\" Retro Boombox Bluetooth Speaker Case",
+      "cta_text": "Garanta a Caixa de Som Synthwave Boombox na bio!",
+      "utm_link": "https://vicedistrict.store/drop01?utm_source=tiktok&utm_medium=social&utm_campaign=vice_launch&sku=VC-AUD-001&coupon=VICE10"
+    },
+    {
+      "post_id": "post_11",
+      "day": "Dia 4",
+      "time_slot": "18:15",
+      "platform": "Instagram Reels",
+      "content_type": "Product Unboxing",
+      "hook_text": "O chaveiro vintage do motel mais secreto de Ocean Drive...",
+      "audio_suggestion": "Vintage Hotel Elevator Synth Lofi",
+      "caption_pt": "Chaveiro losango Pelican Bay Motel '86 em acrílico translúcido seafoam com hot-foil dourado metálico. Item colecionável exclusivo que dá um charme único ao seu molho de chaves ou mochila. ✨🗝️\n\nCusta menos de R$ 40 e tem 5% de desconto no PIX!",
+      "hashtags": [
+        "#EDCBrasil",
+        "#KeytagVintage",
+        "#AchadosDoDia",
+        "#AcessoriosMasculinos",
+        "#RetroAesthetic"
+      ],
+      "linked_product_sku": "VC-EDC-001",
+      "linked_product_title": "\"Pelican Bay Motel\" Hot-Foil Stamped Acrylic Keytag",
+      "cta_text": "Adicione o Chaveiro Pelican Bay ao seu carrinho na bio!",
+      "utm_link": "https://vicedistrict.store/drop01?utm_source=instagramreels&utm_medium=social&utm_campaign=vice_launch&sku=VC-EDC-001&coupon=VICE10"
+    },
+    {
+      "post_id": "post_12",
+      "day": "Dia 4",
+      "time_slot": "21:30",
+      "platform": "TikTok",
+      "content_type": "Aesthetic Showcase",
+      "hook_text": "Seu carro merece ter o cheiro do verão de Miami em 1986!",
+      "audio_suggestion": "Vaporwave Ocean Breeze Loop",
+      "caption_pt": "Trio de aromatizantes Sunburst Palm: essência pura de coco tostado, baunilha e brisa oceânica. Formatos icônicos de chaveiro de motel, flamingos e cupê retrô. Dura até 45 dias perfumando seu cockpit! 🥥🌴\n\nKit com 3 unidades por apenas R$ 49,90. Link na bio!",
+      "hashtags": [
+        "#CarroRebaixado",
+        "#EsteticaAutomotiva",
+        "#Aromatizante",
+        "#MiamiVibes",
+        "#CarroEDC"
+      ],
+      "linked_product_sku": "VC-AUT-001",
+      "linked_product_title": "\"Sunburst Palm\" Coconut & Sea-Breeze Car Freshener (3-Pack)",
+      "cta_text": "Peça o Trio de Aromatizantes Sunburst Palm na bio!",
+      "utm_link": "https://vicedistrict.store/drop01?utm_source=tiktok&utm_medium=social&utm_campaign=vice_launch&sku=VC-AUT-001&coupon=VICE10"
+    },
+    {
+      "post_id": "post_13",
+      "day": "Dia 5",
+      "time_slot": "12:30",
+      "platform": "YouTube Shorts",
+      "content_type": "Viral Clip Breakdown",
+      "hook_text": "A evolução gráfica absurda da noite de Vice City!",
+      "audio_suggestion": "Dark Synthwave Tension",
+      "caption_pt": "Comparando a névoa, a iluminação volumétrica dos postes e as poças d'água no asfalto com a versão clássica. A sensação de nostalgia com gráficos da nova geração é indescritível. Concorda? Deixe sua opinião! 🏙️⚡\n\nColeção comemorativa com cupom VICE10 no link da bio.",
+      "hashtags": [
+        "#GraficosSurreais",
+        "#ViceCity",
+        "#ShortsBrasil",
+        "#GamingCommunity",
+        "#GamerLife"
+      ],
+      "linked_product_sku": "VC-APP-001",
+      "linked_product_title": "\"Vice Sunset\" Silk-Touch Camp Collar Bowling Shirt",
+      "cta_text": "Explore a coleção completa no link da bio!",
+      "utm_link": "https://vicedistrict.store/drop01?utm_source=youtubeshorts&utm_medium=social&utm_campaign=vice_launch&sku=VC-APP-001&coupon=VICE10"
+    },
+    {
+      "post_id": "post_14",
+      "day": "Dia 5",
+      "time_slot": "18:15",
+      "platform": "TikTok",
+      "content_type": "Drop Announcement",
+      "hook_text": "Atenção: Metade das peças do Drop 01 já esgotou!",
+      "audio_suggestion": "High Tempo Electronic Trap",
+      "caption_pt": "A procura pelo Drop 01 de Vice District superou todas as expectativas. Restam poucas unidades de jaquetas e camisetas nos tamanhos M e G. Produção sob demanda exclusiva sem reposição garantida! Corra antes que acabe. ⚠️⏳\n\nFrete grátis para todo o Brasil acima de R$ 199.",
+      "hashtags": [
+        "#UltimasPecas",
+        "#DropLimitado",
+        "#StreetwearBrasil",
+        "#ModaGamer",
+        "#ViceDistrict"
+      ],
+      "linked_product_sku": "VC-APP-002",
+      "linked_product_title": "\"Neon Mirage\" Reversible Holographic Bomber Jacket",
+      "cta_text": "Acesse agora a loja e garanta suas peças!",
+      "utm_link": "https://vicedistrict.store/drop01?utm_source=tiktok&utm_medium=social&utm_campaign=vice_launch&sku=VC-APP-002&coupon=VICE10"
+    },
+    {
+      "post_id": "post_15",
+      "day": "Dia 5",
+      "time_slot": "21:30",
+      "platform": "Instagram Reels",
+      "content_type": "Product Unboxing",
+      "hook_text": "Mantém sua bebida trincando por 24 horas no calor de Leonida!",
+      "audio_suggestion": "Summer Chill Out Beach Beat",
+      "caption_pt": "Copo Térmico Golden Hour Biscayne (900ml) em inox 18/8 com isolamento a vácuo e pintura eletrostática degradê magenta e âmbar. Gravação a laser permanente de palmeiras retro-futuristas. Ideal para sua mesa de trabalho ou academia. 🧊🍹\n\nUse o cupom VICE10 para 10% OFF!",
+      "hashtags": [
+        "#CopoTermico",
+        "#SetupGamer",
+        "#LifestyleGamer",
+        "#Academia",
+        "#BiscayneBay"
+      ],
+      "linked_product_sku": "VC-DRK-001",
+      "linked_product_title": "\"Golden Hour Biscayne\" Gradient Thermal Tumbler (900ml)",
+      "cta_text": "Garanta o Copo Térmico Biscayne na bio!",
+      "utm_link": "https://vicedistrict.store/drop01?utm_source=instagramreels&utm_medium=social&utm_campaign=vice_launch&sku=VC-DRK-001&coupon=VICE10"
+    },
+    {
+      "post_id": "post_16",
+      "day": "Dia 6",
+      "time_slot": "12:30",
+      "platform": "TikTok",
+      "content_type": "Viral Clip Breakdown",
+      "hook_text": "Os veículos secretos que você provavelmente perdeu no trailer!",
+      "audio_suggestion": "Synth Wave Eurobeat Mashup",
+      "caption_pt": "Motos esportivas clássicas, lanchas offshore com listras neon e helicópteros sobrevoando a marina de Leonida. Qual veículo você vai pilotar primeiro assim que chegar em Vice Coast? Comenta aí! 🚤🚁\n\nCamisas e acessórios da coleção com desconto especial no PIX.",
+      "hashtags": [
+        "#VeiculosClassicos",
+        "#ViceCity",
+        "#GamerLife",
+        "#Leonida",
+        "#GamerBrasil"
+      ],
+      "linked_product_sku": "VC-APP-004",
+      "linked_product_title": "\"South Beach Syndicate\" Embroidered Corduroy Snapback",
+      "cta_text": "Confira o Boné South Beach Syndicate na bio!",
+      "utm_link": "https://vicedistrict.store/drop01?utm_source=tiktok&utm_medium=social&utm_campaign=vice_launch&sku=VC-APP-004&coupon=VICE10"
+    },
+    {
+      "post_id": "post_17",
+      "day": "Dia 6",
+      "time_slot": "18:15",
+      "platform": "Instagram Reels",
+      "content_type": "Aesthetic Showcase",
+      "hook_text": "Transformei meu setup comum numa cobertura de luxo em Miami!",
+      "audio_suggestion": "Synthwave Ambient Ocean Sunset",
+      "caption_pt": "Combinação do Deskmat XXL Midnight Tropic com a Luminária Laser Ocean Drive e o Mini Boombox. O clima noturno perfeito para maratonar gameplays e trabalhar com estilo. O que achou dessa transformação?\n\nKit Setup VIP com mais de R$ 70 de desconto no site!",
+      "hashtags": [
+        "#SetupDosSonhos",
+        "#Battlestation",
+        "#Deskmats",
+        "#DecoracaoGamer",
+        "#Synthwave"
+      ],
+      "linked_product_sku": "VC-DSK-001",
+      "linked_product_title": "\"Midnight Tropic\" XXL Stitched Gaming Deskmat (900x400)",
+      "cta_text": "Veja o Ocean Drive Setup Pack na bio!",
+      "utm_link": "https://vicedistrict.store/drop01?utm_source=instagramreels&utm_medium=social&utm_campaign=vice_launch&sku=VC-DSK-001&coupon=VICE10"
+    },
+    {
+      "post_id": "post_18",
+      "day": "Dia 6",
+      "time_slot": "21:30",
+      "platform": "YouTube Shorts",
+      "content_type": "Product Unboxing",
+      "hook_text": "O boné de veludo cotelê mais autêntico que você vai encontrar!",
+      "audio_suggestion": "Lo-Fi Hip Hop Chill Beats",
+      "caption_pt": "Boné South Beach Syndicate em veludo cotelê turquesa com bordado 3D puff rosa pastel e fecho de latão envelhecido. Conforto premium e toque retrô que combina com qualquer outfit de rua. 🧢🔥\n\nEnviamos para todo o Brasil com código de rastreio!",
+      "hashtags": [
+        "#BoneCotelê",
+        "#StreetwearBrasil",
+        "#ShortsBrasil",
+        "#ModaMasculina",
+        "#Acessorios"
+      ],
+      "linked_product_sku": "VC-APP-004",
+      "linked_product_title": "\"South Beach Syndicate\" Embroidered Corduroy Snapback",
+      "cta_text": "Peça o Boné South Beach Syndicate na bio!",
+      "utm_link": "https://vicedistrict.store/drop01?utm_source=youtubeshorts&utm_medium=social&utm_campaign=vice_launch&sku=VC-APP-004&coupon=VICE10"
+    },
+    {
+      "post_id": "post_19",
+      "day": "Dia 7",
+      "time_slot": "12:30",
+      "platform": "TikTok",
+      "content_type": "Viral Clip Breakdown",
+      "hook_text": "Leonida é o mapa mais imersivo já criado na história dos games?",
+      "audio_suggestion": "Synth Epic Cinematic Score",
+      "caption_pt": "Pantanais selvagens com jacarés, arranha-céus reluzentes à beira-mar e bairros clandestinos cheios de neon. A diversidade desse cenário vai redefinir o padrão dos jogos de mundo aberto. Tá preparado? 🐊🌴\n\nCelebre o retorno a Vice City com peças exclusivas na bio.",
+      "hashtags": [
+        "#MundoAberto",
+        "#ViceCity",
+        "#GamerBrasil",
+        "#Leonida",
+        "#Streetwear"
+      ],
+      "linked_product_sku": "VC-APP-001",
+      "linked_product_title": "\"Vice Sunset\" Silk-Touch Camp Collar Bowling Shirt",
+      "cta_text": "Visite a loja oficial Vice District no link da bio!",
+      "utm_link": "https://vicedistrict.store/drop01?utm_source=tiktok&utm_medium=social&utm_campaign=vice_launch&sku=VC-APP-001&coupon=VICE10"
+    },
+    {
+      "post_id": "post_20",
+      "day": "Dia 7",
+      "time_slot": "18:15",
+      "platform": "YouTube Shorts",
+      "content_type": "Aesthetic Showcase",
+      "hook_text": "O look completo para a noite mais quente de Vice District!",
+      "audio_suggestion": "Miami 1986 Synth Funk",
+      "caption_pt": "Camisa Resort silk-touch + Óculos Aviador TAC Polarizado + Boné Cotelê. Look impecável para curtir o fim de semana com a verdadeira atitude retrô anos 80. 🔥🕶️\n\nÚltimas horas para usar o cupom VICE10 com 10% de desconto.",
+      "hashtags": [
+        "#LookDoDia",
+        "#ModaMasculina",
+        "#EstiloVintage",
+        "#ShortsBrasil",
+        "#Streetwear"
+      ],
+      "linked_product_sku": "VC-EYE-001",
+      "linked_product_title": "\"Palm Mirage\" Polarized Rose-Gold Aviator Sunglasses",
+      "cta_text": "Monte seu outfit completo na bio!",
+      "utm_link": "https://vicedistrict.store/drop01?utm_source=youtubeshorts&utm_medium=social&utm_campaign=vice_launch&sku=VC-EYE-001&coupon=VICE10"
+    },
+    {
+      "post_id": "post_21",
+      "day": "Dia 7",
+      "time_slot": "21:30",
+      "platform": "TikTok",
+      "content_type": "Drop Announcement",
+      "hook_text": "ÚLTIMA CHAMADA: Encerramento oficial do Lote de Lançamento!",
+      "audio_suggestion": "Countdown Dramatic Electronic Beat",
+      "caption_pt": "O cronômetro do Lote 01 está zerando! Essa é sua chance final de garantir as peças exclusivas da coleção Vice District com os preços promocionais e frete grátis antes da virada de lote. Não deixe para depois! ⏰🚨\n\nUse o cupom VICE10 e finalize no PIX com mais 5% de desconto imediato.",
+      "hashtags": [
+        "#UltimaChance",
+        "#DropFinal",
+        "#ViceDistrict",
+        "#StreetwearBrasil",
+        "#Promocao"
+      ],
+      "linked_product_sku": "VC-APP-002",
+      "linked_product_title": "\"Neon Mirage\" Reversible Holographic Bomber Jacket",
+      "cta_text": "Garanta suas peças antes do encerramento oficial na bio!",
+      "utm_link": "https://vicedistrict.store/drop01?utm_source=tiktok&utm_medium=social&utm_campaign=vice_launch&sku=VC-APP-002&coupon=VICE10"
+    }
+  ]
+}

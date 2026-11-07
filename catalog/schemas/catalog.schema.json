@@ -1,0 +1,212 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "ViceCatalog",
+  "description": "JSON Schema Draft-07 validating GTA 6 retro-inspired e-commerce catalog dataset",
+  "type": "object",
+  "required": ["version", "last_updated", "store_name", "products"],
+  "properties": {
+    "version": {
+      "type": "string",
+      "pattern": "^[0-9]+\\.[0-9]+\\.[0-9]+$"
+    },
+    "last_updated": {
+      "type": "string"
+    },
+    "store_name": {
+      "type": "string",
+      "minLength": 3
+    },
+    "brand_identity": {
+      "type": "object",
+      "properties": {
+        "tagline": { "type": "string" },
+        "aesthetic_keywords": {
+          "type": "array",
+          "items": { "type": "string" }
+        },
+        "primary_palette": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "pattern": "^#[0-9A-Fa-f]{6}$"
+          }
+        }
+      }
+    },
+    "products": {
+      "type": "array",
+      "minItems": 10,
+      "items": {
+        "type": "object",
+        "required": [
+          "id",
+          "sku",
+          "title",
+          "slug",
+          "category",
+          "price_brl",
+          "price_usd",
+          "production_cost_brl",
+          "margin_percent",
+          "pricing",
+          "fulfillment",
+          "ai_prompts",
+          "ai_art_prompt",
+          "compliance",
+          "tags",
+          "image_placeholder"
+        ],
+        "properties": {
+          "id": {
+            "type": "string",
+            "pattern": "^VC-[A-Z0-9]+-[0-9]{3}$"
+          },
+          "sku": {
+            "type": "string"
+          },
+          "title": {
+            "type": "string",
+            "minLength": 3
+          },
+          "slug": {
+            "type": "string",
+            "pattern": "^[a-z0-9-]+$"
+          },
+          "category": {
+            "type": "string",
+            "enum": [
+              "Apparel",
+              "Headwear",
+              "Tech / Decor",
+              "Audio / Tech",
+              "Collectible",
+              "Drinkware",
+              "Auto EDC",
+              "Gaming / Tech",
+              "Eyewear",
+              "Novelty",
+              "Accessories",
+              "Decor"
+            ]
+          },
+          "headline": {
+            "type": "string"
+          },
+          "description": {
+            "type": "string",
+            "minLength": 20
+          },
+          "features": {
+            "type": "array",
+            "items": { "type": "string" }
+          },
+          "price_brl": {
+            "type": "number",
+            "exclusiveMinimum": 0
+          },
+          "price_usd": {
+            "type": "number",
+            "exclusiveMinimum": 0
+          },
+          "production_cost_brl": {
+            "type": "number",
+            "exclusiveMinimum": 0
+          },
+          "margin_percent": {
+            "type": "number",
+            "minimum": 65.0,
+            "maximum": 100.0
+          },
+          "pricing": {
+            "type": "object",
+            "required": [
+              "currency_brl",
+              "currency_usd",
+              "cost_estimate_brl",
+              "cost_estimate_usd",
+              "gross_margin_percentage"
+            ],
+            "properties": {
+              "currency_brl": { "type": "number", "exclusiveMinimum": 0 },
+              "currency_usd": { "type": "number", "exclusiveMinimum": 0 },
+              "cost_estimate_brl": { "type": "number", "exclusiveMinimum": 0 },
+              "cost_estimate_usd": { "type": "number", "exclusiveMinimum": 0 },
+              "gross_margin_percentage": { "type": "number", "minimum": 65.0, "maximum": 100.0 }
+            }
+          },
+          "fulfillment": {
+            "type": "object",
+            "required": ["method", "lead_time_days"],
+            "properties": {
+              "method": { "type": "string" },
+              "lead_time_days": { "type": "integer", "minimum": 1 },
+              "recommended_suppliers_br": {
+                "type": "array",
+                "items": { "type": "string" }
+              },
+              "recommended_suppliers_global": {
+                "type": "array",
+                "items": { "type": "string" }
+              }
+            }
+          },
+          "ai_prompts": {
+            "type": "object",
+            "required": [
+              "midjourney_v6_prompt",
+              "flux_pro_prompt",
+              "negative_prompt",
+              "aspect_ratio"
+            ],
+            "properties": {
+              "midjourney_v6_prompt": { "type": "string", "minLength": 20 },
+              "flux_pro_prompt": { "type": "string", "minLength": 20 },
+              "negative_prompt": { "type": "string", "minLength": 10 },
+              "aspect_ratio": {
+                "type": "string",
+                "enum": ["1:1", "16:9", "3:4", "4:5", "9:16"]
+              },
+              "print_texture_notes": { "type": "string" }
+            }
+          },
+          "ai_art_prompt": {
+            "type": "object",
+            "required": [
+              "flux_prompt",
+              "midjourney_prompt",
+              "negative_prompt"
+            ],
+            "properties": {
+              "flux_prompt": { "type": "string", "minLength": 20 },
+              "midjourney_prompt": { "type": "string", "minLength": 20 },
+              "negative_prompt": { "type": "string", "minLength": 10 }
+            }
+          },
+          "tags": {
+            "type": "array",
+            "minItems": 1,
+            "items": { "type": "string" }
+          },
+          "image_placeholder": {
+            "type": "string",
+            "minLength": 10
+          },
+          "compliance": {
+            "type": "object",
+            "required": ["trademark_cleared", "ip_audit_notes"],
+            "properties": {
+              "trademark_cleared": {
+                "type": "boolean",
+                "const": true
+              },
+              "ip_audit_notes": {
+                "type": "string",
+                "minLength": 10
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" fill="none">
+  <defs>
+    <linearGradient id="palmGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#00F0FF"/>
+      <stop offset="50%" stop-color="#FF007F"/>
+      <stop offset="100%" stop-color="#FFA800"/>
+    </linearGradient>
+  </defs>
+  <circle cx="50" cy="50" r="46" stroke="url(#palmGrad)" stroke-width="4" fill="#09090F"/>
+  <path d="M50,80 Q48,55 50,35" stroke="#FFA800" stroke-width="4" stroke-linecap="round"/>
+  <!-- Fronds -->
+  <path d="M50,35 Q35,20 20,28" stroke="#00F0FF" stroke-width="3" stroke-linecap="round"/>
+  <path d="M50,35 Q65,20 80,28" stroke="#00F0FF" stroke-width="3" stroke-linecap="round"/>
+  <path d="M50,35 Q30,35 15,48" stroke="#FF007F" stroke-width="3" stroke-linecap="round"/>
+  <path d="M50,35 Q70,35 85,48" stroke="#FF007F" stroke-width="3" stroke-linecap="round"/>
+  <path d="M50,35 Q50,15 50,10" stroke="#00FF9D" stroke-width="3" stroke-linecap="round"/>
+</svg>

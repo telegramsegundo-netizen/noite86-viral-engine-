@@ -1,0 +1,61 @@
+name: NOITE 86 — Cloud Viral Radar (PC Desligado)
+
+on:
+  schedule:
+    # Executa a cada 2 horas sem custo (Plano Gratuito do GitHub Actions: 2.000 min/mês)
+    - cron: '0 */2 * * *'
+  workflow_dispatch:
+    # Permite testes manuais imediatos pelo painel ou CLI
+
+permissions:
+  contents: write
+
+jobs:
+  cloud-radar:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout do Repositório
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 1
+
+      - name: Configurar Python 3.12
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Instalar Dependências Cloud Light
+        run: |
+          pip install feedparser requests pydantic
+
+      - name: Executar Radar Internacional e Ranqueamento
+        run: |
+          python -c "
+          import json, os
+          from autonomous_engine.radar_engine import ViralRadarEngine
+          from autonomous_engine.viral_analyst import ViralIntelligenceAnalyst
+
+          radar = ViralRadarEngine()
+          items = radar.scan_all_sources()
+          analyst = ViralIntelligenceAnalyst()
+          ranked = analyst.analyze_and_rank(items)
+          print(f'>>> [Cloud Radar] Descobertas: {len(items)} | Ranqueadas: {len(ranked)}')
+
+          os.makedirs('autonomous_engine', exist_ok=True)
+          with open('autonomous_engine/cloud_latest_trends.json', 'w', encoding='utf-8') as f:
+              json.dump([r.to_dict() for r in ranked], f, indent=2, ensure_ascii=False)
+          "
+
+      - name: Salvar Descobertas como Artefato
+        uses: actions/upload-artifact@v4
+        with:
+          name: cloud-trends-report
+          path: autonomous_engine/cloud_latest_trends.json
+          retention-days: 7
+
+      - name: Sincronizar Oportunidades no Repositório (Git Auto-Commit)
+        run: |
+          git config user.name "NOITE 86 Cloud Bot"
+          git config user.email "bot@noite86.com"
+          git add autonomous_engine/cloud_latest_trends.json
+          git diff --quiet && git diff --staged --quiet || (git commit -m "chore(radar): auto-sync cloud trends [skip ci]" && git push)

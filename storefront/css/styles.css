@@ -1,0 +1,213 @@
+/* Vice City Dark Neon - Custom Stylesheet */
+:root {
+  --bg-deep-void: #09090f;
+  --bg-surface-dark: #12121f;
+  --bg-surface-elevated: #1a1a2e;
+  
+  --neon-pink: #ff007f;
+  --neon-pink-glow: rgba(255, 0, 127, 0.45);
+  
+  --neon-cyan: #00f0ff;
+  --neon-cyan-glow: rgba(0, 240, 255, 0.45);
+  
+  --neon-purple: #8a2be2;
+  --neon-purple-glow: rgba(138, 43, 226, 0.45);
+  
+  --sunset-amber: #ffa800;
+  --neon-green: #00ff9d;
+  
+  --text-primary: #ffffff;
+  --text-secondary: #a0a0c0;
+  --text-muted: #606080;
+}
+
+body {
+  background-color: var(--bg-deep-void);
+  color: var(--text-primary);
+  font-family: 'Inter', system-ui, -apple-system, sans-serif;
+  overflow-x: hidden;
+}
+
+/* Cyberpunk Scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+}
+::-webkit-scrollbar-track {
+  background: var(--bg-deep-void);
+}
+::-webkit-scrollbar-thumb {
+  background: linear-gradient(180deg, var(--neon-pink), var(--neon-cyan));
+  border-radius: 4px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: linear-gradient(180deg, var(--neon-cyan), var(--neon-pink));
+}
+
+/* Neon Text Glow */
+.text-neon-pink {
+  color: var(--neon-pink);
+  text-shadow: 0 0 10px var(--neon-pink-glow), 0 0 20px var(--neon-pink-glow);
+}
+.text-neon-cyan {
+  color: var(--neon-cyan);
+  text-shadow: 0 0 10px var(--neon-cyan-glow), 0 0 20px var(--neon-cyan-glow);
+}
+.text-neon-purple {
+  color: var(--neon-purple);
+  text-shadow: 0 0 10px var(--neon-purple-glow);
+}
+.text-sunset-amber {
+  color: var(--sunset-amber);
+  text-shadow: 0 0 10px rgba(255, 168, 0, 0.4);
+}
+.text-neon-green {
+  color: var(--neon-green);
+  text-shadow: 0 0 10px rgba(0, 255, 157, 0.4);
+}
+
+/* Glow Borders */
+.border-neon-pink {
+  border-color: var(--neon-pink);
+  box-shadow: 0 0 15px var(--neon-pink-glow);
+}
+.border-neon-cyan {
+  border-color: var(--neon-cyan);
+  box-shadow: 0 0 15px var(--neon-cyan-glow);
+}
+.border-neon-purple {
+  border-color: var(--neon-purple);
+  box-shadow: 0 0 15px var(--neon-purple-glow);
+}
+
+/* Glow Buttons */
+.btn-neon-pink {
+  background: linear-gradient(135deg, #ff007f, #d6006b);
+  color: #ffffff;
+  box-shadow: 0 0 20px var(--neon-pink-glow);
+  transition: all 0.3s ease;
+}
+.btn-neon-pink:hover {
+  background: linear-gradient(135deg, #ff3399, #ff007f);
+  box-shadow: 0 0 30px rgba(255, 0, 127, 0.7);
+  transform: translateY(-1px);
+}
+
+.btn-neon-cyan {
+  background: linear-gradient(135deg, #00f0ff, #00b4d8);
+  color: #09090f;
+  font-weight: 700;
+  box-shadow: 0 0 20px var(--neon-cyan-glow);
+  transition: all 0.3s ease;
+}
+.btn-neon-cyan:hover {
+  background: linear-gradient(135deg, #33f3ff, #00f0ff);
+  box-shadow: 0 0 30px rgba(0, 240, 255, 0.7);
+  transform: translateY(-1px);
+}
+
+/* CRT Scanlines Overlay */
+.scanlines-overlay {
+  position: relative;
+  overflow: hidden;
+}
+.scanlines-overlay::before {
+  content: " ";
+  display: block;
+  position: absolute;
+  top: 0; left: 0; bottom: 0; right: 0;
+  background: linear-gradient(rgba(18, 16, 16, 0) 50%, rgba(0, 0, 0, 0.25) 50%);
+  background-size: 100% 4px;
+  z-index: 2;
+  pointer-events: none;
+  opacity: 0.6;
+}
+
+/* Glassmorphism Surface */
+.glass-surface {
+  background: rgba(18, 18, 31, 0.85);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  border: 1px solid rgba(255, 255, 255, 0.08);
+}
+
+/* Pulsing Badge Animation */
+@keyframes pulseGlow {
+  0%, 100% {
+    box-shadow: 0 0 8px var(--neon-pink-glow);
+    opacity: 1;
+  }
+  50% {
+    box-shadow: 0 0 20px rgba(255, 0, 127, 0.8);
+    opacity: 0.85;
+  }
+}
+.pulse-badge {
+  animation: pulseGlow 2.5s infinite ease-in-out;
+}
+
+/* Grid Perspective Horizon */
+.retro-grid-bg {
+  background-image: 
+    linear-gradient(to right, rgba(0, 240, 255, 0.07) 1px, transparent 1px),
+    linear-gradient(to bottom, rgba(255, 0, 127, 0.07) 1px, transparent 1px);
+  background-size: 40px 40px;
+}
+
+/* Cinematic Motion Hero Banner & Dynamic Gradients */
+@keyframes heroKenBurns {
+  0% {
+    transform: scale(1) translate(0, 0);
+  }
+  50% {
+    transform: scale(1.06) translate(-1%, -0.5%);
+  }
+  100% {
+    transform: scale(1) translate(0, 0);
+  }
+}
+
+.hero-motion-bg {
+  animation: heroKenBurns 28s ease-in-out infinite alternate;
+  will-change: transform;
+  transform-origin: center center;
+}
+
+@keyframes lightSweepMotion {
+  0% {
+    transform: translateX(-150%) skewX(-20deg);
+    opacity: 0;
+  }
+  25% {
+    opacity: 0.18;
+  }
+  50% {
+    opacity: 0.28;
+  }
+  75% {
+    opacity: 0.15;
+  }
+  100% {
+    transform: translateX(250%) skewX(-20deg);
+    opacity: 0;
+  }
+}
+
+.hero-light-sweep {
+  animation: lightSweepMotion 10s ease-in-out infinite;
+}
+
+@keyframes neonAuraPulse {
+  0%, 100% {
+    opacity: 0.35;
+    transform: scale(1);
+  }
+  50% {
+    opacity: 0.65;
+    transform: scale(1.12);
+  }
+}
+
+.neon-aura-pulse {
+  animation: neonAuraPulse 7s ease-in-out infinite;
+}
+

@@ -1,0 +1,901 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "version": "1.0.0",
+  "generated_by": "StoreArchitectAgent",
+  "store_info": {
+    "brand_name": "Vice District",
+    "tagline": "Coleção Noturna Inspirada no Submundo de Vice City",
+    "tagline_en": "Autonomous Nocturnal Streetwear & Retro Miami Lifestyle",
+    "currency_default": "BRL",
+    "supported_currencies": [
+      "BRL",
+      "USD"
+    ],
+    "established": "1986 // Leonida"
+  },
+  "hero_banner": {
+    "headline": "VICE CITY SUBMUNDO // DROP 01",
+    "subheadline": "Coleção conceitual autônoma inspirada nas noites elétricas de Leonida e na cultura retro-futurista de Miami anos 80. Peças exclusivas de alta qualidade com produção sob demanda.",
+    "cta_text": "EXPLORAR DROP",
+    "urgency_badge": "LOTE 01 // APENAS 50 PEÇAS",
+    "countdown_end_hours": 24
+  },
+  "announcements": [
+    "⚡ DROP 01 // FRETE GRÁTIS PARA TODO O BRASIL ACIMA DE R$ 199 // USE CUPOM: VICE10",
+    "🌴 EDIÇÃO LIMITADA DE LANÇAMENTO // APENAS 50 PEÇAS POR MODELO // SEM REPOSIÇÃO",
+    "💳 PAGAMENTO NO PIX COM 5% DE DESCONTO IMEDIATO OU ATÉ 12X NO CARTÃO"
+  ],
+  "categories": [
+    {
+      "id": "all",
+      "label_pt": "Todos os Itens",
+      "label_en": "All Items",
+      "icon": "grid"
+    },
+    {
+      "id": "Apparel",
+      "label_pt": "Vestuário Noturno",
+      "label_en": "Nightwear Apparel",
+      "icon": "shirt"
+    },
+    {
+      "id": "Novelty",
+      "label_pt": "Itens Ocultos & Novidades",
+      "label_en": "Novelty & Stash",
+      "icon": "eye"
+    },
+    {
+      "id": "Accessories",
+      "label_pt": "Acessórios & Headwear",
+      "label_en": "Accessories & Headwear",
+      "icon": "watch"
+    },
+    {
+      "id": "Decor",
+      "label_pt": "Setup & Tech Decor",
+      "label_en": "Setup & Tech Decor",
+      "icon": "zap"
+    }
+  ],
+  "bundles": [
+    {
+      "id": "bundle_syndicate_01",
+      "name": "Underground Syndicate Kit",
+      "description": "Combo de elite: Jaqueta Bomber Holográfica + Lata Secreta Stash Can + Chaveiro Pelican Bay.",
+      "items_sku": [
+        "VC-APP-002",
+        "VC-NOQ-001",
+        "VC-EDC-001"
+      ],
+      "original_price_brl": 509.7,
+      "bundle_price_brl": 429.9,
+      "discount_percentage": 15.66,
+      "badge": "MAIS VENDIDO"
+    },
+    {
+      "id": "bundle_night_runner_02",
+      "name": "Vice Night Runner Pack",
+      "description": "Kit urbano: Camiseta Heavyweight 260 GSM + Boné Veludo Cotelê + Trio Aromatizante Coco & Brisa.",
+      "items_sku": [
+        "VC-APP-003",
+        "VC-APP-004",
+        "VC-AUT-001"
+      ],
+      "original_price_brl": 319.7,
+      "bundle_price_brl": 269.9,
+      "discount_percentage": 15.58,
+      "badge": "15% OFF"
+    },
+    {
+      "id": "bundle_ocean_drive_03",
+      "name": "Ocean Drive Setup Pack",
+      "description": "Battlestation completa: Deskmat XXL 900x400 + Luminária Acrílica Neon + Mini Boombox Bluetooth.",
+      "items_sku": [
+        "VC-DSK-001",
+        "VC-LGT-001",
+        "VC-AUD-001"
+      ],
+      "original_price_brl": 459.7,
+      "bundle_price_brl": 389.9,
+      "discount_percentage": 15.18,
+      "badge": "SETUP VIP"
+    }
+  ],
+  "checkout_config": {
+    "free_shipping_threshold_brl": 199.0,
+    "free_shipping_threshold_usd": 50.0,
+    "pix_discount_percent": 5.0,
+    "pix_receiver_name": "Vice District Operações",
+    "pix_key": "pagamentos@vicedistrict.store",
+    "national_delivery_days": "5 a 10 dias úteis via Sedex Express",
+    "international_delivery_days": "7 to 14 business days via Global Express",
+    "default_shipping_fee_brl": 18.0,
+    "default_shipping_fee_usd": 9.9,
+    "coupon_code": "VICE10",
+    "coupon_discount_percent": 10.0
+  },
+  "products": [
+    {
+      "id": "VC-APP-001",
+      "sku": "VC-APP-001",
+      "title": "\"Vice Sunset\" Silk-Touch Camp Collar Bowling Shirt",
+      "slug": "vice-sunset-bowling-shirt",
+      "category": "Apparel",
+      "headline": "Relaxed boxy-fit Cuban collar resort shirt blending Art Deco geometry with glowing neon dusk.",
+      "description": "Relaxed boxy-fit Cuban collar resort shirt made from ultra-soft viscose/polyester faux-silk. Features an all-over fluid print blending art deco geometry, silhouette royal palms, and neon motel signs glowing against an electric violet dusk.",
+      "features": [
+        "Faux-silk breathable viscose blend with moisture-wicking weave",
+        "Boxy relaxed Cuban camp collar silhouette",
+        "Fade-resistant all-over dye sublimation print",
+        "Natural resin tortoiseshell buttons",
+        "Machine washable pre-shrunk luxury fabric"
+      ],
+      "price_brl": 189.9,
+      "price_usd": 38.0,
+      "production_cost_brl": 58.0,
+      "margin_percent": 69.46,
+      "pricing": {
+        "currency_brl": 189.9,
+        "currency_usd": 38.0,
+        "cost_estimate_brl": 58.0,
+        "cost_estimate_usd": 11.6,
+        "gross_margin_percentage": 69.46
+      },
+      "fulfillment": {
+        "method": "pod_sublimation",
+        "lead_time_days": 4,
+        "recommended_suppliers_br": [
+          "Dimona Sublimação Total",
+          "Montink"
+        ],
+        "recommended_suppliers_global": [
+          "Printful",
+          "Yoycol"
+        ]
+      },
+      "ai_prompts": {
+        "midjourney_v6_prompt": "Commercial editorial lookbook photograph of a men's relaxed-fit Cuban collar silk bowling shirt, vibrant 1980s Miami Vice color palette, pastel turquoise and hot magenta gradient base with repeating subtle art deco palm leaf silhouettes and vintage neon motel vectors, hung on a sleek brass hanger against a textured concrete wall bathed in warm afternoon golden hour sunlight, Hasselblad 500C, 35mm film aesthetic, rich fabric drape texture, fine stitching details, soft natural shadows --ar 3:4 --v 6.1 --style raw --stylize 180",
+        "flux_pro_prompt": "Seamless textile print pattern, 1980s Miami aesthetic, art deco geometric lines, stylized tropical palm tree silhouettes, subtle neon pink and cyan flamingo wireframes, gradient background of twilight purple and warm sunset orange, clean vector repeat, 300 DPI apparel fabric graphic, flat lay, high resolution",
+        "negative_prompt": "text, watermark, logo, brand name, trademark, low quality, blurry, distorted, cheap plastic look, 3d render CGI, cartoonish, oversaturated flat colors, extra limbs, deformed geometry, artifacts",
+        "aspect_ratio": "3:4",
+        "print_texture_notes": "Continuous 300 DPI vector repeat pattern, CMYK sublimation calibrated for synthetic silk."
+      },
+      "ai_art_prompt": {
+        "midjourney_prompt": "Commercial editorial lookbook photograph of a men's relaxed-fit Cuban collar silk bowling shirt, vibrant 1980s Miami Vice color palette, pastel turquoise and hot magenta gradient base with repeating subtle art deco palm leaf silhouettes and vintage neon motel vectors, hung on a sleek brass hanger against a textured concrete wall bathed in warm afternoon golden hour sunlight, Hasselblad 500C, 35mm film aesthetic, rich fabric drape texture, fine stitching details, soft natural shadows --ar 3:4 --v 6.1 --style raw --stylize 180",
+        "flux_prompt": "Seamless textile print pattern, 1980s Miami aesthetic, art deco geometric lines, stylized tropical palm tree silhouettes, subtle neon pink and cyan flamingo wireframes, gradient background of twilight purple and warm sunset orange, clean vector repeat, 300 DPI apparel fabric graphic, flat lay, high resolution",
+        "negative_prompt": "text, watermark, logo, brand name, trademark, low quality, blurry, distorted, cheap plastic look, 3d render CGI, cartoonish, oversaturated flat colors, extra limbs, deformed geometry, artifacts"
+      },
+      "tags": [
+        "bestseller",
+        "apparel",
+        "streetwear",
+        "resort",
+        "synthwave",
+        "retro-80s"
+      ],
+      "image_placeholder": "data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 600 600'><rect width='600' height='600' fill='%23080E24'/><path d='M150,120 L450,120 L520,240 L450,270 L450,540 L150,540 L150,270 L80,240 Z' fill='%23121B38' stroke='%2300F0FF' stroke-width='4'/><polygon points='230,120 300,280 370,120' fill='%23FF1381' opacity='0.85'/><circle cx='300' cy='360' r='90' fill='%23FFA800' opacity='0.7'/><path d='M300,450 C260,380 230,300 240,240 C280,270 300,320 300,350 C300,320 320,270 360,240 C370,300 340,380 300,450 Z' fill='%232DE2A6'/><text x='300' y='575' text-anchor='middle' fill='%2300F0FF' font-family='sans-serif' font-weight='bold' font-size='20'>VICE SUNSET BOWLING SHIRT</text></svg>",
+      "compliance": {
+        "trademark_cleared": true,
+        "ip_audit_notes": "Cleared: strictly 100% original 1980s Miami aesthetic, zero third-party video game marks."
+      },
+      "display_category": "Apparel"
+    },
+    {
+      "id": "VC-APP-002",
+      "sku": "VC-APP-002",
+      "title": "\"Neon Mirage\" Reversible Holographic Bomber Jacket",
+      "slug": "neon-mirage-bomber-jacket",
+      "category": "Apparel",
+      "headline": "Iridescent dichroic satin outer shell with high-density embroidered retro flamingos.",
+      "description": "Lightweight reversible bomber jacket. Side A features iridescent dichroic satin reflecting shifting magenta-to-cyan tones with high-density embroidered back art: twin wireframe flamingos framed by an 80s chrome grid sun. Side B is matte deep navy with neon contrast ribbing and interior contraband flight pocket.",
+      "features": [
+        "Reversible dual-sided construction: holographic sheen vs midnight navy",
+        "Heavyweight 40,000-stitch metallic embroidery on back",
+        "Heavy-duty antiqued silver reversible zipper pull",
+        "Water-resistant windproof breathable membrane",
+        "Subtle interior zipper stash pocket"
+      ],
+      "price_brl": 349.9,
+      "price_usd": 69.9,
+      "production_cost_brl": 115.0,
+      "margin_percent": 67.13,
+      "pricing": {
+        "currency_brl": 349.9,
+        "currency_usd": 69.9,
+        "cost_estimate_brl": 115.0,
+        "cost_estimate_usd": 23.0,
+        "gross_margin_percentage": 67.13
+      },
+      "fulfillment": {
+        "method": "low_moq_cut_sew",
+        "lead_time_days": 7,
+        "recommended_suppliers_br": [
+          "Oficina de Costura Local SP",
+          "Bordados Industriais Vale"
+        ],
+        "recommended_suppliers_global": [
+          "Private Label Curated Partner",
+          "CustomCat"
+        ]
+      },
+      "ai_prompts": {
+        "midjourney_v6_prompt": "High-fashion streetwear product shot of an iridescent satin bomber jacket floating in mid-air, dual-tone dichroic fabric shifting between neon cyan and electric magenta, intricate embroidered back patch featuring two retro flamingos with sunglasses against a glowing grid sun, polished metal front zipper, studio dark reflective floor, dramatic volumetric rim lighting, shot on 85mm f/1.4 lens, 8k resolution, crisp textile embroidery threads visible --ar 1:1 --v 6.1 --style raw",
+        "flux_pro_prompt": "Studio product photograph of a luxury reversible bomber jacket displayed on a matte black minimalist mannequin, side profile showing both shimmering holographic sheen on one side and deep midnight navy lining, illuminated by neon tubes in pink and blue, cinematic vaporwave editorial, ultra-detailed fabric micro-texture",
+        "negative_prompt": "text, watermark, logo, brand name, trademark, low quality, blurry, distorted, cheap plastic look, 3d render CGI, cartoonish, oversaturated flat colors, extra limbs, deformed geometry, artifacts",
+        "aspect_ratio": "1:1",
+        "print_texture_notes": "Dual-tone dichroic polyester satin, metallic viscose embroidery thread."
+      },
+      "ai_art_prompt": {
+        "midjourney_prompt": "High-fashion streetwear product shot of an iridescent satin bomber jacket floating in mid-air, dual-tone dichroic fabric shifting between neon cyan and electric magenta, intricate embroidered back patch featuring two retro flamingos with sunglasses against a glowing grid sun, polished metal front zipper, studio dark reflective floor, dramatic volumetric rim lighting, shot on 85mm f/1.4 lens, 8k resolution, crisp textile embroidery threads visible --ar 1:1 --v 6.1 --style raw",
+        "flux_prompt": "Studio product photograph of a luxury reversible bomber jacket displayed on a matte black minimalist mannequin, side profile showing both shimmering holographic sheen on one side and deep midnight navy lining, illuminated by neon tubes in pink and blue, cinematic vaporwave editorial, ultra-detailed fabric micro-texture",
+        "negative_prompt": "text, watermark, logo, brand name, trademark, low quality, blurry, distorted, cheap plastic look, 3d render CGI, cartoonish, oversaturated flat colors, extra limbs, deformed geometry, artifacts"
+      },
+      "tags": [
+        "luxury",
+        "outerwear",
+        "apparel",
+        "bomber",
+        "holographic",
+        "statement"
+      ],
+      "image_placeholder": "data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 600 600'><rect width='600' height='600' fill='%23080E24'/><path d='M180,150 L420,150 L530,280 L460,330 L450,510 L150,510 L140,330 L70,280 Z' fill='url(%23holoGrad)' stroke='%23FF1381' stroke-width='4'/><defs><linearGradient id='holoGrad' x1='0%' y1='0%' x2='100%' y2='100%'><stop offset='0%' stop-color='%2300F0FF'/><stop offset='50%' stop-color='%23FF1381'/><stop offset='100%' stop-color='%23FFA800'/></linearGradient></defs><line x1='300' y1='150' x2='300' y2='510' stroke='%23F4E8D1' stroke-width='5'/><circle cx='300' cy='310' r='70' fill='none' stroke='%2300F0FF' stroke-width='3'/><path d='M275,340 C280,310 290,290 300,280 C310,290 320,310 325,340 Z' fill='%23FF1381'/><text x='300' y='570' text-anchor='middle' fill='%23FF1381' font-family='sans-serif' font-weight='bold' font-size='20'>NEON MIRAGE BOMBER JACKET</text></svg>",
+      "compliance": {
+        "trademark_cleared": true,
+        "ip_audit_notes": "Cleared: strictly 100% original 1980s Miami aesthetic, zero third-party video game marks."
+      },
+      "display_category": "Apparel"
+    },
+    {
+      "id": "VC-APP-003",
+      "sku": "VC-APP-003",
+      "title": "\"Miami Overdrive '84\" Heavyweight Oversized Graphic Tee",
+      "slug": "miami-overdrive-84-heavyweight-tee",
+      "category": "Apparel",
+      "headline": "260 GSM vintage mineral-wash dropped-shoulder streetwear tee with retro sports car screen print.",
+      "description": "260 GSM combed cotton vintage mineral-washed black t-shirt with a dropped-shoulder streetwear cut. The chest displays a high-resolution distressed screen print: the rear louvers and quad exhausts of a 1984 wedge sports car idling under neon palm reflections on wet pavement.",
+      "features": [
+        "Ultra-heavyweight 260 GSM 100% combed ring-spun cotton",
+        "Acid mineral wash vintage patina finish",
+        "High-definition direct-to-garment (DTG) print with soft hand feel",
+        "Double-needle ribbed 1.25 inch collar",
+        "Boxy oversized drop-shoulder cut"
+      ],
+      "price_brl": 139.9,
+      "price_usd": 27.9,
+      "production_cost_brl": 38.0,
+      "margin_percent": 72.84,
+      "pricing": {
+        "currency_brl": 139.9,
+        "currency_usd": 27.9,
+        "cost_estimate_brl": 38.0,
+        "cost_estimate_usd": 7.6,
+        "gross_margin_percentage": 72.84
+      },
+      "fulfillment": {
+        "method": "pod_dtg",
+        "lead_time_days": 3,
+        "recommended_suppliers_br": [
+          "Montink DTG HD",
+          "Reserva INK",
+          "Dimona"
+        ],
+        "recommended_suppliers_global": [
+          "Printful Heavyweight",
+          "Gelato"
+        ]
+      },
+      "ai_prompts": {
+        "midjourney_v6_prompt": "Flat lay commercial apparel photography of an oversized heavyweight washed black vintage t-shirt, dropped shoulders, thick ribbed collar, featuring a large chest graphic print of a 1984 red wedge sports car rear angle with horizontal tail lights, glowing palm trees in the background, distressed retro halftone print texture, lying on an authentic terrazzo tile surface next to retro sunglasses, soft directional daylight, 50mm lens, tack sharp --ar 4:5 --v 6.1 --style raw --stylize 200",
+        "flux_pro_prompt": "T-shirt graphic design illustration, 1984 retro wedge sports car speeding down an Ocean Drive boulevard at night, neon signboards, towering coconut palms, giant synthwave wireframe sun on the horizon, distressed screen print texture, vintage 80s comic book halftones, color palette of hot pink, electric turquoise, chrome, and deep charcoal, isolated on pure black background, 300 DPI",
+        "negative_prompt": "text, watermark, logo, brand name, trademark, low quality, blurry, distorted, cheap plastic look, 3d render CGI, cartoonish, oversaturated flat colors, extra limbs, deformed geometry, artifacts",
+        "aspect_ratio": "4:5",
+        "print_texture_notes": "Distressed vintage halftone screen print, simulated cracking texture at 300 DPI."
+      },
+      "ai_art_prompt": {
+        "midjourney_prompt": "Flat lay commercial apparel photography of an oversized heavyweight washed black vintage t-shirt, dropped shoulders, thick ribbed collar, featuring a large chest graphic print of a 1984 red wedge sports car rear angle with horizontal tail lights, glowing palm trees in the background, distressed retro halftone print texture, lying on an authentic terrazzo tile surface next to retro sunglasses, soft directional daylight, 50mm lens, tack sharp --ar 4:5 --v 6.1 --style raw --stylize 200",
+        "flux_prompt": "T-shirt graphic design illustration, 1984 retro wedge sports car speeding down an Ocean Drive boulevard at night, neon signboards, towering coconut palms, giant synthwave wireframe sun on the horizon, distressed screen print texture, vintage 80s comic book halftones, color palette of hot pink, electric turquoise, chrome, and deep charcoal, isolated on pure black background, 300 DPI",
+        "negative_prompt": "text, watermark, logo, brand name, trademark, low quality, blurry, distorted, cheap plastic look, 3d render CGI, cartoonish, oversaturated flat colors, extra limbs, deformed geometry, artifacts"
+      },
+      "tags": [
+        "bestseller",
+        "streetwear",
+        "heavyweight",
+        "graphic-tee",
+        "retro-car",
+        "outrun"
+      ],
+      "image_placeholder": "data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 600 600'><rect width='600' height='600' fill='%23080E24'/><path d='M160,140 L440,140 L540,250 L470,290 L450,540 L150,540 L130,290 L60,250 Z' fill='%23181C26'/><rect x='210' y='220' width='180' height='160' rx='10' fill='%230A0D17' stroke='%23FF1381' stroke-width='3'/><path d='M230,320 L270,270 L330,270 L370,320 Z' fill='%23FF1381'/><rect x='250' y='325' width='100' height='15' fill='%2300F0FF'/><circle cx='250' cy='345' r='12' fill='%23FFA800'/><circle cx='350' cy='345' r='12' fill='%23FFA800'/><text x='300' y='575' text-anchor='middle' fill='%2300F0FF' font-family='sans-serif' font-weight='bold' font-size='20'>MIAMI OVERDRIVE '84 TEE</text></svg>",
+      "compliance": {
+        "trademark_cleared": true,
+        "ip_audit_notes": "Cleared: strictly 100% original 1980s Miami aesthetic, zero third-party video game marks."
+      },
+      "display_category": "Apparel"
+    },
+    {
+      "id": "VC-APP-004",
+      "sku": "VC-APP-004",
+      "title": "\"South Beach Syndicate\" Embroidered Corduroy Snapback",
+      "slug": "south-beach-syndicate-corduroy-snapback",
+      "category": "Headwear",
+      "headline": "Unstructured 6-panel corduroy cap in seafoam turquoise with 3D puff neon pink embroidery.",
+      "description": "Unstructured 6-panel corduroy cap in vintage seafoam turquoise. Features 3D puffy embroidery reading 'VICE COAST COURIER '86' in pastel neon pink, complemented by an antique brass strap buckle and green underbrim.",
+      "features": [
+        "100% 12-wale vintage cotton corduroy",
+        "High-density 3D puff embroidery with 15,000 stitches",
+        "Contrast vintage Kelly Green under-visor",
+        "Antiqued brass adjustable slider buckle closure",
+        "Unstructured dad cap low-profile crown"
+      ],
+      "price_brl": 129.9,
+      "price_usd": 25.9,
+      "production_cost_brl": 32.0,
+      "margin_percent": 75.37,
+      "pricing": {
+        "currency_brl": 129.9,
+        "currency_usd": 25.9,
+        "cost_estimate_brl": 32.0,
+        "cost_estimate_usd": 6.4,
+        "gross_margin_percentage": 75.37
+      },
+      "fulfillment": {
+        "method": "pod_embroidery",
+        "lead_time_days": 3,
+        "recommended_suppliers_br": [
+          "Bordados Sul",
+          "Dimona Bonés",
+          "Montink"
+        ],
+        "recommended_suppliers_global": [
+          "Printful Embroidered Corduroy",
+          "Apliiq"
+        ]
+      },
+      "ai_prompts": {
+        "midjourney_v6_prompt": "Product hero shot of an unstructured vintage 6-panel corduroy snapback hat in seafoam turquoise color, 3D puff embroidery on the front panel with lettering 'VICE COURIER', delicate embroidered palm tree on the left side, antique brass back clasp visible, resting on a wet polished dark stone surface with neon pink reflections, macro lens, detailed wale corduroy rib texture, shallow depth of field --ar 1:1 --v 6.1 --style raw",
+        "flux_pro_prompt": "Ultra realistic product photo of a turquoise vintage corduroy cap, pink 3D puff embroidery, studio lighting with neon side accents, close up fabric texture, brass buckle, clean neutral grey background, 8k resolution",
+        "negative_prompt": "text, watermark, logo, brand name, trademark, low quality, blurry, distorted, cheap plastic look, 3d render CGI, cartoonish, oversaturated flat colors, extra limbs, deformed geometry, artifacts",
+        "aspect_ratio": "1:1",
+        "print_texture_notes": "3D puff embroidery vector DST format, 12-wale ribbed corduroy."
+      },
+      "ai_art_prompt": {
+        "midjourney_prompt": "Product hero shot of an unstructured vintage 6-panel corduroy snapback hat in seafoam turquoise color, 3D puff embroidery on the front panel with lettering 'VICE COURIER', delicate embroidered palm tree on the left side, antique brass back clasp visible, resting on a wet polished dark stone surface with neon pink reflections, macro lens, detailed wale corduroy rib texture, shallow depth of field --ar 1:1 --v 6.1 --style raw",
+        "flux_prompt": "Ultra realistic product photo of a turquoise vintage corduroy cap, pink 3D puff embroidery, studio lighting with neon side accents, close up fabric texture, brass buckle, clean neutral grey background, 8k resolution",
+        "negative_prompt": "text, watermark, logo, brand name, trademark, low quality, blurry, distorted, cheap plastic look, 3d render CGI, cartoonish, oversaturated flat colors, extra limbs, deformed geometry, artifacts"
+      },
+      "tags": [
+        "headwear",
+        "accessories",
+        "corduroy",
+        "embroidery",
+        "retro",
+        "seafoam"
+      ],
+      "image_placeholder": "data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 600 600'><rect width='600' height='600' fill='%23080E24'/><path d='M150,380 C150,220 450,220 450,380 Z' fill='%232DE2A6' stroke='%2300F0FF' stroke-width='4'/><path d='M110,380 C110,350 490,350 490,380 C490,440 110,440 110,380 Z' fill='%231AB582'/><circle cx='300' cy='220' r='10' fill='%23080E24'/><rect x='220' y='280' width='160' height='45' rx='6' fill='%23080E24' stroke='%23FF1381' stroke-width='2'/><text x='300' y='310' text-anchor='middle' fill='%23FF1381' font-family='sans-serif' font-weight='bold' font-size='16'>VICE COURIER</text><text x='300' y='570' text-anchor='middle' fill='%232DE2A6' font-family='sans-serif' font-weight='bold' font-size='20'>CORDUROY SNAPBACK</text></svg>",
+      "compliance": {
+        "trademark_cleared": true,
+        "ip_audit_notes": "Cleared: strictly 100% original 1980s Miami aesthetic, zero third-party video game marks."
+      },
+      "display_category": "Accessories"
+    },
+    {
+      "id": "VC-LGT-001",
+      "sku": "VC-LGT-001",
+      "title": "\"Ocean Drive Nocturne\" Laser-Etched Acrylic Neon Lamp",
+      "slug": "ocean-drive-nocturne-neon-lamp",
+      "category": "Tech / Decor",
+      "headline": "5mm optical cast acrylic edge-lit desk lamp depicting Ocean Drive's iconic art deco beachfront.",
+      "description": "5mm optical-grade cast acrylic plate precision laser-etched with intricate vector lines depicting an Ocean Drive art deco strip with palm trees and a retro coupe. Mounted on a weighted brushed-aluminum base with dual-spectrum RGB LEDs controllable via USB touch switch or infrared remote.",
+      "features": [
+        "5mm optical clarity edge-lit cast acrylic plate",
+        "Dual-spectrum neon cyan (#00F0FF) and flamingo pink (#FF1381) LEDs",
+        "Weighted anodized brushed aluminum cylinder base",
+        "Touch-sensitive capacitive dimming switch + IR wireless remote",
+        "USB Type-C powered with braided fabric cable"
+      ],
+      "price_brl": 149.9,
+      "price_usd": 29.9,
+      "production_cost_brl": 38.0,
+      "margin_percent": 74.65,
+      "pricing": {
+        "currency_brl": 149.9,
+        "currency_usd": 29.9,
+        "cost_estimate_brl": 38.0,
+        "cost_estimate_usd": 7.6,
+        "gross_margin_percentage": 74.65
+      },
+      "fulfillment": {
+        "method": "laser_cut_dropship",
+        "lead_time_days": 4,
+        "recommended_suppliers_br": [
+          "Corte Laser Express SP",
+          "Luminárias Tech SC"
+        ],
+        "recommended_suppliers_global": [
+          "LaserGlow Direct",
+          "AliExpress VIP dropship"
+        ]
+      },
+      "ai_prompts": {
+        "midjourney_v6_prompt": "High-end commercial product photograph of a modern edge-lit acrylic desk lamp, precision laser-etched clear acrylic plate showing a detailed retro sports car driving past art deco beachfront hotels and swaying palms, illuminated from the bottom brushed aluminum base with glowing cyan and magenta dual-tone LEDs, resting on a dark walnut gaming desk next to a mechanical keyboard, moody ambient evening room, cinematic depth of field, real light dispersion --ar 16:9 --v 6.1 --style raw",
+        "flux_pro_prompt": "Studio product photograph of a glowing acrylic edge-lit desk lamp with retro 80s Miami boulevard scene, laser etched lines illuminated in neon pink and cyan light, brushed black metallic base, dark reflective table, cozy cinematic gaming room background",
+        "negative_prompt": "text, watermark, logo, brand name, trademark, low quality, blurry, distorted, cheap plastic look, 3d render CGI, cartoonish, oversaturated flat colors, extra limbs, deformed geometry, artifacts",
+        "aspect_ratio": "16:9",
+        "print_texture_notes": "Vector DXF line art with 0.1mm kerf precision for laser etching."
+      },
+      "ai_art_prompt": {
+        "midjourney_prompt": "High-end commercial product photograph of a modern edge-lit acrylic desk lamp, precision laser-etched clear acrylic plate showing a detailed retro sports car driving past art deco beachfront hotels and swaying palms, illuminated from the bottom brushed aluminum base with glowing cyan and magenta dual-tone LEDs, resting on a dark walnut gaming desk next to a mechanical keyboard, moody ambient evening room, cinematic depth of field, real light dispersion --ar 16:9 --v 6.1 --style raw",
+        "flux_prompt": "Studio product photograph of a glowing acrylic edge-lit desk lamp with retro 80s Miami boulevard scene, laser etched lines illuminated in neon pink and cyan light, brushed black metallic base, dark reflective table, cozy cinematic gaming room background",
+        "negative_prompt": "text, watermark, logo, brand name, trademark, low quality, blurry, distorted, cheap plastic look, 3d render CGI, cartoonish, oversaturated flat colors, extra limbs, deformed geometry, artifacts"
+      },
+      "tags": [
+        "desk-setup",
+        "ambient-light",
+        "decor",
+        "acrylic-lamp",
+        "synthwave",
+        "gaming"
+      ],
+      "image_placeholder": "data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 600 600'><rect width='600' height='600' fill='%23080E24'/><rect x='150' y='100' width='300' height='360' rx='15' fill='%230E1A38' stroke='%2300F0FF' stroke-width='3'/><path d='M180,360 L420,360 M180,330 L420,330 M180,300 L420,300' stroke='%23FF1381' stroke-width='2' opacity='0.7'/><circle cx='300' cy='220' r='60' fill='none' stroke='%23FFA800' stroke-width='4'/><path d='M280,270 L300,160 L320,270 Z' fill='%2300F0FF'/><rect x='120' y='460' width='360' height='50' rx='8' fill='%231F2937' stroke='%23374151' stroke-width='2'/><text x='300' y='570' text-anchor='middle' fill='%2300F0FF' font-family='sans-serif' font-weight='bold' font-size='20'>OCEAN DRIVE NEON LAMP</text></svg>",
+      "compliance": {
+        "trademark_cleared": true,
+        "ip_audit_notes": "Cleared: strictly 100% original 1980s Miami aesthetic, zero third-party video game marks."
+      },
+      "display_category": "Decor"
+    },
+    {
+      "id": "VC-AUD-001",
+      "sku": "VC-AUD-001",
+      "title": "\"Synthwave Cassette\" Retro Boombox Bluetooth Speaker Case",
+      "slug": "synthwave-cassette-bluetooth-speaker",
+      "category": "Audio / Tech",
+      "headline": "Miniaturized 1986 boombox housing a 5W neodymium driver with tactile vintage controls.",
+      "description": "Impact-resistant matte silicone shell engineered to look like a 1986 portable boombox cassette recorder, complete with embossed volume meters and faux cassette tape reel. Houses a high-fidelity 5W neodymium driver with 10-hour battery life and built-in handsfree mic.",
+      "features": [
+        "Tactile silicone shock-absorbent shell with authentic vintage molded buttons",
+        "5W full-range neodymium speaker with passive bass radiator",
+        "Bluetooth 5.3 connection with 10-meter stable range",
+        "Rechargeable 1200mAh battery providing 10+ hours playtime",
+        "Built-in retro FM tuner and hands-free microphone"
+      ],
+      "price_brl": 179.9,
+      "price_usd": 35.9,
+      "production_cost_brl": 45.0,
+      "margin_percent": 74.99,
+      "pricing": {
+        "currency_brl": 179.9,
+        "currency_usd": 35.9,
+        "cost_estimate_brl": 45.0,
+        "cost_estimate_usd": 9.0,
+        "gross_margin_percentage": 74.99
+      },
+      "fulfillment": {
+        "method": "private_label_hybrid",
+        "lead_time_days": 5,
+        "recommended_suppliers_br": [
+          "Distribuidora Tech Campinas",
+          "Importadora Áudio SP"
+        ],
+        "recommended_suppliers_global": [
+          "Shenzhen OEM Sound Factory",
+          "AliExpress Fast Direct"
+        ]
+      },
+      "ai_prompts": {
+        "midjourney_v6_prompt": "Macro product shot of a retro 1980s portable boombox cassette player miniaturized into a compact silicone Bluetooth speaker, tactile rubberized buttons, embossed analog cassette tape window in vivid magenta and teal, resting on a pastel pink countertop with tropical palm leaf shadows, natural soft lighting, commercial product catalog styling, 100mm macro lens --ar 1:1 --v 6.1 --style raw",
+        "flux_pro_prompt": "Studio product photograph of a miniature retro 80s boombox portable speaker, matte turquoise and neon pink casing, realistic speaker grill, cassette tape door with amber LED backlight, sleek modern product photography, clean white marble surface",
+        "negative_prompt": "text, watermark, logo, brand name, trademark, low quality, blurry, distorted, cheap plastic look, 3d render CGI, cartoonish, oversaturated flat colors, extra limbs, deformed geometry, artifacts",
+        "aspect_ratio": "1:1",
+        "print_texture_notes": "Matte textured silicone mould with tampo-printed dual-color neon graphics."
+      },
+      "ai_art_prompt": {
+        "midjourney_prompt": "Macro product shot of a retro 1980s portable boombox cassette player miniaturized into a compact silicone Bluetooth speaker, tactile rubberized buttons, embossed analog cassette tape window in vivid magenta and teal, resting on a pastel pink countertop with tropical palm leaf shadows, natural soft lighting, commercial product catalog styling, 100mm macro lens --ar 1:1 --v 6.1 --style raw",
+        "flux_prompt": "Studio product photograph of a miniature retro 80s boombox portable speaker, matte turquoise and neon pink casing, realistic speaker grill, cassette tape door with amber LED backlight, sleek modern product photography, clean white marble surface",
+        "negative_prompt": "text, watermark, logo, brand name, trademark, low quality, blurry, distorted, cheap plastic look, 3d render CGI, cartoonish, oversaturated flat colors, extra limbs, deformed geometry, artifacts"
+      },
+      "tags": [
+        "audio",
+        "speaker",
+        "bluetooth",
+        "boombox",
+        "cassette",
+        "retro-tech"
+      ],
+      "image_placeholder": "data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 600 600'><rect width='600' height='600' fill='%23080E24'/><rect x='80' y='180' width='440' height='260' rx='25' fill='%231E293B' stroke='%23FF1381' stroke-width='4'/><circle cx='180' cy='310' r='60' fill='%230F172A' stroke='%2300F0FF' stroke-width='4'/><circle cx='420' cy='310' r='60' fill='%230F172A' stroke='%2300F0FF' stroke-width='4'/><rect x='260' y='270' width='80' height='80' rx='8' fill='%23334155' stroke='%23FFA800' stroke-width='2'/><circle cx='285' cy='310' r='12' fill='%23080E24'/><circle cx='315' cy='310' r='12' fill='%23080E24'/><path d='M150,180 L150,130 L450,130 L450,180' fill='none' stroke='%232DE2A6' stroke-width='6'/><text x='300' y='570' text-anchor='middle' fill='%23FFA800' font-family='sans-serif' font-weight='bold' font-size='20'>SYNTHWAVE BOOMBOX SPEAKER</text></svg>",
+      "compliance": {
+        "trademark_cleared": true,
+        "ip_audit_notes": "Cleared: strictly 100% original 1980s Miami aesthetic, zero third-party video game marks."
+      },
+      "display_category": "Decor"
+    },
+    {
+      "id": "VC-NOQ-001",
+      "sku": "VC-NOQ-001",
+      "title": "\"Vice Rush '86\" Secret Compartment Stash Can",
+      "slug": "vice-rush-86-stash-can",
+      "category": "Collectible",
+      "headline": "Weighted decoy beverage can with seamless screw-off bottom and smell-proof vault capsule.",
+      "description": "Weighted aluminum can masquerading as a fictitious vintage Florida carbonated energy drink ('Vice Rush – Flamingo Grapefruit & Guarana'). Features a precision-threaded undetectable screw-off bottom reveals an airtight, smell-proof acrylic capsule for cash, keys, or micro-storage.",
+      "features": [
+        "Authentic weighted beverage feel matching full 355ml liquid center of gravity",
+        "Precision CNC-threaded undetectable flush-fit bottom seam",
+        "Airtight silicone O-ring sealed interior smell-proof capsule",
+        "Fictitious vintage 80s Florida drink parody graphic design",
+        "Durable scratch-resistant gloss protective lacquer"
+      ],
+      "price_brl": 119.9,
+      "price_usd": 23.9,
+      "production_cost_brl": 26.0,
+      "margin_percent": 78.32,
+      "pricing": {
+        "currency_brl": 119.9,
+        "currency_usd": 23.9,
+        "cost_estimate_brl": 26.0,
+        "cost_estimate_usd": 5.2,
+        "gross_margin_percentage": 78.32
+      },
+      "fulfillment": {
+        "method": "metal_machining_low_moq",
+        "lead_time_days": 4,
+        "recommended_suppliers_br": [
+          "Tornearia Especializada Curitiba",
+          "Embalagens Criativas SP"
+        ],
+        "recommended_suppliers_global": [
+          "StashCan Factory Direct",
+          "Spencers Novelty Supplier"
+        ]
+      },
+      "ai_prompts": {
+        "midjourney_v6_prompt": "Commercial product photograph of an aluminum soda can with condensation droplets, vintage 1986 Florida energy drink branding 'Vice Rush Flamingo Guarana', retro synthwave typography and tropical gradient, bottom portion unscrewed showing secret watertight interior compartment on a polished chrome table, studio rim lighting, crisp high speed splash photography details --ar 1:1 --v 6.1 --style raw",
+        "flux_pro_prompt": "Product photo of a retro aluminum energy drink can called Vice Rush, unscrewed metal base showing secret compartment, realistic water droplets, studio softbox lighting, neon reflections on wet glass table",
+        "negative_prompt": "text, watermark, logo, brand name, trademark, low quality, blurry, distorted, cheap plastic look, 3d render CGI, cartoonish, oversaturated flat colors, extra limbs, deformed geometry, artifacts",
+        "aspect_ratio": "1:1",
+        "print_texture_notes": "Dry-offset 5-color aluminum beverage can print with matte condensation varnish."
+      },
+      "ai_art_prompt": {
+        "midjourney_prompt": "Commercial product photograph of an aluminum soda can with condensation droplets, vintage 1986 Florida energy drink branding 'Vice Rush Flamingo Guarana', retro synthwave typography and tropical gradient, bottom portion unscrewed showing secret watertight interior compartment on a polished chrome table, studio rim lighting, crisp high speed splash photography details --ar 1:1 --v 6.1 --style raw",
+        "flux_prompt": "Product photo of a retro aluminum energy drink can called Vice Rush, unscrewed metal base showing secret compartment, realistic water droplets, studio softbox lighting, neon reflections on wet glass table",
+        "negative_prompt": "text, watermark, logo, brand name, trademark, low quality, blurry, distorted, cheap plastic look, 3d render CGI, cartoonish, oversaturated flat colors, extra limbs, deformed geometry, artifacts"
+      },
+      "tags": [
+        "collectible",
+        "stash-can",
+        "tactical",
+        "decoy",
+        "novelty",
+        "viral-tiktok"
+      ],
+      "image_placeholder": "data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 600 600'><rect width='600' height='600' fill='%23080E24'/><path d='M220,160 C220,140 380,140 380,160 L380,440 C380,460 220,460 220,440 Z' fill='%23FF1381' stroke='%2300F0FF' stroke-width='4'/><rect x='220' y='460' width='160' height='30' rx='5' fill='%23E2E8F0' stroke='%2394A3B8' stroke-width='2'/><circle cx='300' cy='280' r='45' fill='%23FFA800'/><text x='300' y='360' text-anchor='middle' fill='%23FFFFFF' font-family='sans-serif' font-weight='bold' font-size='18'>VICE RUSH '86</text><text x='300' y='570' text-anchor='middle' fill='%23FF1381' font-family='sans-serif' font-weight='bold' font-size='20'>SECRET STASH CAN</text></svg>",
+      "compliance": {
+        "trademark_cleared": true,
+        "ip_audit_notes": "Cleared: strictly 100% original 1980s Miami aesthetic, zero third-party video game marks."
+      },
+      "display_category": "Novelty"
+    },
+    {
+      "id": "VC-DRK-001",
+      "sku": "VC-DRK-001",
+      "title": "\"Golden Hour Biscayne\" Gradient Thermal Tumbler (900ml)",
+      "slug": "golden-hour-biscayne-thermal-tumbler",
+      "category": "Drinkware",
+      "headline": "Double-wall 18/8 stainless steel vacuum tumbler with neon flamingo-to-amber powder coat.",
+      "description": "Double-wall 18/8 kitchen-grade vacuum stainless steel tumbler. Finished with a durable powder-coat gradient shifting from intense flamingo magenta at the base to warm sunset amber gold at the rim. Laser-engraved with an intricate palm-tree wireframe and retro motel typography.",
+      "features": [
+        "900ml (30oz) kitchen-grade 18/8 double-walled vacuum insulation",
+        "Maintains ice-cold beverages for 24h, piping hot for 8h",
+        "Anti-slip durable powder-coat finish with laser-ablated graphics",
+        "Splash-proof crystal-clear Eastman Tritan slide lid",
+        "Tapered base fits all standard automotive cup holders"
+      ],
+      "price_brl": 159.9,
+      "price_usd": 31.9,
+      "production_cost_brl": 42.0,
+      "margin_percent": 73.73,
+      "pricing": {
+        "currency_brl": 159.9,
+        "currency_usd": 31.9,
+        "cost_estimate_brl": 42.0,
+        "cost_estimate_usd": 8.4,
+        "gross_margin_percentage": 73.73
+      },
+      "fulfillment": {
+        "method": "pod_laser_sublimation",
+        "lead_time_days": 3,
+        "recommended_suppliers_br": [
+          "FlashPrint Laser SP",
+          "Brindes Criativos Brasil"
+        ],
+        "recommended_suppliers_global": [
+          "Printful Drinkware",
+          "CustomCat Tumbler"
+        ]
+      },
+      "ai_prompts": {
+        "midjourney_v6_prompt": "Hero shot of a 30oz stainless steel thermal tumbler, powder coated smooth ombre gradient transitioning from intense neon flamingo pink at the base to warm golden mango at the top, precision laser-engraved with an intricate geometric palm tree emblem, crystal clear leakproof lid with stainless steel straw, placed on poolside white stone with turquoise pool water reflecting sunlight, luxury summer lifestyle --ar 3:4 --v 6.1 --style raw",
+        "flux_pro_prompt": "Studio commercial shot of an ombre pink and orange stainless steel insulated tumbler cup with straw, palm tree laser engraving, crisp droplets of ice water, bright sunny pool deck setting, 8k hyperrealistic product render",
+        "negative_prompt": "text, watermark, logo, brand name, trademark, low quality, blurry, distorted, cheap plastic look, 3d render CGI, cartoonish, oversaturated flat colors, extra limbs, deformed geometry, artifacts",
+        "aspect_ratio": "3:4",
+        "print_texture_notes": "Rotary fiber laser engraving removing powder coat down to bare stainless steel."
+      },
+      "ai_art_prompt": {
+        "midjourney_prompt": "Hero shot of a 30oz stainless steel thermal tumbler, powder coated smooth ombre gradient transitioning from intense neon flamingo pink at the base to warm golden mango at the top, precision laser-engraved with an intricate geometric palm tree emblem, crystal clear leakproof lid with stainless steel straw, placed on poolside white stone with turquoise pool water reflecting sunlight, luxury summer lifestyle --ar 3:4 --v 6.1 --style raw",
+        "flux_prompt": "Studio commercial shot of an ombre pink and orange stainless steel insulated tumbler cup with straw, palm tree laser engraving, crisp droplets of ice water, bright sunny pool deck setting, 8k hyperrealistic product render",
+        "negative_prompt": "text, watermark, logo, brand name, trademark, low quality, blurry, distorted, cheap plastic look, 3d render CGI, cartoonish, oversaturated flat colors, extra limbs, deformed geometry, artifacts"
+      },
+      "tags": [
+        "drinkware",
+        "tumbler",
+        "thermal",
+        "laser-engraved",
+        "biscayne",
+        "summer"
+      ],
+      "image_placeholder": "data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 600 600'><rect width='600' height='600' fill='%23080E24'/><defs><linearGradient id='tumblerGrad' x1='0%' y1='100%' x2='0%' y2='0%'><stop offset='0%' stop-color='%23FF1381'/><stop offset='100%' stop-color='%23FFA800'/></linearGradient></defs><path d='M210,140 L390,140 L360,480 L240,480 Z' fill='url(%23tumblerGrad)' stroke='%2300F0FF' stroke-width='3'/><rect x='200' y='120' width='200' height='20' rx='5' fill='%23E2E8F0' opacity='0.8'/><line x1='300' y1='60' x2='300' y2='120' stroke='%23CBD5E1' stroke-width='6'/><path d='M300,320 C280,260 270,220 280,190 C300,210 300,240 300,260 C300,240 300,210 320,190 C330,220 320,260 300,320 Z' fill='%23FFFFFF' opacity='0.85'/><text x='300' y='570' text-anchor='middle' fill='%23FFA800' font-family='sans-serif' font-weight='bold' font-size='20'>GRADIENT THERMAL TUMBLER</text></svg>",
+      "compliance": {
+        "trademark_cleared": true,
+        "ip_audit_notes": "Cleared: strictly 100% original 1980s Miami aesthetic, zero third-party video game marks."
+      },
+      "display_category": "Accessories"
+    },
+    {
+      "id": "VC-AUT-001",
+      "sku": "VC-AUT-001",
+      "title": "\"Sunburst Palm\" Coconut & Sea-Breeze Car Freshener (3-Pack)",
+      "slug": "sunburst-palm-car-air-freshener-3pack",
+      "category": "Auto EDC",
+      "headline": "Trio of die-cut cotton air fresheners infused with pure roasted coconut and tropical sea breeze.",
+      "description": "3-pack of heavy absorbent cotton-fiber hanging air fresheners. Pack includes: (1) Retro Neon Motel Keycard shape, (2) Dual Art-Deco Flamingo silhouette, (3) 80s Sports Car rear silhouette. Infused with pure organic fragrance oils of roasted coconut, vanilla bean, and ocean ozone.",
+      "features": [
+        "Pack of 3 distinct custom die-cut designs (Motel Key, Flamingos, 80s Coupe)",
+        "Premium double-thick 2mm absorbent cellulose paperboard",
+        "Long-lasting slow-release organic fragrance lasting up to 45 days",
+        "Durable elastic nylon hanging loop",
+        "Ultra-high margin impulse item perfect for checkout bundling"
+      ],
+      "price_brl": 49.9,
+      "price_usd": 9.9,
+      "production_cost_brl": 7.5,
+      "margin_percent": 84.97,
+      "pricing": {
+        "currency_brl": 49.9,
+        "currency_usd": 9.9,
+        "cost_estimate_brl": 7.5,
+        "cost_estimate_usd": 1.5,
+        "gross_margin_percentage": 84.97
+      },
+      "fulfillment": {
+        "method": "screenprint_paper_diecut",
+        "lead_time_days": 2,
+        "recommended_suppliers_br": [
+          "Aromatizantes Brasil Gráfica",
+          "Odorizantes Personalizados SP"
+        ],
+        "recommended_suppliers_global": [
+          "CustomFresheners Direct",
+          "AirFreshenerOEM"
+        ]
+      },
+      "ai_prompts": {
+        "midjourney_v6_prompt": "Commercial product packaging shot of three hanging car air fresheners, thick textured cotton cardstock with elastic black cords: one shaped like a retro turquoise motel room key, one shaped like an 80s sports car silhouette in magenta, and one shaped like a retro palm tree, arranged neatly on a dark leather sports car dashboard with soft afternoon sun flare through the windshield, 85mm lens --ar 1:1 --v 6.1 --style raw",
+        "flux_pro_prompt": "Product photograph of 3 die cut hanging car scent fresheners, synthwave shapes, resting on stitched leather sports car seat, sunset light flare, crisp high quality commercial photography",
+        "negative_prompt": "text, watermark, logo, brand name, trademark, low quality, blurry, distorted, cheap plastic look, 3d render CGI, cartoonish, oversaturated flat colors, extra limbs, deformed geometry, artifacts",
+        "aspect_ratio": "1:1",
+        "print_texture_notes": "Spot-color screen print on 1000 GSM blotter absorbent board."
+      },
+      "ai_art_prompt": {
+        "midjourney_prompt": "Commercial product packaging shot of three hanging car air fresheners, thick textured cotton cardstock with elastic black cords: one shaped like a retro turquoise motel room key, one shaped like an 80s sports car silhouette in magenta, and one shaped like a retro palm tree, arranged neatly on a dark leather sports car dashboard with soft afternoon sun flare through the windshield, 85mm lens --ar 1:1 --v 6.1 --style raw",
+        "flux_prompt": "Product photograph of 3 die cut hanging car scent fresheners, synthwave shapes, resting on stitched leather sports car seat, sunset light flare, crisp high quality commercial photography",
+        "negative_prompt": "text, watermark, logo, brand name, trademark, low quality, blurry, distorted, cheap plastic look, 3d render CGI, cartoonish, oversaturated flat colors, extra limbs, deformed geometry, artifacts"
+      },
+      "tags": [
+        "automotive",
+        "air-freshener",
+        "accessories",
+        "impulse-buy",
+        "coconut",
+        "car-edc"
+      ],
+      "image_placeholder": "data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 600 600'><rect width='600' height='600' fill='%23080E24'/><polygon points='160,220 230,120 300,220 230,320' fill='%232DE2A6' stroke='%2300F0FF' stroke-width='3'/><path d='M340,300 C340,200 480,200 480,300 Z' fill='%23FF1381'/><rect x='340' y='300' width='140' height='30' rx='5' fill='%23FFA800'/><circle cx='230' cy='150' r='6' fill='%23080E24'/><circle cx='410' cy='220' r='6' fill='%23080E24'/><text x='300' y='570' text-anchor='middle' fill='%232DE2A6' font-family='sans-serif' font-weight='bold' font-size='20'>CAR AIR FRESHENER 3-PACK</text></svg>",
+      "compliance": {
+        "trademark_cleared": true,
+        "ip_audit_notes": "Cleared: strictly 100% original 1980s Miami aesthetic, zero third-party video game marks."
+      },
+      "display_category": "Novelty"
+    },
+    {
+      "id": "VC-EDC-001",
+      "sku": "VC-EDC-001",
+      "title": "\"Pelican Bay Motel\" Hot-Foil Stamped Acrylic Keytag",
+      "slug": "pelican-bay-motel-acrylic-keytag",
+      "category": "Collectible",
+      "headline": "1980s diamond rhombus hotel keychain in translucent seafoam acrylic with gold hot-foil lettering.",
+      "description": "Authentic 1970s/80s diamond-rhombus hotel motel keychain in translucent turquoise acrylic. Features deep-stamped hot-foil gold lettering: 'PELICAN BAY RESORT & MARINA - OCEAN DRIVE - ROOM 305 - DROP IN ANY MAILBOX'.",
+      "features": [
+        "Authentic vintage diamond-rhombus acrylic silhouette",
+        "Deep heat-pressed metallic gold foil stamping",
+        "Heavy-gauge solid brass split key ring and grommet",
+        "High-impact translucent turquoise optical polymer",
+        "Ideal order bump / impulse addition with 86% gross margin"
+      ],
+      "price_brl": 39.9,
+      "price_usd": 7.9,
+      "production_cost_brl": 5.5,
+      "margin_percent": 86.22,
+      "pricing": {
+        "currency_brl": 39.9,
+        "currency_usd": 7.9,
+        "cost_estimate_brl": 5.5,
+        "cost_estimate_usd": 1.1,
+        "gross_margin_percentage": 86.22
+      },
+      "fulfillment": {
+        "method": "acrylic_stamping",
+        "lead_time_days": 2,
+        "recommended_suppliers_br": [
+          "Chaveiros Criativos SP",
+          "Acrílicos Curitiba"
+        ],
+        "recommended_suppliers_global": [
+          "VintageHotelKeytags Direct",
+          "Alibaba Verified Keychain Vendor"
+        ]
+      },
+      "ai_prompts": {
+        "midjourney_v6_prompt": "Macro close-up photograph of a vintage 1980s diamond rhombus motel keychain, made of translucent turquoise acrylic with deep metallic gold hot-foil stamped text 'PELICAN BAY RESORT - ROOM 305', solid brass key ring attached to a vintage brass key, lying on a wooden hotel nightstand with warm lamp glow, sharp details, vintage nostalgic atmosphere --ar 1:1 --v 6.1 --style raw",
+        "flux_pro_prompt": "Studio product photograph of a retro turquoise motel keychain with gold embossed letters 'PELICAN BAY RESORT - ROOM 305', brass key attached, resting on polished teak wood, cinematic warm lighting, realistic acrylic refraction",
+        "negative_prompt": "text, watermark, logo, brand name, trademark, low quality, blurry, distorted, cheap plastic look, 3d render CGI, cartoonish, oversaturated flat colors, extra limbs, deformed geometry, artifacts",
+        "aspect_ratio": "1:1",
+        "print_texture_notes": "Hot-foil metallic brass stamping on 3.5mm cast acrylic sheet."
+      },
+      "ai_art_prompt": {
+        "midjourney_prompt": "Macro close-up photograph of a vintage 1980s diamond rhombus motel keychain, made of translucent turquoise acrylic with deep metallic gold hot-foil stamped text 'PELICAN BAY RESORT - ROOM 305', solid brass key ring attached to a vintage brass key, lying on a wooden hotel nightstand with warm lamp glow, sharp details, vintage nostalgic atmosphere --ar 1:1 --v 6.1 --style raw",
+        "flux_prompt": "Studio product photograph of a retro turquoise motel keychain with gold embossed letters 'PELICAN BAY RESORT - ROOM 305', brass key attached, resting on polished teak wood, cinematic warm lighting, realistic acrylic refraction",
+        "negative_prompt": "text, watermark, logo, brand name, trademark, low quality, blurry, distorted, cheap plastic look, 3d render CGI, cartoonish, oversaturated flat colors, extra limbs, deformed geometry, artifacts"
+      },
+      "tags": [
+        "keychain",
+        "edc",
+        "collectible",
+        "motel-key",
+        "gold-foil",
+        "order-bump"
+      ],
+      "image_placeholder": "data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 600 600'><rect width='600' height='600' fill='%23080E24'/><polygon points='300,100 480,300 300,500 120,300' fill='%232DE2A6' stroke='%2300F0FF' stroke-width='4'/><circle cx='300' cy='160' r='16' fill='%23FFA800'/><text x='300' y='270' text-anchor='middle' fill='%23080E24' font-family='sans-serif' font-weight='bold' font-size='22'>PELICAN BAY</text><text x='300' y='310' text-anchor='middle' fill='%23080E24' font-family='sans-serif' font-size='16'>RESORT &amp; MARINA</text><text x='300' y='360' text-anchor='middle' fill='%23FFA800' font-family='sans-serif' font-weight='bold' font-size='32'>305</text><text x='300' y='570' text-anchor='middle' fill='%232DE2A6' font-family='sans-serif' font-weight='bold' font-size='20'>PELICAN BAY KEYTAG</text></svg>",
+      "compliance": {
+        "trademark_cleared": true,
+        "ip_audit_notes": "Cleared: strictly 100% original 1980s Miami aesthetic, zero third-party video game marks."
+      },
+      "display_category": "Novelty"
+    },
+    {
+      "id": "VC-DSK-001",
+      "sku": "VC-DSK-001",
+      "title": "\"Midnight Tropic\" XXL Stitched Gaming Deskmat (900x400)",
+      "slug": "midnight-tropic-xxl-gaming-deskmat",
+      "category": "Gaming / Tech",
+      "headline": "Massive 900x400x4mm micro-woven water-repellent deskmat with synthwave aerial archipelago artwork.",
+      "description": "Massive 900x400x4mm deskmat featuring high-density micro-woven water-repellent fabric and precision anti-fray magenta stitching. The graphic depicts a breathtaking aerial top-down synthwave map of an island archipelago connected by glowing suspension bridges, yachts, and helicopter pads in vivid neon cyan and purple.",
+      "features": [
+        "Generous 900 x 400 x 4mm surface area covering keyboard and mouse",
+        "Micro-textured cloth weave optimized for low-friction optical tracking",
+        "Anti-fray 360-degree precision magenta lock-stitching",
+        "Eco-friendly natural anti-slip textured chevron rubber base",
+        "Spill-resistant hydrophobic coating easily cleaned with a damp cloth"
+      ],
+      "price_brl": 129.9,
+      "price_usd": 25.9,
+      "production_cost_brl": 34.0,
+      "margin_percent": 73.83,
+      "pricing": {
+        "currency_brl": 129.9,
+        "currency_usd": 25.9,
+        "cost_estimate_brl": 34.0,
+        "cost_estimate_usd": 6.8,
+        "gross_margin_percentage": 73.83
+      },
+      "fulfillment": {
+        "method": "pod_dye_sublimation",
+        "lead_time_days": 4,
+        "recommended_suppliers_br": [
+          "Mousepads Personalizados Brasil",
+          "Sublimação Têxtil SC"
+        ],
+        "recommended_suppliers_global": [
+          "Printify Deskmat Provider",
+          "CustomMousepad.com"
+        ]
+      },
+      "ai_prompts": {
+        "midjourney_v6_prompt": "Elevated 45-degree angle desk setup photograph highlighting a 900x400mm extended gaming mousepad, vivid high-contrast synthwave artwork featuring an aerial neon metropolis coastline with illuminated bridges and boats, black and magenta braided stitched edges, a sleek white wireless mouse and low-profile keyboard sitting on top, moody dark room with purple ambient backlighting, ultra-sharp detail --ar 16:9 --v 6.1 --style raw",
+        "flux_pro_prompt": "Overhead top-down setup view of an extra large gaming desk mat with glowing retro Miami coastline map design, neon roads and cyan water channels, magenta stitched borders, clean mechanical keyboard placed neatly, professional workspace lighting",
+        "negative_prompt": "text, watermark, logo, brand name, trademark, low quality, blurry, distorted, cheap plastic look, 3d render CGI, cartoonish, oversaturated flat colors, extra limbs, deformed geometry, artifacts",
+        "aspect_ratio": "16:9",
+        "print_texture_notes": "300 DPI wide-gamut dye sublimation on micro-woven polyester cloth."
+      },
+      "ai_art_prompt": {
+        "midjourney_prompt": "Elevated 45-degree angle desk setup photograph highlighting a 900x400mm extended gaming mousepad, vivid high-contrast synthwave artwork featuring an aerial neon metropolis coastline with illuminated bridges and boats, black and magenta braided stitched edges, a sleek white wireless mouse and low-profile keyboard sitting on top, moody dark room with purple ambient backlighting, ultra-sharp detail --ar 16:9 --v 6.1 --style raw",
+        "flux_prompt": "Overhead top-down setup view of an extra large gaming desk mat with glowing retro Miami coastline map design, neon roads and cyan water channels, magenta stitched borders, clean mechanical keyboard placed neatly, professional workspace lighting",
+        "negative_prompt": "text, watermark, logo, brand name, trademark, low quality, blurry, distorted, cheap plastic look, 3d render CGI, cartoonish, oversaturated flat colors, extra limbs, deformed geometry, artifacts"
+      },
+      "tags": [
+        "deskmat",
+        "mousepad",
+        "gaming",
+        "battlestation",
+        "synthwave-map",
+        "xxl"
+      ],
+      "image_placeholder": "data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 600 600'><rect width='600' height='600' fill='%23080E24'/><rect x='60' y='180' width='480' height='240' rx='12' fill='%230F172A' stroke='%23FF1381' stroke-width='6'/><path d='M80,260 Q200,200 320,290 T520,230' fill='none' stroke='%2300F0FF' stroke-width='4'/><circle cx='200' cy='250' r='18' fill='%23FFA800'/><circle cx='420' cy='310' r='14' fill='%232DE2A6'/><line x1='120' y1='350' x2='480' y2='350' stroke='%23FF1381' stroke-width='2' stroke-dasharray='10,10'/><text x='300' y='570' text-anchor='middle' fill='%2300F0FF' font-family='sans-serif' font-weight='bold' font-size='20'>MIDNIGHT TROPIC DESKMAT</text></svg>",
+      "compliance": {
+        "trademark_cleared": true,
+        "ip_audit_notes": "Cleared: strictly 100% original 1980s Miami aesthetic, zero third-party video game marks."
+      },
+      "display_category": "Decor"
+    },
+    {
+      "id": "VC-EYE-001",
+      "sku": "VC-EYE-001",
+      "title": "\"Palm Mirage\" Polarized Rose-Gold Aviator Sunglasses",
+      "slug": "palm-mirage-polarized-aviator-sunglasses",
+      "category": "Eyewear",
+      "headline": "1980s teardrop aviators in electroplated brushed gold with amber-to-rose polarized TAC lenses.",
+      "description": "Reimagined 1980s teardrop aviator sunglasses with high-grade optical polycarbonate TAC polarized lenses featuring a smooth amber-to-rose gradient (UV400). Electroplated brushed gold stainless steel frame with subtle neon cyan acetate temple tips. Includes custom synthwave microfiber cleaning pouch.",
+      "features": [
+        "Optical grade TAC polarized gradient lenses (UV400 Category 3 filter)",
+        "Electroplated brushed gold stainless steel wireframe",
+        "Reinforced stainless steel 5-barrel spring hinges",
+        "Hypoallergenic soft silicone adjustable nose pads",
+        "Includes branded microfiber pouch and hard crush-proof case"
+      ],
+      "price_brl": 169.9,
+      "price_usd": 33.9,
+      "production_cost_brl": 36.0,
+      "margin_percent": 78.81,
+      "pricing": {
+        "currency_brl": 169.9,
+        "currency_usd": 33.9,
+        "cost_estimate_brl": 36.0,
+        "cost_estimate_usd": 7.2,
+        "gross_margin_percentage": 78.81
+      },
+      "fulfillment": {
+        "method": "private_label_assembly",
+        "lead_time_days": 3,
+        "recommended_suppliers_br": [
+          "Importadora Óculos Prime SP",
+          "Óculos Brasil atacado"
+        ],
+        "recommended_suppliers_global": [
+          "Wenzhou Optical Eyewear OEM",
+          "AliExpress VIP Fast Dispatch"
+        ]
+      },
+      "ai_prompts": {
+        "midjourney_v6_prompt": "High-end eyewear commercial still life of vintage 1980s aviator sunglasses, brushed gold wire frame with subtle turquoise acetate temple tips, gradient rose-gold polarized lenses reflecting palm trees and an orange sunset, resting on a white marble plinth, crisp reflections, clean luxury fashion advertising aesthetic, 100mm macro lens --ar 1:1 --v 6.1 --style raw",
+        "flux_pro_prompt": "Studio product photograph of vintage 80s gold aviator sunglasses, amber rose gradient lenses reflecting a tropical sunset, resting on a minimalist white stone surface, studio softbox illumination, ultra sharp luxury accessory shot",
+        "negative_prompt": "text, watermark, logo, brand name, trademark, low quality, blurry, distorted, cheap plastic look, 3d render CGI, cartoonish, oversaturated flat colors, extra limbs, deformed geometry, artifacts",
+        "aspect_ratio": "1:1",
+        "print_texture_notes": "Brushed electroplated 304 stainless steel with laser-etched logo inside temple."
+      },
+      "ai_art_prompt": {
+        "midjourney_prompt": "High-end eyewear commercial still life of vintage 1980s aviator sunglasses, brushed gold wire frame with subtle turquoise acetate temple tips, gradient rose-gold polarized lenses reflecting palm trees and an orange sunset, resting on a white marble plinth, crisp reflections, clean luxury fashion advertising aesthetic, 100mm macro lens --ar 1:1 --v 6.1 --style raw",
+        "flux_prompt": "Studio product photograph of vintage 80s gold aviator sunglasses, amber rose gradient lenses reflecting a tropical sunset, resting on a minimalist white stone surface, studio softbox illumination, ultra sharp luxury accessory shot",
+        "negative_prompt": "text, watermark, logo, brand name, trademark, low quality, blurry, distorted, cheap plastic look, 3d render CGI, cartoonish, oversaturated flat colors, extra limbs, deformed geometry, artifacts"
+      },
+      "tags": [
+        "eyewear",
+        "sunglasses",
+        "polarized",
+        "aviator",
+        "gold-frame",
+        "luxury-accessories"
+      ],
+      "image_placeholder": "data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 600 600'><rect width='600' height='600' fill='%23080E24'/><path d='M150,260 C150,220 270,220 270,260 C270,340 160,350 150,260 Z' fill='url(%23lensGrad)' stroke='%23FFA800' stroke-width='4'/><path d='M330,260 C330,220 450,220 450,260 C450,340 340,350 330,260 Z' fill='url(%23lensGrad)' stroke='%23FFA800' stroke-width='4'/><line x1='270' y1='250' x2='330' y2='250' stroke='%23FFA800' stroke-width='4'/><defs><linearGradient id='lensGrad' x1='0%' y1='0%' x2='0%' y2='100%'><stop offset='0%' stop-color='%23FFA800'/><stop offset='100%' stop-color='%23FF1381'/></linearGradient></defs><text x='300' y='570' text-anchor='middle' fill='%23FFA800' font-family='sans-serif' font-weight='bold' font-size='20'>PALM MIRAGE AVIATORS</text></svg>",
+      "compliance": {
+        "trademark_cleared": true,
+        "ip_audit_notes": "Cleared: strictly 100% original 1980s Miami aesthetic, zero third-party video game marks."
+      },
+      "display_category": "Accessories"
+    }
+  ]
+}
