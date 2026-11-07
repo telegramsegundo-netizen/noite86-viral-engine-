@@ -100,6 +100,15 @@ class ProductionQueue:
             conn.execute("CREATE INDEX IF NOT EXISTS idx_status_priority ON production_queue(status, priority DESC)")
             conn.commit()
 
+    def get_job_by_opportunity(self, opportunity_id: str) -> Optional[Dict[str, Any]]:
+        """Busca se uma oportunidade já existe na fila (qualquer status)."""
+        with self._get_conn() as conn:
+            cur = conn.execute("SELECT id, status FROM production_queue WHERE opportunity_id = ?", (opportunity_id,))
+            row = cur.fetchone()
+            if row:
+                return {"id": row["id"], "status": row["status"]}
+            return None
+
     def enqueue(
         self,
         opportunity_id: str,

@@ -62,6 +62,16 @@ class LocalProductionWorker:
             if not qa_report["passed"]:
                 raise RuntimeError(f"Reprovado no Quality Control (QA): {qa_report['issues']}")
 
+            # Executa Banca Examinadora & Conselho de Sommeliers NOITE 86
+            from autonomous_engine.sommelier_council import VideoSommelierCouncil
+            sommelier = VideoSommelierCouncil()
+            somm_eval = sommelier.evaluate_video(
+                artifacts.get("rendered_video"),
+                script_data=job.briefing_data
+            )
+            artifacts["sommelier_eval"] = somm_eval.to_dict()
+            print(f"[Worker] 🍷 Sommelier: {somm_eval.verdict_badge} {somm_eval.overall_score}/100 ({somm_eval.verdict}) — {somm_eval.critique_summary[:60]}...")
+
             # Conclui com sucesso
             self.queue.complete_job(job.id, artifacts)
             elapsed = round(time.time() - start_t, 2)
@@ -87,7 +97,50 @@ class LocalProductionWorker:
 
         script_segments_raw = briefing.get("script_segments", [])
         if not script_segments_raw:
-            raise ValueError(f"Briefing do job {job.id} não contém segmentos de roteiro.")
+            # Se o briefing não contém script_segments (ex: sincronizado via nuvem), gera roteiro autoral de 4 atos sob demanda
+            from autonomous_engine.content_strategist import BrazilianContentStrategist
+            from autonomous_engine.rights_clearance import RightsClearanceOfficer
+            from autonomous_engine.viral_analyst import ScoredOpportunity
+            from autonomous_engine.radar_engine import DiscoveredItem
+
+            disc = DiscoveredItem(
+                id=job.opportunity_id,
+                platform=briefing.get("platform", "youtube"),
+                source_name=briefing.get("source_name", "Fonte Internacional"),
+                author=briefing.get("author", "Criador Internacional"),
+                title=briefing.get("title", job.title),
+                url=briefing.get("url", job.source_url),
+                published_at=briefing.get("published_at", ""),
+                discovered_at=datetime.now(timezone.utc).isoformat(),
+                summary=briefing.get("summary", ""),
+                thumbnail=briefing.get("thumbnail", ""),
+                license_category=briefing.get("license_category", "unauthorized"),
+                niche_tags=briefing.get("niche_tags", ["gaming"]),
+                raw_metrics=briefing.get("raw_metrics", {})
+            )
+            opp = ScoredOpportunity(
+                item=disc,
+                viral_score=float(briefing.get("viral_score", job.priority)),
+                score_breakdown=briefing.get("score_breakdown", {}),
+                priority_level=briefing.get("priority_level", "HIGH"),
+                recommended_angle_br=briefing.get("recommended_angle_br", "Análise gamer brasileira"),
+                suggested_hook_pt=briefing.get("suggested_hook_pt", "VOCÊ VIU ISSO?!"),
+            )
+            officer = RightsClearanceOfficer()
+            verdict = officer.evaluate_opportunity(opp)
+            strategist = BrazilianContentStrategist()
+            full_briefing = strategist.create_briefing(opp, verdict)
+            script_segments_raw = [
+                {
+                    "id": s.id,
+                    "start_sec": s.start_sec,
+                    "end_sec": s.end_sec,
+                    "narration_pt": s.narration_pt,
+                    "visual_cue": s.visual_cue,
+                    "on_screen_text": s.on_screen_text,
+                }
+                for s in full_briefing.script_segments
+            ]
 
         # Converte para TranscriptSegments do pipeline
         pipeline_segments = []

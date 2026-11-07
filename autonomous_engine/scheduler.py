@@ -140,9 +140,6 @@ def sync_cloud_trends_if_available(queue: ProductionQueue, logger: logging.Logge
             return
 
         imported = 0
-        from autonomous_engine.rights_clearance import RightsClearanceOfficer
-        officer = RightsClearanceOfficer()
-
         for item in data:
             opp_id = item.get("id")
             if not opp_id:
@@ -154,26 +151,24 @@ def sync_cloud_trends_if_available(queue: ProductionQueue, logger: logging.Logge
                 continue
 
             score = float(item.get("viral_score", 50.0))
-            if score >= 65.0: # Limiar de qualificação para fila automática
+            if score >= 65.0:  # Limiar de qualificação para fila automática
                 lic = item.get("license_category", "unauthorized")
                 route = "fair_use_commentary" if lic == "public_trailer" else "original_transformative"
-                job_id = f"job_cloud_{opp_id}"
-                queue.enqueue(
-                    job_id=job_id,
+                res = queue.enqueue(
                     opportunity_id=opp_id,
                     title=item.get("title", "Sem título"),
-                    source_url=item.get("url", ""),
                     priority=int(score),
+                    source_url=item.get("url", ""),
                     route=route,
-                    metadata={"source": "github_actions_cloud", "imported_at": datetime.now(timezone.utc).isoformat()}
+                    briefing_dict=item
                 )
-                imported += 1
+                if res:
+                    imported += 1
 
         if imported > 0:
             logger.info(f"⚡ [Nuvem -> Local] Sincronizadas {imported} novas oportunidades descobertas pelo GitHub Actions!")
     except Exception as e:
         logger.error(f"Erro ao sincronizar tendências da nuvem: {e}")
-
 
 def run_scheduler_daemon(
     radar_interval_seconds: Optional[int] = None,

@@ -539,22 +539,34 @@ async function loadVideos() {
       grid.innerHTML = '<p style="color:var(--text-muted)">Nenhum vídeo renderizado ainda.</p>';
       return;
     }
-    grid.innerHTML = data.map(v => `
-      <div class="video-card">
-        <div class="video-thumb">
-          <video src="/api/stream?path=${encodeURIComponent(v.path)}" controls preload="metadata"></video>
-        </div>
-        <div class="video-details">
-          <div class="video-title">${v.name}</div>
-          <div style="font-size:0.75rem;color:var(--text-muted)">Tamanho: ${(v.size_bytes/1024/1024).toFixed(1)} MB · 9:16 Vertical</div>
-          <div class="video-actions">
-            <a class="btn btn-secondary" style="font-size:0.75rem;padding:6px 12px;text-decoration:none;" href="/api/download?path=${encodeURIComponent(v.path)}" download>
-              ⬇️ Baixar MP4
-            </a>
+    grid.innerHTML = data.map(v => {
+      const s = v.sommelier;
+      let badgeHtml = '';
+      let critHtml = '';
+      if (s) {
+        const isGold = s.overall_score >= 88;
+        badgeHtml = `<span class="badge ${isGold ? 'badge-high' : 'badge-med'}" style="margin-bottom:6px;display:inline-block;">${s.verdict_badge} SOMMELIER: ${s.overall_score}/100 (${s.verdict.replace('_', ' ')})</span>`;
+        critHtml = `<div style="font-size:0.75rem;color:var(--accent);margin:6px 0;line-height:1.3;">🍷 <i>${s.critique_summary}</i></div>`;
+      }
+      return `
+        <div class="video-card">
+          <div class="video-thumb">
+            <video src="/api/stream?path=${encodeURIComponent(v.path)}" controls preload="metadata"></video>
+          </div>
+          <div class="video-details">
+            ${badgeHtml}
+            <div class="video-title">${v.name}</div>
+            <div style="font-size:0.75rem;color:var(--text-muted)">Tamanho: ${(v.size_bytes/1024/1024).toFixed(1)} MB · 9:16 Vertical</div>
+            ${critHtml}
+            <div class="video-actions">
+              <a class="btn btn-secondary" style="font-size:0.75rem;padding:6px 12px;text-decoration:none;" href="/api/download?path=${encodeURIComponent(v.path)}" download>
+                ⬇️ Baixar MP4
+              </a>
+            </div>
           </div>
         </div>
-      </div>
-    `).join('');
+      `;
+    }).join('');
   } catch(e) {}
 }
 
@@ -824,16 +836,25 @@ def api_system_status():
 
 @app.route("/api/videos", methods=["GET"])
 def api_list_videos():
-    """Lista todos os vídeos MP4 prontos em NOITE86_FACTORY e no workspace."""
+    """Lista todos os vídeos MP4 prontos com os respectivos laudos do Conselho de Sommeliers."""
     ready_dir = STORAGE_BASE / "06_READY_VIDEOS"
+    reports_dir = STORAGE_BASE / "08_REPORTS"
     videos = []
     if ready_dir.exists():
         for f in ready_dir.glob("*.mp4"):
+            somm_file = reports_dir / f"sommelier_{f.stem}.json"
+            somm_data = None
+            if somm_file.exists():
+                try:
+                    somm_data = json.loads(somm_file.read_text(encoding="utf-8"))
+                except Exception:
+                    pass
             videos.append({
                 "name": f.name,
                 "path": str(f),
                 "size_bytes": f.stat().st_size,
-                "modified_at": f.stat().st_mtime
+                "modified_at": f.stat().st_mtime,
+                "sommelier": somm_data
             })
     # Ordena pelos mais recentes
     videos.sort(key=lambda x: x["modified_at"], reverse=True)
