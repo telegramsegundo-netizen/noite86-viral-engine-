@@ -151,11 +151,16 @@ class VideoSommelierCouncil:
         score = 100.0
 
         size_bytes = path.stat().st_size
-        if size_bytes < 500 * 1024:
-            issues.append(f"Arquivo anormalmente leve (apenas {size_bytes / 1024:.1f} KB)")
-            score -= 40.0
+        size_mb = size_bytes / (1024 * 1024)
+
+        # Detecta vídeos sintéticos / barras de cor (testsrc) que pesam apenas ~2.2 MB para 30s
+        if size_mb < 3.5:
+            issues.append(f"ALERTA: Vídeo com densidade visual insuficiente ({size_mb:.2f} MB). Possível artefato sintético ou corte estático.")
+            score -= 50.0
+        elif size_mb >= 5.0:
+            findings.append(f"Densidade visual cinematográfica excelente ({size_mb:.2f} MB, alta fidelidade)")
         else:
-            findings.append(f"Tamanho de arquivo excelente ({size_bytes / 1024 / 1024:.2f} MB)")
+            findings.append(f"Tamanho de arquivo aceitável ({size_mb:.2f} MB)")
 
         # Executa FFmpeg probe
         cmd = [str(self.ffmpeg_exe), "-i", str(path)]
@@ -167,7 +172,7 @@ class VideoSommelierCouncil:
             findings.append("Formato vertical estrito 1080x1920 (9:16) confirmado")
         else:
             issues.append("Resolução fora do padrão 1080x1920")
-            score -= 30.0
+            score -= 40.0
 
         # Verifica áudio AAC
         if "Audio: aac" in stderr:
@@ -175,6 +180,19 @@ class VideoSommelierCouncil:
         else:
             issues.append("Trilha de áudio ausente ou formato não suportado")
             score -= 35.0
+
+        # Verifica bitrate mínimo para qualidade HD (mínimo 1500 kb/s)
+        if "bitrate: " in stderr:
+            try:
+                bitrate_str = stderr.split("bitrate: ")[1].split(" kb/s")[0].strip()
+                bitrate_val = float(bitrate_str)
+                if bitrate_val < 1000:
+                    issues.append(f"Bitrate excessivamente baixo ({bitrate_val:.0f} kb/s) - risco de pixelização")
+                    score -= 25.0
+                else:
+                    findings.append(f"Taxa de bits nítida ({bitrate_val:.0f} kb/s)")
+            except Exception:
+                pass
 
         # Duração ideal entre 20s e 60s para formato Reels/Shorts
         if "Duration: 00:00:30." in stderr or "Duration: 00:00:2" in stderr:

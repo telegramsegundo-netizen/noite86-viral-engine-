@@ -299,11 +299,20 @@ DASHBOARD_HTML = """<!DOCTYPE html>
   }
   .video-card:hover { transform: translateY(-3px); border-color: var(--neon-cyan); }
   .video-thumb {
-    width: 100%; height: 260px; background: #000;
+    width: 100%;
+    aspect-ratio: 9 / 16;
+    max-height: 480px;
+    background: #000;
     display: flex; align-items: center; justify-content: center;
     position: relative;
+    border-bottom: 1px solid rgba(255,255,255,0.06);
   }
-  .video-thumb video { width: 100%; height: 100%; object-fit: cover; }
+  .video-thumb video {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    background: #000;
+  }
   .video-details { padding: 14px; }
   .video-title { font-size: 0.85rem; font-weight: 600; margin-bottom: 8px; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
   .video-actions { display: flex; justify-content: space-between; align-items: center; margin-top: 10px; }

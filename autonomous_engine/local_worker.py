@@ -12,6 +12,7 @@ from __future__ import annotations
 import json
 import os
 import shutil
+import subprocess
 import sys
 import time
 
@@ -24,8 +25,8 @@ from pathlib import Path
 from typing import Any, Dict, Optional
 
 from autonomous_engine.production_queue import ProductionQueue, QueueJob
-from video_pipeline.ffmpeg_resolver import create_synthetic_video, get_ffmpeg_exe
-from video_pipeline.ingestion import get_video_info
+from video_pipeline.ffmpeg_resolver import get_ffmpeg_exe
+from video_pipeline.ingestion import download_video, get_video_info
 from video_pipeline.renderer import render_vertical_video
 from video_pipeline.subtitler import export_subtitles
 from video_pipeline.transcriber import TranscriptSegment
@@ -172,17 +173,83 @@ class LocalProductionWorker:
             formats=("srt", "vtt", "ass")
         )
 
-        # 3. PREPARAÇÃO DO VÍDEO BASE E RENDERIZAÇÃO VERTICAL 9:16 (1080x1920)
-        # Se for rota original ou se não houver mídia de terceiro autorizada,
-        # cria b-roll sintético cinemático nativo para a narração
+        # 3. PREPARAÇÃO DO VÍDEO BASE REAL (NUNCA BARRAS SINTÉTICAS TESTSRC)
+        inbox_dir = STORAGE_BASE / "00_INBOX"
+        inbox_dir.mkdir(parents=True, exist_ok=True)
+        raw_video_path = None
+
+        # Tentativa A: Cache local no inbox baseado no ID do vídeo
+        if job.source_url:
+            vid_id = ""
+            if "watch?v=" in job.source_url:
+                vid_id = job.source_url.split("watch?v=")[1].split("&")[0]
+            elif "youtu.be/" in job.source_url:
+                vid_id = job.source_url.split("youtu.be/")[1].split("?")[0]
+            if vid_id and (inbox_dir / f"{vid_id}.mp4").exists() and (inbox_dir / f"{vid_id}.mp4").stat().st_size > 1_000_000:
+                raw_video_path = inbox_dir / f"{vid_id}.mp4"
+                print(f"[Worker] Vídeo oficial já em cache no Inbox: {raw_video_path.name}")
+
+        # Tentativa B: Download direto do vídeo fonte via yt-dlp
+        if not raw_video_path and job.source_url and ("youtube.com" in job.source_url or "youtu.be" in job.source_url):
+            try:
+                print(f"[Worker] Baixando clipe oficial fonte ({job.source_url})...")
+                dl_path = download_video(job.source_url, inbox_dir)
+                if dl_path and Path(dl_path).exists() and Path(dl_path).stat().st_size > 1_000_000:
+                    raw_video_path = Path(dl_path)
+            except Exception as e:
+                print(f"[Worker] Download direto falhou ({e}). Recorrendo ao acervo cinematográfico do Inbox...")
+
+        # Tentativa B: Acervo de b-roll cinematográfico de alta definição no 00_INBOX
+        if not raw_video_path or not raw_video_path.exists():
+            candidates = sorted(
+                [f for f in inbox_dir.glob("*.mp4") if f.stat().st_size > 2_000_000],
+                key=lambda x: x.stat().st_size,
+                reverse=True
+            )
+            if candidates:
+                raw_video_path = candidates[0]
+                print(f"[Worker] Utilizando b-roll cinematográfico oficial: {raw_video_path.name} ({raw_video_path.stat().st_size / 1024 / 1024:.1f} MB)")
+
+        # Tentativa C: Fallback para baixar trailer oficial de GTA 6 caso o Inbox esteja vazio
+        if not raw_video_path or not raw_video_path.exists():
+            official_trailer_url = "https://www.youtube.com/watch?v=QdBZY2fkU-0"
+            try:
+                print(f"[Worker] Baixando acervo mestre de GTA 6 da Rockstar...")
+                dl_path = download_video(official_trailer_url, inbox_dir)
+                raw_video_path = Path(dl_path)
+            except Exception as e:
+                raise RuntimeError(f"Impossível obter filmagem real para o vídeo: {e}")
+
+        # Extrair corte dinâmico 16:9 de 1280x720 com offset variado por job
         base_video_path = edit_dir / f"{job_slug}_base_visual.mp4"
-        total_duration = pipeline_segments[-1].end
-        create_synthetic_video(
-            output_path=base_video_path,
-            duration=max(5.0, total_duration),
-            resolution="1280x720",
-            fps=24
-        )
+        total_duration = max(5.0, pipeline_segments[-1].end)
+
+        # Varia o ponto de início (offset) para que cada vídeo tenha cortes e cenas diferentes
+        src_info = get_video_info(raw_video_path)
+        src_dur = float(src_info.get("duration", 60.0))
+        # Hash pseudo-aleatório determinístico baseado no id do job
+        offset_seed = abs(hash(job.id)) % 35
+        start_sec = 5.0 + offset_seed
+        if start_sec + total_duration > src_dur:
+            start_sec = max(0.0, src_dur - total_duration - 1.0)
+
+        print(f"[Worker] Extraindo corte dinâmico de gameplay/trailer ({start_sec:.1f}s a {start_sec + total_duration:.1f}s)...")
+        cut_cmd = [
+            self.ffmpeg_exe,
+            "-y",
+            "-ss", f"{start_sec:.2f}",
+            "-i", str(raw_video_path),
+            "-t", f"{total_duration:.2f}",
+            "-vf", "scale=1280:720:force_original_aspect_ratio=decrease,pad=1280:720:(ow-iw)/2:(oh-ih)/2",
+            "-c:v", "libx264",
+            "-preset", "fast",
+            "-crf", "20",
+            "-an",
+            str(base_video_path)
+        ]
+        proc = subprocess.run(cut_cmd, stdout=subprocess.PIPE, stderr=subprocess.PIPE, text=True)
+        if proc.returncode != 0 or not base_video_path.exists():
+            raise RuntimeError(f"Falha ao cortar vídeo base com FFmpeg: {proc.stderr}")
 
         final_mp4 = ready_dir / f"{job_slug}_vertical_noite86.mp4"
         cta_text = briefing.get("call_to_action", "COLEÇÃO NOITE 86 // LINK NA BIO")
@@ -230,6 +297,9 @@ class LocalProductionWorker:
         size_bytes = p.stat().st_size
         if size_bytes < 100 * 1024:
             return {"passed": False, "issues": [f"Arquivo corrompido ou muito pequeno: {size_bytes} bytes"]}
+
+        if size_bytes < 3.5 * 1024 * 1024:
+            issues.append(f"Densidade visual insuficiente ({size_bytes / 1024 / 1024:.2f} MB). Risco de artefato estático ou barras sintéticas.")
 
         try:
             info = get_video_info(p)

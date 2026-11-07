@@ -5,6 +5,7 @@ and styled .ass (Advanced SubStation Alpha) subtitle files with accurate timesta
 """
 from __future__ import annotations
 
+import textwrap
 from pathlib import Path
 from typing import Any, Dict, Iterable, List, Sequence, Union
 
@@ -71,17 +72,15 @@ def _extract_segment_fields(seg: Any, fallback_id: int = 1) -> tuple[int, float,
 def generate_srt(segments: Sequence[Union[Dict[str, Any], TranscriptSegment]]) -> str:
     """
     Generate SubRip (.srt) subtitle string.
-    Format:
-    1
-    00:00:01,000 --> 00:00:03,500
-    TEXT CONTENT
+    Lines wrapped to max 32 characters to prevent visual overlap.
     """
     lines: List[str] = []
     for idx, seg in enumerate(segments, start=1):
         _, start, end, text = _extract_segment_fields(seg, idx)
+        wrapped_text = "\n".join(textwrap.wrap(text, width=32)) if len(text) > 32 else text
         lines.append(str(idx))
         lines.append(f"{format_timestamp_srt(start)} --> {format_timestamp_srt(end)}")
-        lines.append(text)
+        lines.append(wrapped_text)
         lines.append("")  # Blank line separator
     return "\n".join(lines).strip() + "\n"
 
@@ -93,19 +92,15 @@ to_srt = generate_srt
 def generate_vtt(segments: Sequence[Union[Dict[str, Any], TranscriptSegment]]) -> str:
     """
     Generate WebVTT (.vtt) subtitle string.
-    Format:
-    WEBVTT
-
-    1
-    00:00:01.000 --> 00:00:03.500
-    TEXT CONTENT
+    Lines wrapped to max 32 characters.
     """
     lines: List[str] = ["WEBVTT", ""]
     for idx, seg in enumerate(segments, start=1):
         _, start, end, text = _extract_segment_fields(seg, idx)
+        wrapped_text = "\n".join(textwrap.wrap(text, width=32)) if len(text) > 32 else text
         lines.append(str(idx))
         lines.append(f"{format_timestamp_vtt(start)} --> {format_timestamp_vtt(end)}")
-        lines.append(text)
+        lines.append(wrapped_text)
         lines.append("")
     return "\n".join(lines).strip() + "\n"
 
@@ -135,7 +130,7 @@ PlayResY: {video_height}
 
 [V4+ Styles]
 Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
-Style: ViceCityNeon,Arial,58,&H0000FFFF,&H000000FF,&H00000000,&H80000000,-1,0,0,0,100,100,0,0,1,5.0,2.0,2,40,40,280,1
+Style: ViceCityNeon,Arial,48,&H0000FFFF,&H000000FF,&H00000000,&H80000000,-1,0,0,0,100,100,0,0,1,3.5,1.5,2,60,60,340,1
 
 [Events]
 Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
@@ -145,7 +140,8 @@ Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
         _, start, end, text = _extract_segment_fields(seg, idx)
         t_start = format_timestamp_ass(start)
         t_end = format_timestamp_ass(end)
-        events.append(f"Dialogue: 0,{t_start},{t_end},ViceCityNeon,,0,0,0,,{text}")
+        wrapped_ass = r"\N".join(textwrap.wrap(text, width=32)) if len(text) > 32 else text
+        events.append(f"Dialogue: 0,{t_start},{t_end},ViceCityNeon,,0,0,0,,{wrapped_ass}")
 
     return header + "\n".join(events) + "\n"
 

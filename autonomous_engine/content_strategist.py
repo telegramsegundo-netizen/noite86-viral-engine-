@@ -123,7 +123,13 @@ class BrazilianContentStrategist:
 
     def _build_script(self, opp: ScoredOpportunity, verdict: RightsVerdict, product: Dict[str, Any]) -> List[ScriptSegment]:
         """Constrói uma narrativa de 4 atos: Gancho (0-4s), Análise (4-14s), Clímax (14-22s), CTA (22-30s)."""
-        facts = opp.item.summary[:150] or "A atmosfera noturna e o nível de detalhes de Vice City tão quebrando a internet."
+        # Limpa e filtra o contexto para garantir português brasileiro puro e conciso
+        facts_raw = opp.item.summary or ""
+        is_english_raw = any(w in facts_raw.lower() for w in ["check out", "subscribe", "edition launch", "trailer for", "developed by", "players can", "official trailer"])
+        if is_english_raw or len(facts_raw.strip()) < 15:
+            facts = "A densidade urbana e a iluminação volumétrica colocam Leonida num patamar nunca antes visto nos videogames."
+        else:
+            facts = facts_raw[:120].strip()
 
         return [
             ScriptSegment(
@@ -138,7 +144,7 @@ class BrazilianContentStrategist:
                 id=2,
                 start_sec=4.6,
                 end_sec=14.0,
-                narration_pt=f"A física da iluminação e o reflexo do asfalto molhado em Ocean Drive tão batendo de frente com a realidade. {facts}",
+                narration_pt=f"A física da iluminação e os reflexos em Ocean Drive tão batendo de frente com a realidade. {facts}",
                 visual_cue="Panorâmica com fundo em boxblur e destaque nos detalhes da cena",
                 on_screen_text="FÍSICA & GRÁFICOS SURREAIS"
             ),

@@ -76,8 +76,9 @@ def build_filtergraph(
         if sub_p.exists():
             safe_sub = escape_ffmpeg_path(sub_p)
             next_node = "subbed"
-            # Style places text ~75% down screen with black border for high contrast
-            style = "FontSize=22,PrimaryColour=&H00FFFFFF,OutlineColour=&H00000000,BorderStyle=1,Outline=2.5,Alignment=2,MarginV=180"
+            # Style places text in mobile safe zone (lower third, right above bottom CTA)
+            # Explicit PlayRes coordinates ensure pixel-accurate scaling on 1080x1920
+            style = f"PlayResY={h},PlayResX={w},Fontsize=42,PrimaryColour=&H00FFFFFF,OutlineColour=&H00000000,BorderStyle=1,Outline=3,Alignment=2,MarginV=300,MarginL=80,MarginR=80"
             filter_chain.append(
                 f"[{current_node}]subtitles='{safe_sub}':force_style='{style}'[{next_node}]"
             )

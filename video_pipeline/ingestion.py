@@ -127,14 +127,21 @@ def download_video(url: str, output_dir: Union[str, Path]) -> Path:
     except ImportError:
         raise RuntimeError("yt-dlp is required to download online videos. Install with 'uv add yt-dlp'.")
 
+    from video_pipeline.ffmpeg_resolver import get_ffmpeg_exe
+    ffmpeg_exe = Path(get_ffmpeg_exe())
+    ffmpeg_dir = ffmpeg_exe.parent
+
     out_template = str(out_dir / "%(id)s.%(ext)s")
     ydl_opts = {
-        "format": "bestvideo[ext=mp4]+bestaudio[ext=m4a]/best[ext=mp4]/best",
+        "format": "bestvideo[height<=720][ext=mp4]+bestaudio[ext=m4a]/best[height<=720][ext=mp4]/best",
         "outtmpl": out_template,
         "merge_output_format": "mp4",
+        "ffmpeg_location": str(ffmpeg_dir),
         "noplaylist": True,
         "quiet": True,
         "no_warnings": True,
+        "retries": 2,
+        "socket_timeout": 10,
     }
 
     with yt_dlp.YoutubeDL(ydl_opts) as ydl:
