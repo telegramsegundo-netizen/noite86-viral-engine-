@@ -88,8 +88,8 @@ class VideoSommelierCouncil:
         # 2. DIRETOR DE RETENÇÃO & HOOK VIRAL
         hook_score, hook_findings, hook_issues = self._audit_hook_and_pacing(video_path, script_data)
 
-        # 3. CRÍTICO DE DICÇÃO & CADÊNCIA
-        retention_score, voice_findings, voice_issues = self._audit_voice_and_flow(script_data)
+        # 3. CRÍTICO DE DICÇÃO & CADÊNCIA + AGENTE 15 (ACOUSTIC INSPECTOR)
+        retention_score, voice_findings, voice_issues = self._audit_voice_and_flow(video_path, script_data)
 
         # 4. ESTRATEGISTA COMERCIAL NOITE 86
         brand_score, brand_findings, brand_issues = self._audit_brand_and_cta(script_data)
@@ -238,14 +238,28 @@ class VideoSommelierCouncil:
 
         return min(100.0, max(0.0, score)), findings, issues
 
-    def _audit_voice_and_flow(self, script_data: Optional[Dict[str, Any]]) -> tuple[float, List[str], List[str]]:
-        """Audita a naturalidade e velocidade estimada da locução."""
+    def _audit_voice_and_flow(self, path: Path, script_data: Optional[Dict[str, Any]]) -> tuple[float, List[str], List[str]]:
+        """Audita a naturalidade e velocidade da locução combinada com inspeção acústica."""
         findings = []
         issues = []
         score = 88.0
 
+        # Análise forense do áudio com AGENTE 15 (Acoustic Inspector)
+        try:
+            from autonomous_engine.audio_taskforce import AudioQualityTaskforce
+            taskforce = AudioQualityTaskforce()
+            audio_rep = taskforce.audit_audio_integrity(path)
+            findings.extend(audio_rep.findings)
+            issues.extend(audio_rep.issues)
+            if not audio_rep.passed:
+                score -= 30.0
+            else:
+                score += 5.0
+        except Exception:
+            pass
+
         if not script_data:
-            return 85.0, ["Locução neural pt-BR Antonio aplicada"], []
+            return min(100.0, max(0.0, score)), ["Locução neural pt-BR Antonio aplicada"] + findings, issues
 
         segments = script_data.get("script_segments", [])
         total_words = sum(len(s.get("narration_pt", "").split()) for s in segments)

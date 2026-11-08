@@ -1,24 +1,32 @@
 {
-  "version": "3.0.0",
-  "last_updated": "2026-11-07T17:37:00Z",
+  "version": "3.1.0",
+  "last_updated": "2026-11-07T20:40:00Z",
   "niches": ["GTA 6", "Vice City", "Rockstar Games", "Gaming Leaks", "Streetwear & Gaming Lifestyle"],
   "sources": [
     {
-      "id": "yt_rockstar_games",
-      "platform": "youtube",
-      "name": "Rockstar Games (Oficial)",
-      "url": "https://www.youtube.com/@RockstarGames",
-      "feed_url": "https://www.youtube.com/feeds/videos.xml?channel_id=UCULwHhkI31JHAKe57LZdzcA",
+      "id": "yt_search_viral_shorts",
+      "platform": "youtube_search",
+      "name": "YouTube Shorts Virais (GTA 6 Vice City)",
+      "query": "ytsearch10:gta 6 viral shorts vice city",
+      "license_category": "unauthorized",
+      "weight": 1.0,
+      "enabled": true
+    },
+    {
+      "id": "yt_search_official_trailers",
+      "platform": "youtube_search",
+      "name": "Rockstar Games & GTA 6 Clips Oficiais",
+      "query": "ytsearch5:GTA 6 trailer official Rockstar",
       "license_category": "public_trailer",
       "weight": 1.0,
       "enabled": true
     },
     {
-      "id": "yt_gta_series_videos",
-      "platform": "youtube",
-      "name": "GTA Series Videos",
-      "url": "https://www.youtube.com/@GTASeriesVideos",
-      "feed_url": "https://www.youtube.com/feeds/videos.xml?channel_id=UCrniLr5HDebHfskhSSAAt0A",
+      "id": "reddit_gta6_rss",
+      "platform": "reddit_rss",
+      "name": "r/GTA6 Trending RSS",
+      "url": "https://www.reddit.com/r/GTA6",
+      "feed_url": "https://www.reddit.com/r/GTA6/.rss",
       "license_category": "unauthorized",
       "weight": 0.95,
       "enabled": true
@@ -26,7 +34,7 @@
     {
       "id": "yt_ign_games",
       "platform": "youtube",
-      "name": "IGN",
+      "name": "IGN Games Feed",
       "url": "https://www.youtube.com/@IGN",
       "feed_url": "https://www.youtube.com/feeds/videos.xml?channel_id=UCKy1dAqELo0zrOtPkf0eTMw",
       "license_category": "unauthorized",
@@ -38,29 +46,9 @@
       "platform": "youtube",
       "name": "GameSpot",
       "url": "https://www.youtube.com/@GameSpot",
-      "feed_url": "https://www.youtube.com/feeds/videos.xml?channel_id=UC5CE6nbu1tjSGha-a_cHAFA",
+      "feed_url": "https://www.youtube.com/feeds/videos.xml?channel_id=UCbu2SsF-Or3Rsn3NxqODImw",
       "license_category": "unauthorized",
       "weight": 0.85,
-      "enabled": true
-    },
-    {
-      "id": "reddit_gta6",
-      "platform": "reddit",
-      "name": "r/GTA6 Community",
-      "url": "https://www.reddit.com/r/GTA6",
-      "feed_url": "https://www.reddit.com/r/GTA6/hot.json?limit=25",
-      "license_category": "unauthorized",
-      "weight": 0.9,
-      "enabled": true
-    },
-    {
-      "id": "google_trends_gta6",
-      "platform": "google_trends",
-      "name": "Google Trends (GTA 6 Global)",
-      "url": "https://trends.google.com",
-      "feed_url": "https://trends.google.com/trending/rss?geo=US",
-      "license_category": "unauthorized",
-      "weight": 0.75,
       "enabled": true
     }
   ]

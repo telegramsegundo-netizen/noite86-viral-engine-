@@ -79,11 +79,18 @@ class ViralRadarEngine:
         for source in self.sources:
             try:
                 platform = source.get("platform")
+                if platform == "youtube_search":
+                    items = self._scan_youtube_search(source)
+                    findings.extend(items)
+                    continue
+
                 feed_url = source.get("feed_url")
                 if not feed_url:
                     continue
-
-                if platform == "youtube":
+                elif platform == "reddit_rss":
+                    items = self._scan_reddit_rss(source)
+                    findings.extend(items)
+                elif platform == "youtube":
                     items = self._scan_youtube_feed(source)
                     findings.extend(items)
                 elif platform == "reddit":
@@ -99,6 +106,83 @@ class ViralRadarEngine:
         self._persist_findings(findings)
         print(f"[RadarEngine] Varredura concluída! {len(findings)} oportunidades identificadas.")
         return findings
+
+    def _scan_youtube_search(self, source: Dict[str, Any]) -> List[DiscoveredItem]:
+        query = source.get("query", "ytsearch10:GTA 6 official trailer")
+        try:
+            import yt_dlp
+            ydl_opts = {"extract_flat": True, "quiet": True, "no_warnings": True}
+            with yt_dlp.YoutubeDL(ydl_opts) as ydl:
+                res = ydl.extract_info(query, download=False)
+                entries = res.get("entries", [])
+        except Exception as e:
+            print(f"[Radar] Erro ao buscar vídeos via ytsearch ({query}): {e}")
+            return []
+
+        results = []
+        for e in entries:
+            vid_id = e.get("id", "")
+            title = e.get("title", "")
+            if not vid_id or not title:
+                continue
+            url = f"https://www.youtube.com/watch?v={vid_id}"
+            views = e.get("view_count", 0) or 0
+            uploader = e.get("uploader", "Criador YouTube")
+            thumb = f"https://i.ytimg.com/vi/{vid_id}/hqdefault.jpg" if vid_id else ""
+            item_id = hashlib.sha256(f"ytsearch_{vid_id}".encode("utf-8")).hexdigest()[:16]
+
+            item = DiscoveredItem(
+                id=item_id,
+                platform="youtube_shorts" if "short" in query else "youtube",
+                source_name=source["name"],
+                author=uploader,
+                title=title,
+                url=url,
+                published_at=datetime.now(timezone.utc).isoformat(),
+                discovered_at=datetime.now(timezone.utc).isoformat(),
+                summary=f"Vídeo em alta com {views:,} visualizações no canal {uploader}.",
+                thumbnail=thumb,
+                license_category=source.get("license_category", "unauthorized"),
+                niche_tags=["gta6", "viral_clip"],
+                raw_metrics={"views": views, "platform_weight": source.get("weight", 1.0)}
+            )
+            results.append(item)
+        return results
+
+    def _scan_reddit_rss(self, source: Dict[str, Any]) -> List[DiscoveredItem]:
+        feed_url = source.get("feed_url", "https://www.reddit.com/r/GTA6/.rss")
+        try:
+            feed = feedparser.parse(feed_url)
+        except Exception as e:
+            print(f"[Radar] Falha ao ler RSS Reddit ({feed_url}): {e}")
+            return []
+
+        results = []
+        for entry in feed.entries[:15]:
+            title = entry.get("title", "")
+            url = entry.get("link", "")
+            if not title or not url:
+                continue
+            author = entry.get("author", "reddit_community")
+            item_id = hashlib.sha256(f"reddit_rss_{url}".encode("utf-8")).hexdigest()[:16]
+
+            item = DiscoveredItem(
+                id=item_id,
+                platform="reddit",
+                source_name=source["name"],
+                author=author,
+                title=title,
+                url=url,
+                published_at=entry.get("published", datetime.now(timezone.utc).isoformat()),
+                discovered_at=datetime.now(timezone.utc).isoformat(),
+                summary=f"Discussão em alta na comunidade r/GTA6: {title}",
+                thumbnail="",
+                license_category=source.get("license_category", "unauthorized"),
+                niche_tags=["gta6_community", "reddit_hot"],
+                raw_metrics={"views": 50000, "platform_weight": source.get("weight", 0.95)}
+            )
+            results.append(item)
+        return results
 
     def _scan_youtube_feed(self, source: Dict[str, Any]) -> List[DiscoveredItem]:
         feed_url = source["feed_url"]

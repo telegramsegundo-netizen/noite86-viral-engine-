@@ -196,23 +196,27 @@ def render_vertical_video(
         "-pix_fmt", "yuv420p",
     ])
 
-    # Audio mapping & mixing logic
-    if has_narration and has_audio:
-        # Mix background audio (ducked to 15%) with clear narration (100%)
-        # Note: In filter_complex, we can add audio mix or use -filter_complex with audio labels
-        # Let's append audio filter to filter_complex or use -filter_complex
-        # To keep it clean and robust across FFmpeg versions:
-        audio_filter = "[0:a]volume=0.15[bg_a];[1:a]volume=1.0[nar_a];[bg_a][nar_a]amix=inputs=2:duration=longest:dropout_transition=0[aout]"
-        # Update cmd: replace -filter_complex with combined video+audio filter_complex
-        combined_filter = f"{filter_complex};{audio_filter}"
-        # Replace the earlier -filter_complex entry
-        fc_idx = cmd.index("-filter_complex")
-        cmd[fc_idx + 1] = combined_filter
-        cmd.extend(["-map", "[aout]", "-c:a", "aac", "-b:a", "192k"])
-    elif has_narration and not has_audio:
-        cmd.extend(["-map", "1:a", "-c:a", "aac", "-b:a", "192k"])
-    elif has_audio:
-        cmd.extend(["-map", "0:a?", "-c:a", "aac", "-b:a", "128k"])
+    # Audio mapping & mixing logic com AGENTE 14 (Audio Mastering Engineer)
+    from autonomous_engine.audio_taskforce import AudioQualityTaskforce
+    audio_engine = AudioQualityTaskforce()
+
+    if has_narration or has_audio:
+        mastered_audio_filter = audio_engine.build_broadcast_audio_filter(
+            has_narration=has_narration,
+            has_video_audio=has_audio,
+            bg_volume=0.12,
+            narration_volume=1.0,
+            target_lufs=-14.0
+        )
+        if mastered_audio_filter:
+            combined_filter = f"{filter_complex};{mastered_audio_filter}"
+            fc_idx = cmd.index("-filter_complex")
+            cmd[fc_idx + 1] = combined_filter
+            cmd.extend(["-map", "[aout]", "-c:a", "aac", "-b:a", "192k", "-ar", "48000"])
+        elif has_narration:
+            cmd.extend(["-map", "1:a", "-c:a", "aac", "-b:a", "192k", "-ar", "48000"])
+        elif has_audio:
+            cmd.extend(["-map", "0:a?", "-c:a", "aac", "-b:a", "128k", "-ar", "48000"])
 
     # Ensure output is clipped to the shortest or padded properly
     cmd.extend(["-shortest", str(out_path)])

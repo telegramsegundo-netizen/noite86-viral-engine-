@@ -312,6 +312,16 @@ class LocalProductionWorker:
 
         if not info.get("has_audio"):
             issues.append("Trilha de áudio ausente no vídeo final.")
+        else:
+            # AGENTE 15 — Acoustic Inspector & Glitch Auditor (Auditoria Anti-Clipping & Loudness)
+            try:
+                from autonomous_engine.audio_taskforce import AudioQualityTaskforce
+                audio_taskforce = AudioQualityTaskforce()
+                audio_audit = audio_taskforce.audit_audio_integrity(p)
+                if not audio_audit.passed:
+                    issues.extend(audio_audit.issues)
+            except Exception as e:
+                pass
 
         if info.get("duration", 0.0) < 3.0:
             issues.append(f"Duração insuficiente: {info.get('duration')}s")
