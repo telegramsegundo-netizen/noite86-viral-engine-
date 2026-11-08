@@ -154,44 +154,41 @@ class VoiceEngine:
         target_total_duration: Optional[float] = None,
     ):
         """
-        Combina os segmentos de áudio aplicando delay / silêncio nos pontos exatos de tempo (timestamps).
+        Combina os segmentos de forma linear e sequencial garantindo ZERO sobreposição (zero duplicidade).
+        Atualiza os timestamps de cada TranscriptSegment in-place para sincronizar perfeitamente as legendas.
         """
-        # Constrói comando com adelay para cada segmento
-        filter_complex_parts = []
-        mix_inputs = []
+        current_time = 0.25  # Entrada natural de 250ms
+        concat_txt = output_path.parent / f"concat_{output_path.stem}.txt"
 
-        for idx, (seg, audio_file) in enumerate(zip(segments, segment_files)):
-            delay_ms = int(max(0.0, seg.start) * 1000)
-            mix_inputs.extend(["-i", str(audio_file)])
-            filter_complex_parts.append(f"[{idx}:a]adelay={delay_ms}|{delay_ms}[a{idx}]")
+        try:
+            with open(concat_txt, "w", encoding="utf-8") as f:
+                for seg, sf in zip(segments, segment_files):
+                    dur = self._get_audio_duration(sf)
+                    seg.start = current_time
+                    seg.end = current_time + dur
+                    current_time = seg.end + 0.35  # Pausa natural de respiração (350ms)
+                    f.write(f"file '{sf.resolve().as_posix()}'\n")
 
-        concat_nodes = "".join(f"[a{i}]" for i in range(len(segments)))
-        filter_complex_parts.append(
-            f"{concat_nodes}amix=inputs={len(segments)}:dropout_transition=0:normalize=0[aout]"
-        )
-
-        full_filter = ";".join(filter_complex_parts)
-
-        cmd = [
-            self.ffmpeg_exe,
-            "-y",
-            *mix_inputs,
-            "-filter_complex", full_filter,
-            "-map", "[aout]",
-            "-ac", "2",
-            "-ar", "44100",
-            str(output_path),
-        ]
-
-        # Se houver duração total especificada, limitar
-        if target_total_duration and target_total_duration > 0:
-            cmd.insert(-1, "-t")
-            cmd.insert(-1, str(target_total_duration))
-
-        proc = subprocess.run(cmd, stdout=subprocess.PIPE, stderr=subprocess.PIPE, text=True)
-        if proc.returncode != 0:
-            # Fallback seguro: concatenação simples se adelay falhar
-            self._fallback_simple_concat(segment_files, output_path)
+            cmd = [
+                self.ffmpeg_exe,
+                "-y",
+                "-f", "concat",
+                "-safe", "0",
+                "-i", str(concat_txt),
+                "-c:a", "libmp3lame",
+                "-b:a", "192k",
+                "-ar", "48000",
+                str(output_path),
+            ]
+            proc = subprocess.run(cmd, stdout=subprocess.PIPE, stderr=subprocess.PIPE, text=True)
+            if proc.returncode != 0:
+                raise RuntimeError(f"FFmpeg falhou ao concatenar narração: {proc.stderr}")
+        finally:
+            if concat_txt.exists():
+                try:
+                    concat_txt.unlink()
+                except Exception:
+                    pass
 
     def _fallback_simple_concat(self, segment_files: List[Path], output_path: Path):
         """Concatenação linear de emergência."""
