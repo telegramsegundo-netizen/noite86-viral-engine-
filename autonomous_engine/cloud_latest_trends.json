@@ -27,6 +27,32 @@
     "thumbnail": "https://i.ytimg.com/vi/fLX3S_rWldQ/hqdefault.jpg"
   },
   {
+    "id": "d1c78fe93c98bc73",
+    "title": "Main Sequence - Official Early Access Launch Trailer",
+    "url": "https://www.youtube.com/watch?v=1wsSASi_xQM",
+    "platform": "youtube",
+    "author": "IGN",
+    "source_name": "IGN Games Feed",
+    "published_at": "2026-11-14T15:00:28+00:00",
+    "license_category": "unauthorized",
+    "niche_tags": [
+      "trailer",
+      "gameplay"
+    ],
+    "viral_score": 79.2,
+    "score_breakdown": {
+      "recency": 25.0,
+      "keyword_impact": 18.0,
+      "source_authority": 21.25,
+      "brazilian_fit": 15.0
+    },
+    "priority_level": "HIGH",
+    "recommended_angle_br": "Análise quadro a quadro de novidades e detalhes ocultos no novo material de GTA 6.",
+    "suggested_hook_pt": "🚨 VOCÊ VIU ISSO?! Novo material oficial de GTA 6 revelou detalhes inacreditáveis!",
+    "status": "analyzed",
+    "thumbnail": "https://i.ytimg.com/vi/1wsSASi_xQM/hqdefault.jpg"
+  },
+  {
     "id": "4e355cbc87c00f0d",
     "title": "Echofall - Official Gameplay Trailer",
     "url": "https://www.youtube.com/watch?v=F95exfVaiUo",
@@ -51,32 +77,6 @@
     "suggested_hook_pt": "🚨 VOCÊ VIU ISSO?! Novo material oficial de GTA 6 revelou detalhes inacreditáveis!",
     "status": "analyzed",
     "thumbnail": "https://i.ytimg.com/vi/F95exfVaiUo/hqdefault.jpg"
-  },
-  {
-    "id": "77db0dc010860bdf",
-    "title": "Official GTA VI Support Articles (Pre-order, Pre-load, and Launch Day)",
-    "url": "https://www.reddit.com/r/GTA6/comments/1xvbbze/official_gta_vi_support_articles_preorder_preload/",
-    "platform": "reddit",
-    "author": "/u/PapaXan",
-    "source_name": "r/GTA6 Trending RSS",
-    "published_at": "2026-11-13T15:49:01+00:00",
-    "license_category": "unauthorized",
-    "niche_tags": [
-      "gta6_community",
-      "reddit_hot"
-    ],
-    "viral_score": 78.8,
-    "score_breakdown": {
-      "recency": 25.0,
-      "keyword_impact": 15.0,
-      "source_authority": 23.75,
-      "brazilian_fit": 15.0
-    },
-    "priority_level": "HIGH",
-    "recommended_angle_br": "Análise quadro a quadro de novidades e detalhes ocultos no novo material de GTA 6.",
-    "suggested_hook_pt": "🚨 VOCÊ VIU ISSO?! Novo material oficial de GTA 6 revelou detalhes inacreditáveis!",
-    "status": "analyzed",
-    "thumbnail": ""
   },
   {
     "id": "ca1bdcf456d527a6",
@@ -105,6 +105,32 @@
     "thumbnail": "https://i.ytimg.com/vi/aMlb_46db8o/hqdefault.jpg"
   },
   {
+    "id": "77db0dc010860bdf",
+    "title": "Official GTA VI Support Articles (Pre-order, Pre-load, and Launch Day)",
+    "url": "https://www.reddit.com/r/GTA6/comments/1xvbbze/official_gta_vi_support_articles_preorder_preload/",
+    "platform": "reddit",
+    "author": "/u/PapaXan",
+    "source_name": "r/GTA6 Trending RSS",
+    "published_at": "2026-11-13T15:49:01+00:00",
+    "license_category": "unauthorized",
+    "niche_tags": [
+      "gta6_community",
+      "reddit_hot"
+    ],
+    "viral_score": 73.8,
+    "score_breakdown": {
+      "recency": 20.0,
+      "keyword_impact": 15.0,
+      "source_authority": 23.75,
+      "brazilian_fit": 15.0
+    },
+    "priority_level": "HIGH",
+    "recommended_angle_br": "Análise quadro a quadro de novidades e detalhes ocultos no novo material de GTA 6.",
+    "suggested_hook_pt": "🚨 VOCÊ VIU ISSO?! Novo material oficial de GTA 6 revelou detalhes inacreditáveis!",
+    "status": "analyzed",
+    "thumbnail": ""
+  },
+  {
     "id": "0e2ff0fc517a71e2",
     "title": "From GameRoll on X: “Here is The Guardian’s full exclusive GTA 6 story from their Saturday edition.”",
     "url": "https://www.reddit.com/r/GTA6/comments/1xvpcia/from_gameroll_on_x_here_is_the_guardians_full/",
@@ -112,6 +138,32 @@
     "author": "/u/yourfavchoom",
     "source_name": "r/GTA6 Trending RSS",
     "published_at": "2026-11-14T01:09:35+00:00",
+    "license_category": "unauthorized",
+    "niche_tags": [
+      "gta6_community",
+      "reddit_hot"
+    ],
+    "viral_score": 73.8,
+    "score_breakdown": {
+      "recency": 25.0,
+      "keyword_impact": 15.0,
+      "source_authority": 23.75,
+      "brazilian_fit": 10.0
+    },
+    "priority_level": "HIGH",
+    "recommended_angle_br": "Curiosidade imperdível sobre a ambientação e tecnologia da nova era de Vice City.",
+    "suggested_hook_pt": "👀 SE LIGA NESSE DETALHE DE GTA 6 QUE QUASE NINGUÉM PERCEBEU!",
+    "status": "analyzed",
+    "thumbnail": ""
+  },
+  {
+    "id": "265d9e9486cf8271",
+    "title": "My friend gifted me GTA 6, but he's from France. Will I still be able to play it on English? 😭",
+    "url": "https://www.reddit.com/r/GTA6/comments/1xvzgsa/my_friend_gifted_me_gta_6_but_hes_from_france/",
+    "platform": "reddit",
+    "author": "/u/Cabbage-Chan",
+    "source_name": "r/GTA6 Trending RSS",
+    "published_at": "2026-11-14T10:44:16+00:00",
     "license_category": "unauthorized",
     "niche_tags": [
       "gta6_community",
@@ -157,30 +209,57 @@
     "thumbnail": ""
   },
   {
-    "id": "7dcda540809656c9",
-    "title": "Real Life vs GTA 6 side by side",
-    "url": "https://www.reddit.com/r/GTA6/comments/1xve44j/real_life_vs_gta_6_side_by_side/",
-    "platform": "reddit",
-    "author": "/u/StingingGamer",
-    "source_name": "r/GTA6 Trending RSS",
-    "published_at": "2026-11-13T17:32:08+00:00",
+    "id": "bb53b7b987c0ca82",
+    "title": "World War Z - Official \"Viral State\" Update Trailer",
+    "url": "https://www.youtube.com/watch?v=D1vR_-5ZJqU",
+    "platform": "youtube",
+    "author": "IGN",
+    "source_name": "IGN Games Feed",
+    "published_at": "2026-11-14T16:00:22+00:00",
     "license_category": "unauthorized",
     "niche_tags": [
-      "gta6_community",
-      "reddit_hot"
+      "trailer",
+      "miami",
+      "ps5",
+      "xbox"
     ],
-    "viral_score": 73.8,
+    "viral_score": 71.2,
     "score_breakdown": {
       "recency": 25.0,
-      "keyword_impact": 15.0,
-      "source_authority": 23.75,
-      "brazilian_fit": 10.0
+      "keyword_impact": 10.0,
+      "source_authority": 21.25,
+      "brazilian_fit": 15.0
     },
     "priority_level": "HIGH",
-    "recommended_angle_br": "Curiosidade imperdível sobre a ambientação e tecnologia da nova era de Vice City.",
-    "suggested_hook_pt": "👀 SE LIGA NESSE DETALHE DE GTA 6 QUE QUASE NINGUÉM PERCEBEU!",
+    "recommended_angle_br": "Análise quadro a quadro de novidades e detalhes ocultos no novo material de GTA 6.",
+    "suggested_hook_pt": "🚨 VOCÊ VIU ISSO?! Novo material oficial de GTA 6 revelou detalhes inacreditáveis!",
     "status": "analyzed",
-    "thumbnail": ""
+    "thumbnail": "https://i.ytimg.com/vi/D1vR_-5ZJqU/hqdefault.jpg"
+  },
+  {
+    "id": "9746b96fabb4bffe",
+    "title": "Ground Branch: Chapter 1 - Official Launch Trailer",
+    "url": "https://www.youtube.com/watch?v=8LE0G5w9mWU",
+    "platform": "youtube",
+    "author": "IGN",
+    "source_name": "IGN Games Feed",
+    "published_at": "2026-11-14T14:00:10+00:00",
+    "license_category": "unauthorized",
+    "niche_tags": [
+      "trailer"
+    ],
+    "viral_score": 71.2,
+    "score_breakdown": {
+      "recency": 25.0,
+      "keyword_impact": 10.0,
+      "source_authority": 21.25,
+      "brazilian_fit": 15.0
+    },
+    "priority_level": "HIGH",
+    "recommended_angle_br": "Análise quadro a quadro de novidades e detalhes ocultos no novo material de GTA 6.",
+    "suggested_hook_pt": "🚨 VOCÊ VIU ISSO?! Novo material oficial de GTA 6 revelou detalhes inacreditáveis!",
+    "status": "analyzed",
+    "thumbnail": "https://i.ytimg.com/vi/8LE0G5w9mWU/hqdefault.jpg"
   },
   {
     "id": "d2851fd5587886d8",
@@ -209,31 +288,6 @@
     "thumbnail": "https://i.ytimg.com/vi/WWuoxuA9ewI/hqdefault.jpg"
   },
   {
-    "id": "b42c309498a6d4d3",
-    "title": "Wilderdark - Official Launch Trailer",
-    "url": "https://www.youtube.com/watch?v=R85EiqrjJBg",
-    "platform": "youtube",
-    "author": "IGN",
-    "source_name": "IGN Games Feed",
-    "published_at": "2026-11-14T00:00:21+00:00",
-    "license_category": "unauthorized",
-    "niche_tags": [
-      "trailer"
-    ],
-    "viral_score": 71.2,
-    "score_breakdown": {
-      "recency": 25.0,
-      "keyword_impact": 10.0,
-      "source_authority": 21.25,
-      "brazilian_fit": 15.0
-    },
-    "priority_level": "HIGH",
-    "recommended_angle_br": "Análise quadro a quadro de novidades e detalhes ocultos no novo material de GTA 6.",
-    "suggested_hook_pt": "🚨 VOCÊ VIU ISSO?! Novo material oficial de GTA 6 revelou detalhes inacreditáveis!",
-    "status": "analyzed",
-    "thumbnail": "https://i.ytimg.com/vi/R85EiqrjJBg/hqdefault.jpg"
-  },
-  {
     "id": "c59b79211c90854b",
     "title": "Stranger Than Heaven - Act 2: Kure Story Overview Trailer",
     "url": "https://www.youtube.com/watch?v=Gmyq8J-Ox5I",
@@ -246,97 +300,18 @@
       "trailer",
       "gameplay"
     ],
-    "viral_score": 71.2,
+    "viral_score": 66.2,
     "score_breakdown": {
-      "recency": 25.0,
+      "recency": 20.0,
       "keyword_impact": 10.0,
       "source_authority": 21.25,
       "brazilian_fit": 15.0
     },
-    "priority_level": "HIGH",
+    "priority_level": "MEDIUM",
     "recommended_angle_br": "Análise quadro a quadro de novidades e detalhes ocultos no novo material de GTA 6.",
     "suggested_hook_pt": "🚨 VOCÊ VIU ISSO?! Novo material oficial de GTA 6 revelou detalhes inacreditáveis!",
     "status": "analyzed",
     "thumbnail": "https://i.ytimg.com/vi/Gmyq8J-Ox5I/hqdefault.jpg"
-  },
-  {
-    "id": "9ed9d6df6f17cac7",
-    "title": "Can we talk about how hard Jason rocks this guy?",
-    "url": "https://www.reddit.com/r/GTA6/comments/1xvqik3/can_we_talk_about_how_hard_jason_rocks_this_guy/",
-    "platform": "reddit",
-    "author": "/u/IsaiahPheifer123",
-    "source_name": "r/GTA6 Trending RSS",
-    "published_at": "2026-11-14T02:08:21+00:00",
-    "license_category": "unauthorized",
-    "niche_tags": [
-      "gta6_community",
-      "reddit_hot"
-    ],
-    "viral_score": 66.8,
-    "score_breakdown": {
-      "recency": 25.0,
-      "keyword_impact": 8.0,
-      "source_authority": 23.75,
-      "brazilian_fit": 10.0
-    },
-    "priority_level": "MEDIUM",
-    "recommended_angle_br": "Curiosidade imperdível sobre a ambientação e tecnologia da nova era de Vice City.",
-    "suggested_hook_pt": "👀 SE LIGA NESSE DETALHE DE GTA 6 QUE QUASE NINGUÉM PERCEBEU!",
-    "status": "analyzed",
-    "thumbnail": ""
-  },
-  {
-    "id": "ee0ef5aca3a61311",
-    "title": "Jason’s hair doesn’t stick out the hole in his hats anymore",
-    "url": "https://www.reddit.com/r/GTA6/comments/1xvtkei/jasons_hair_doesnt_stick_out_the_hole_in_his_hats/",
-    "platform": "reddit",
-    "author": "/u/Frequent-Engineer-87",
-    "source_name": "r/GTA6 Trending RSS",
-    "published_at": "2026-11-14T04:48:31+00:00",
-    "license_category": "unauthorized",
-    "niche_tags": [
-      "gta6_community",
-      "reddit_hot"
-    ],
-    "viral_score": 66.8,
-    "score_breakdown": {
-      "recency": 25.0,
-      "keyword_impact": 8.0,
-      "source_authority": 23.75,
-      "brazilian_fit": 10.0
-    },
-    "priority_level": "MEDIUM",
-    "recommended_angle_br": "Curiosidade imperdível sobre a ambientação e tecnologia da nova era de Vice City.",
-    "suggested_hook_pt": "👀 SE LIGA NESSE DETALHE DE GTA 6 QUE QUASE NINGUÉM PERCEBEU!",
-    "status": "analyzed",
-    "thumbnail": ""
-  },
-  {
-    "id": "2800ba26bfc705a3",
-    "title": "Attack on Titan 3 - Official 'Character Interactions & Expeditions Beyond the Walls' Gameplay",
-    "url": "https://www.youtube.com/watch?v=rXr5Cu6SIus",
-    "platform": "youtube",
-    "author": "IGN",
-    "source_name": "IGN Games Feed",
-    "published_at": "2026-11-14T01:00:28+00:00",
-    "license_category": "unauthorized",
-    "niche_tags": [
-      "gameplay",
-      "ps5",
-      "xbox"
-    ],
-    "viral_score": 64.2,
-    "score_breakdown": {
-      "recency": 25.0,
-      "keyword_impact": 8.0,
-      "source_authority": 21.25,
-      "brazilian_fit": 10.0
-    },
-    "priority_level": "MEDIUM",
-    "recommended_angle_br": "Curiosidade imperdível sobre a ambientação e tecnologia da nova era de Vice City.",
-    "suggested_hook_pt": "👀 SE LIGA NESSE DETALHE DE GTA 6 QUE QUASE NINGUÉM PERCEBEU!",
-    "status": "analyzed",
-    "thumbnail": "https://i.ytimg.com/vi/rXr5Cu6SIus/hqdefault.jpg"
   },
   {
     "id": "1ec6f86c93cafc19",
@@ -362,6 +337,32 @@
     "suggested_hook_pt": "👀 SE LIGA NESSE DETALHE DE GTA 6 QUE QUASE NINGUÉM PERCEBEU!",
     "status": "analyzed",
     "thumbnail": "https://i.ytimg.com/vi/umE5GjzHUlM/hqdefault.jpg"
+  },
+  {
+    "id": "c1cdb2f0c71a424e",
+    "title": "[GTA6 RECAP] Most of us were witnessing this through all these years so now - on the last weekend before launch - let’s sit comfortably and remind ourselves how this whole process went",
+    "url": "https://www.reddit.com/r/GTA6/comments/1xw2wnd/gta6_recap_most_of_us_were_witnessing_this/",
+    "platform": "reddit",
+    "author": "/u/zabovsky",
+    "source_name": "r/GTA6 Trending RSS",
+    "published_at": "2026-11-14T13:52:00+00:00",
+    "license_category": "unauthorized",
+    "niche_tags": [
+      "gta6_community",
+      "reddit_hot"
+    ],
+    "viral_score": 63.8,
+    "score_breakdown": {
+      "recency": 25.0,
+      "keyword_impact": 0.0,
+      "source_authority": 23.75,
+      "brazilian_fit": 15.0
+    },
+    "priority_level": "MEDIUM",
+    "recommended_angle_br": "Análise quadro a quadro de novidades e detalhes ocultos no novo material de GTA 6.",
+    "suggested_hook_pt": "🚨 VOCÊ VIU ISSO?! Novo material oficial de GTA 6 revelou detalhes inacreditáveis!",
+    "status": "analyzed",
+    "thumbnail": ""
   },
   {
     "id": "c211bb7e0040758c",
@@ -390,13 +391,13 @@
     "thumbnail": "https://i.ytimg.com/vi/iEZUY04k3eQ/hqdefault.jpg"
   },
   {
-    "id": "55c0769a39212e39",
-    "title": "Wolfenstein 3 Is Officially in Development - IGN Daily Fix",
-    "url": "https://www.youtube.com/watch?v=SulHI_kf8Ic",
+    "id": "04ece439c27e71f2",
+    "title": "Crimson Desert: Charting the Unknown Review",
+    "url": "https://www.youtube.com/watch?v=Y9UlFxxlyL4",
     "platform": "youtube",
     "author": "IGN",
     "source_name": "IGN Games Feed",
-    "published_at": "2026-11-13T23:21:10+00:00",
+    "published_at": "2026-11-14T15:03:37+00:00",
     "license_category": "unauthorized",
     "niche_tags": [
       "xbox"
@@ -412,7 +413,137 @@
     "recommended_angle_br": "Curiosidade imperdível sobre a ambientação e tecnologia da nova era de Vice City.",
     "suggested_hook_pt": "👀 SE LIGA NESSE DETALHE DE GTA 6 QUE QUASE NINGUÉM PERCEBEU!",
     "status": "analyzed",
-    "thumbnail": "https://i.ytimg.com/vi/SulHI_kf8Ic/hqdefault.jpg"
+    "thumbnail": "https://i.ytimg.com/vi/Y9UlFxxlyL4/hqdefault.jpg"
+  },
+  {
+    "id": "3a2bbf6b020740a7",
+    "title": "All of us",
+    "url": "https://www.reddit.com/r/GTA6/comments/1xvvmd7/all_of_us/",
+    "platform": "reddit",
+    "author": "/u/Papa_Zombieee",
+    "source_name": "r/GTA6 Trending RSS",
+    "published_at": "2026-11-14T06:44:14+00:00",
+    "license_category": "unauthorized",
+    "niche_tags": [
+      "gta6_community",
+      "reddit_hot"
+    ],
+    "viral_score": 58.8,
+    "score_breakdown": {
+      "recency": 25.0,
+      "keyword_impact": 0.0,
+      "source_authority": 23.75,
+      "brazilian_fit": 10.0
+    },
+    "priority_level": "MEDIUM",
+    "recommended_angle_br": "Curiosidade imperdível sobre a ambientação e tecnologia da nova era de Vice City.",
+    "suggested_hook_pt": "👀 SE LIGA NESSE DETALHE DE GTA 6 QUE QUASE NINGUÉM PERCEBEU!",
+    "status": "analyzed",
+    "thumbnail": ""
+  },
+  {
+    "id": "dd44866ab80ed371",
+    "title": "It’s been a hell of a run!",
+    "url": "https://www.reddit.com/r/GTA6/comments/1xw0bnd/its_been_a_hell_of_a_run/",
+    "platform": "reddit",
+    "author": "/u/twasham21",
+    "source_name": "r/GTA6 Trending RSS",
+    "published_at": "2026-11-14T11:36:35+00:00",
+    "license_category": "unauthorized",
+    "niche_tags": [
+      "gta6_community",
+      "reddit_hot"
+    ],
+    "viral_score": 58.8,
+    "score_breakdown": {
+      "recency": 25.0,
+      "keyword_impact": 0.0,
+      "source_authority": 23.75,
+      "brazilian_fit": 10.0
+    },
+    "priority_level": "MEDIUM",
+    "recommended_angle_br": "Curiosidade imperdível sobre a ambientação e tecnologia da nova era de Vice City.",
+    "suggested_hook_pt": "👀 SE LIGA NESSE DETALHE DE GTA 6 QUE QUASE NINGUÉM PERCEBEU!",
+    "status": "analyzed",
+    "thumbnail": ""
+  },
+  {
+    "id": "f06e00b17b33a3ee",
+    "title": "They have 4 days to fix the sprinklers",
+    "url": "https://www.reddit.com/r/GTA6/comments/1xvyu2x/they_have_4_days_to_fix_the_sprinklers/",
+    "platform": "reddit",
+    "author": "/u/FaultExcellent3306",
+    "source_name": "r/GTA6 Trending RSS",
+    "published_at": "2026-11-14T10:04:35+00:00",
+    "license_category": "unauthorized",
+    "niche_tags": [
+      "gta6_community",
+      "reddit_hot"
+    ],
+    "viral_score": 58.8,
+    "score_breakdown": {
+      "recency": 25.0,
+      "keyword_impact": 0.0,
+      "source_authority": 23.75,
+      "brazilian_fit": 10.0
+    },
+    "priority_level": "MEDIUM",
+    "recommended_angle_br": "Curiosidade imperdível sobre a ambientação e tecnologia da nova era de Vice City.",
+    "suggested_hook_pt": "👀 SE LIGA NESSE DETALHE DE GTA 6 QUE QUASE NINGUÉM PERCEBEU!",
+    "status": "analyzed",
+    "thumbnail": ""
+  },
+  {
+    "id": "aaeea84e993d1fcd",
+    "title": "Hmm... a coincidence? I don't think so.",
+    "url": "https://www.reddit.com/r/GTA6/comments/1xw48sb/hmm_a_coincidence_i_dont_think_so/",
+    "platform": "reddit",
+    "author": "/u/Ph0enixes",
+    "source_name": "r/GTA6 Trending RSS",
+    "published_at": "2026-11-14T14:51:24+00:00",
+    "license_category": "unauthorized",
+    "niche_tags": [
+      "gta6_community",
+      "reddit_hot"
+    ],
+    "viral_score": 58.8,
+    "score_breakdown": {
+      "recency": 25.0,
+      "keyword_impact": 0.0,
+      "source_authority": 23.75,
+      "brazilian_fit": 10.0
+    },
+    "priority_level": "MEDIUM",
+    "recommended_angle_br": "Curiosidade imperdível sobre a ambientação e tecnologia da nova era de Vice City.",
+    "suggested_hook_pt": "👀 SE LIGA NESSE DETALHE DE GTA 6 QUE QUASE NINGUÉM PERCEBEU!",
+    "status": "analyzed",
+    "thumbnail": ""
+  },
+  {
+    "id": "95512b16e553c1f0",
+    "title": "Oh No!",
+    "url": "https://www.reddit.com/r/GTA6/comments/1xw3vrc/oh_no/",
+    "platform": "reddit",
+    "author": "/u/Quantenbohrer",
+    "source_name": "r/GTA6 Trending RSS",
+    "published_at": "2026-11-14T14:35:20+00:00",
+    "license_category": "unauthorized",
+    "niche_tags": [
+      "gta6_community",
+      "reddit_hot"
+    ],
+    "viral_score": 58.8,
+    "score_breakdown": {
+      "recency": 25.0,
+      "keyword_impact": 0.0,
+      "source_authority": 23.75,
+      "brazilian_fit": 10.0
+    },
+    "priority_level": "MEDIUM",
+    "recommended_angle_br": "Curiosidade imperdível sobre a ambientação e tecnologia da nova era de Vice City.",
+    "suggested_hook_pt": "👀 SE LIGA NESSE DETALHE DE GTA 6 QUE QUASE NINGUÉM PERCEBEU!",
+    "status": "analyzed",
+    "thumbnail": ""
   },
   {
     "id": "afc762f75d873844",
@@ -422,6 +553,58 @@
     "author": "/u/WoodenTension5524",
     "source_name": "r/GTA6 Trending RSS",
     "published_at": "2026-11-13T23:56:07+00:00",
+    "license_category": "unauthorized",
+    "niche_tags": [
+      "gta6_community",
+      "reddit_hot"
+    ],
+    "viral_score": 58.8,
+    "score_breakdown": {
+      "recency": 25.0,
+      "keyword_impact": 0.0,
+      "source_authority": 23.75,
+      "brazilian_fit": 10.0
+    },
+    "priority_level": "MEDIUM",
+    "recommended_angle_br": "Curiosidade imperdível sobre a ambientação e tecnologia da nova era de Vice City.",
+    "suggested_hook_pt": "👀 SE LIGA NESSE DETALHE DE GTA 6 QUE QUASE NINGUÉM PERCEBEU!",
+    "status": "analyzed",
+    "thumbnail": ""
+  },
+  {
+    "id": "bf3d1183328baa1a",
+    "title": "Spotted in Rotterdam, The Netherlands.",
+    "url": "https://www.reddit.com/r/GTA6/comments/1xw04k5/spotted_in_rotterdam_the_netherlands/",
+    "platform": "reddit",
+    "author": "/u/chiefkeefsosababy600",
+    "source_name": "r/GTA6 Trending RSS",
+    "published_at": "2026-11-14T11:24:23+00:00",
+    "license_category": "unauthorized",
+    "niche_tags": [
+      "gta6_community",
+      "reddit_hot"
+    ],
+    "viral_score": 58.8,
+    "score_breakdown": {
+      "recency": 25.0,
+      "keyword_impact": 0.0,
+      "source_authority": 23.75,
+      "brazilian_fit": 10.0
+    },
+    "priority_level": "MEDIUM",
+    "recommended_angle_br": "Curiosidade imperdível sobre a ambientação e tecnologia da nova era de Vice City.",
+    "suggested_hook_pt": "👀 SE LIGA NESSE DETALHE DE GTA 6 QUE QUASE NINGUÉM PERCEBEU!",
+    "status": "analyzed",
+    "thumbnail": ""
+  },
+  {
+    "id": "30c860210bcaaa11",
+    "title": "What's Wendy's up to?",
+    "url": "https://www.reddit.com/r/GTA6/comments/1xw0v93/whats_wendys_up_to/",
+    "platform": "reddit",
+    "author": "/u/FatalErrorOccurred",
+    "source_name": "r/GTA6 Trending RSS",
+    "published_at": "2026-11-14T12:07:25+00:00",
     "license_category": "unauthorized",
     "niche_tags": [
       "gta6_community",
@@ -467,162 +650,6 @@
     "thumbnail": ""
   },
   {
-    "id": "f6d686ebf4cf08fd",
-    "title": "Exclusive first look at ‘MACCA & FRIENDS’",
-    "url": "https://www.reddit.com/r/GTA6/comments/1xv956i/exclusive_first_look_at_macca_friends/",
-    "platform": "reddit",
-    "author": "/u/The_Struggling_Soul",
-    "source_name": "r/GTA6 Trending RSS",
-    "published_at": "2026-11-13T14:21:23+00:00",
-    "license_category": "unauthorized",
-    "niche_tags": [
-      "gta6_community",
-      "reddit_hot"
-    ],
-    "viral_score": 58.8,
-    "score_breakdown": {
-      "recency": 25.0,
-      "keyword_impact": 0.0,
-      "source_authority": 23.75,
-      "brazilian_fit": 10.0
-    },
-    "priority_level": "MEDIUM",
-    "recommended_angle_br": "Curiosidade imperdível sobre a ambientação e tecnologia da nova era de Vice City.",
-    "suggested_hook_pt": "👀 SE LIGA NESSE DETALHE DE GTA 6 QUE QUASE NINGUÉM PERCEBEU!",
-    "status": "analyzed",
-    "thumbnail": ""
-  },
-  {
-    "id": "3a2bbf6b020740a7",
-    "title": "All of us",
-    "url": "https://www.reddit.com/r/GTA6/comments/1xvvmd7/all_of_us/",
-    "platform": "reddit",
-    "author": "/u/Papa_Zombieee",
-    "source_name": "r/GTA6 Trending RSS",
-    "published_at": "2026-11-14T06:44:14+00:00",
-    "license_category": "unauthorized",
-    "niche_tags": [
-      "gta6_community",
-      "reddit_hot"
-    ],
-    "viral_score": 58.8,
-    "score_breakdown": {
-      "recency": 25.0,
-      "keyword_impact": 0.0,
-      "source_authority": 23.75,
-      "brazilian_fit": 10.0
-    },
-    "priority_level": "MEDIUM",
-    "recommended_angle_br": "Curiosidade imperdível sobre a ambientação e tecnologia da nova era de Vice City.",
-    "suggested_hook_pt": "👀 SE LIGA NESSE DETALHE DE GTA 6 QUE QUASE NINGUÉM PERCEBEU!",
-    "status": "analyzed",
-    "thumbnail": ""
-  },
-  {
-    "id": "8b746c93c325ff2f",
-    "title": "Saw this ish on fb, y'all okay?",
-    "url": "https://www.reddit.com/r/GTA6/comments/1xvnpys/saw_this_ish_on_fb_yall_okay/",
-    "platform": "reddit",
-    "author": "/u/AmySchumersAnalTumor",
-    "source_name": "r/GTA6 Trending RSS",
-    "published_at": "2026-11-13T23:54:25+00:00",
-    "license_category": "unauthorized",
-    "niche_tags": [
-      "gta6_community",
-      "reddit_hot"
-    ],
-    "viral_score": 58.8,
-    "score_breakdown": {
-      "recency": 25.0,
-      "keyword_impact": 0.0,
-      "source_authority": 23.75,
-      "brazilian_fit": 10.0
-    },
-    "priority_level": "MEDIUM",
-    "recommended_angle_br": "Curiosidade imperdível sobre a ambientação e tecnologia da nova era de Vice City.",
-    "suggested_hook_pt": "👀 SE LIGA NESSE DETALHE DE GTA 6 QUE QUASE NINGUÉM PERCEBEU!",
-    "status": "analyzed",
-    "thumbnail": ""
-  },
-  {
-    "id": "296376406c5f2fa2",
-    "title": "This is actually insane to read. We are not ready. \"You can just live in that world\"",
-    "url": "https://www.reddit.com/r/GTA6/comments/1xv6tnb/this_is_actually_insane_to_read_we_are_not_ready/",
-    "platform": "reddit",
-    "author": "/u/BorderDispute",
-    "source_name": "r/GTA6 Trending RSS",
-    "published_at": "2026-11-13T12:40:04+00:00",
-    "license_category": "unauthorized",
-    "niche_tags": [
-      "gta6_community",
-      "reddit_hot"
-    ],
-    "viral_score": 58.8,
-    "score_breakdown": {
-      "recency": 25.0,
-      "keyword_impact": 0.0,
-      "source_authority": 23.75,
-      "brazilian_fit": 10.0
-    },
-    "priority_level": "MEDIUM",
-    "recommended_angle_br": "Curiosidade imperdível sobre a ambientação e tecnologia da nova era de Vice City.",
-    "suggested_hook_pt": "👀 SE LIGA NESSE DETALHE DE GTA 6 QUE QUASE NINGUÉM PERCEBEU!",
-    "status": "analyzed",
-    "thumbnail": ""
-  },
-  {
-    "id": "f6a87d33f6dcf8db",
-    "title": "Framing the Poster from the Box",
-    "url": "https://www.reddit.com/r/GTA6/comments/1xvod1i/framing_the_poster_from_the_box/",
-    "platform": "reddit",
-    "author": "/u/Bmanbod",
-    "source_name": "r/GTA6 Trending RSS",
-    "published_at": "2026-11-14T00:22:20+00:00",
-    "license_category": "unauthorized",
-    "niche_tags": [
-      "gta6_community",
-      "reddit_hot"
-    ],
-    "viral_score": 58.8,
-    "score_breakdown": {
-      "recency": 25.0,
-      "keyword_impact": 0.0,
-      "source_authority": 23.75,
-      "brazilian_fit": 10.0
-    },
-    "priority_level": "MEDIUM",
-    "recommended_angle_br": "Curiosidade imperdível sobre a ambientação e tecnologia da nova era de Vice City.",
-    "suggested_hook_pt": "👀 SE LIGA NESSE DETALHE DE GTA 6 QUE QUASE NINGUÉM PERCEBEU!",
-    "status": "analyzed",
-    "thumbnail": ""
-  },
-  {
-    "id": "4ea875029015d93e",
-    "title": "Genuinely shocked by their ability to do this.",
-    "url": "https://www.reddit.com/r/GTA6/comments/1xvplu6/genuinely_shocked_by_their_ability_to_do_this/",
-    "platform": "reddit",
-    "author": "/u/ithepunisher",
-    "source_name": "r/GTA6 Trending RSS",
-    "published_at": "2026-11-14T01:21:51+00:00",
-    "license_category": "unauthorized",
-    "niche_tags": [
-      "gta6_community",
-      "reddit_hot"
-    ],
-    "viral_score": 58.8,
-    "score_breakdown": {
-      "recency": 25.0,
-      "keyword_impact": 0.0,
-      "source_authority": 23.75,
-      "brazilian_fit": 10.0
-    },
-    "priority_level": "MEDIUM",
-    "recommended_angle_br": "Curiosidade imperdível sobre a ambientação e tecnologia da nova era de Vice City.",
-    "suggested_hook_pt": "👀 SE LIGA NESSE DETALHE DE GTA 6 QUE QUASE NINGUÉM PERCEBEU!",
-    "status": "analyzed",
-    "thumbnail": ""
-  },
-  {
     "id": "2cd7e6638d13723c",
     "title": "Evolution of Marvel Rivals",
     "url": "https://www.youtube.com/watch?v=vZPTwgyF5dU",
@@ -646,31 +673,6 @@
     "suggested_hook_pt": "👀 SE LIGA NESSE DETALHE DE GTA 6 QUE QUASE NINGUÉM PERCEBEU!",
     "status": "analyzed",
     "thumbnail": "https://i.ytimg.com/vi/vZPTwgyF5dU/hqdefault.jpg"
-  },
-  {
-    "id": "2ed230171f7912d0",
-    "title": "Phantom Blade Zero - Mountain of Imprisonment 100% Collectibles Guide",
-    "url": "https://www.youtube.com/watch?v=rWjYYFiIlts",
-    "platform": "youtube",
-    "author": "IGN",
-    "source_name": "IGN Games Feed",
-    "published_at": "2026-11-13T23:00:14+00:00",
-    "license_category": "unauthorized",
-    "niche_tags": [
-      "graphics"
-    ],
-    "viral_score": 56.2,
-    "score_breakdown": {
-      "recency": 25.0,
-      "keyword_impact": 0.0,
-      "source_authority": 21.25,
-      "brazilian_fit": 10.0
-    },
-    "priority_level": "MEDIUM",
-    "recommended_angle_br": "Curiosidade imperdível sobre a ambientação e tecnologia da nova era de Vice City.",
-    "suggested_hook_pt": "👀 SE LIGA NESSE DETALHE DE GTA 6 QUE QUASE NINGUÉM PERCEBEU!",
-    "status": "analyzed",
-    "thumbnail": "https://i.ytimg.com/vi/rWjYYFiIlts/hqdefault.jpg"
   },
   {
     "id": "b37c8a2f844562f4",
