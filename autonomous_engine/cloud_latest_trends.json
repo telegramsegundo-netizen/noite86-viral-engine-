@@ -1,43 +1,45 @@
 [
   {
-    "id": "cf5065de380c7bf5",
-    "title": "GTA 6 trailer is being shown in Piccadilly Circus, London",
-    "url": "https://www.reddit.com/r/GTA6/comments/1xxym5o/gta_6_trailer_is_being_shown_in_piccadilly_circus/",
-    "platform": "reddit",
-    "author": "/u/Pow67",
-    "source_name": "r/GTA6 Trending RSS",
-    "published_at": "2026-11-16T19:27:03+00:00",
+    "id": "7c72cd08c8817484",
+    "title": "Black Lake - Official Story Trailer",
+    "url": "https://www.youtube.com/watch?v=JWop6V0sKGQ",
+    "platform": "youtube",
+    "author": "IGN",
+    "source_name": "IGN Games Feed",
+    "published_at": "2026-11-17T15:00:13+00:00",
     "license_category": "unauthorized",
     "niche_tags": [
-      "gta6_community",
-      "reddit_hot"
+      "trailer",
+      "gameplay",
+      "ps5",
+      "xbox"
     ],
-    "viral_score": 88.8,
+    "viral_score": 87.2,
     "score_breakdown": {
       "recency": 25.0,
-      "keyword_impact": 25.0,
-      "source_authority": 23.75,
+      "keyword_impact": 26.0,
+      "source_authority": 21.25,
       "brazilian_fit": 15.0
     },
     "priority_level": "HIGH",
     "recommended_angle_br": "Análise quadro a quadro de novidades e detalhes ocultos no novo material de GTA 6.",
     "suggested_hook_pt": "🚨 VOCÊ VIU ISSO?! Novo material oficial de GTA 6 revelou detalhes inacreditáveis!",
     "status": "analyzed",
-    "thumbnail": ""
+    "thumbnail": "https://i.ytimg.com/vi/JWop6V0sKGQ/hqdefault.jpg"
   },
   {
-    "id": "d84262e295e0faf5",
-    "title": "Rahul Kohli on GTA 6 and What Makes Rockstar Games Special",
-    "url": "https://www.youtube.com/watch?v=IDtpP6To_hE",
+    "id": "f5e03bfdab187f8f",
+    "title": "Will This New GTA Feature Change the DNA of Grand Theft Auto? | GTFM",
+    "url": "https://www.youtube.com/watch?v=LtNgqpdSstk",
     "platform": "youtube",
     "author": "IGN",
     "source_name": "IGN Games Feed",
-    "published_at": "2026-11-16T23:40:16+00:00",
+    "published_at": "2026-11-17T14:00:22+00:00",
     "license_category": "unauthorized",
     "niche_tags": [
       "gta 6",
-      "rockstar games",
-      "rockstar"
+      "rockstar",
+      "leonida"
     ],
     "viral_score": 84.2,
     "score_breakdown": {
@@ -50,33 +52,60 @@
     "recommended_angle_br": "Curiosidade imperdível sobre a ambientação e tecnologia da nova era de Vice City.",
     "suggested_hook_pt": "👀 SE LIGA NESSE DETALHE DE GTA 6 QUE QUASE NINGUÉM PERCEBEU!",
     "status": "analyzed",
-    "thumbnail": "https://i.ytimg.com/vi/IDtpP6To_hE/hqdefault.jpg"
+    "thumbnail": "https://i.ytimg.com/vi/LtNgqpdSstk/hqdefault.jpg"
   },
   {
-    "id": "ce21b1e97576486d",
-    "title": "You can now use GTA 6 avatars on your Rockstar Games account.",
-    "url": "https://www.reddit.com/r/GTA6/comments/1xxxxe9/you_can_now_use_gta_6_avatars_on_your_rockstar/",
-    "platform": "reddit",
-    "author": "/u/YYY31",
-    "source_name": "r/GTA6 Trending RSS",
-    "published_at": "2026-11-16T19:01:04+00:00",
+    "id": "7e9b65e94aaf272a",
+    "title": "The Blood of Dawnwalker - Official Update 1.2 (with New Game+) Launch Trailer",
+    "url": "https://www.youtube.com/watch?v=sWMBjhF5Z24",
+    "platform": "youtube",
+    "author": "IGN",
+    "source_name": "IGN Games Feed",
+    "published_at": "2026-11-17T14:20:47+00:00",
     "license_category": "unauthorized",
     "niche_tags": [
-      "gta6_community",
-      "reddit_hot"
+      "trailer",
+      "ps5",
+      "xbox"
     ],
-    "viral_score": 81.8,
+    "viral_score": 79.2,
     "score_breakdown": {
       "recency": 25.0,
-      "keyword_impact": 23.0,
-      "source_authority": 23.75,
-      "brazilian_fit": 10.0
+      "keyword_impact": 18.0,
+      "source_authority": 21.25,
+      "brazilian_fit": 15.0
     },
     "priority_level": "HIGH",
-    "recommended_angle_br": "Curiosidade imperdível sobre a ambientação e tecnologia da nova era de Vice City.",
-    "suggested_hook_pt": "👀 SE LIGA NESSE DETALHE DE GTA 6 QUE QUASE NINGUÉM PERCEBEU!",
+    "recommended_angle_br": "Análise quadro a quadro de novidades e detalhes ocultos no novo material de GTA 6.",
+    "suggested_hook_pt": "🚨 VOCÊ VIU ISSO?! Novo material oficial de GTA 6 revelou detalhes inacreditáveis!",
     "status": "analyzed",
-    "thumbnail": ""
+    "thumbnail": "https://i.ytimg.com/vi/sWMBjhF5Z24/hqdefault.jpg"
+  },
+  {
+    "id": "72e0edda0e196b38",
+    "title": "Grindworm - Official Release Date Trailer",
+    "url": "https://www.youtube.com/watch?v=NVCyiNJqO1U",
+    "platform": "youtube",
+    "author": "IGN",
+    "source_name": "IGN Games Feed",
+    "published_at": "2026-11-17T09:00:29+00:00",
+    "license_category": "unauthorized",
+    "niche_tags": [
+      "trailer",
+      "release date"
+    ],
+    "viral_score": 78.2,
+    "score_breakdown": {
+      "recency": 25.0,
+      "keyword_impact": 17.0,
+      "source_authority": 21.25,
+      "brazilian_fit": 15.0
+    },
+    "priority_level": "HIGH",
+    "recommended_angle_br": "Análise quadro a quadro de novidades e detalhes ocultos no novo material de GTA 6.",
+    "suggested_hook_pt": "🚨 VOCÊ VIU ISSO?! Novo material oficial de GTA 6 revelou detalhes inacreditáveis!",
+    "status": "analyzed",
+    "thumbnail": "https://i.ytimg.com/vi/NVCyiNJqO1U/hqdefault.jpg"
   },
   {
     "id": "b99f1719cf953535",
@@ -106,22 +135,22 @@
     "thumbnail": "https://i.ytimg.com/vi/fLX3S_rWldQ/hqdefault.jpg"
   },
   {
-    "id": "a683fabb196374f4",
-    "title": "What aesthetic are you planning to give Jason and Lucia?",
-    "url": "https://www.reddit.com/r/GTA6/comments/1xy51oy/what_aesthetic_are_you_planning_to_give_jason_and/",
+    "id": "2f9d14c11af295a7",
+    "title": "The last 48 hours of \"before GTA 6\" jokes. Throw 'em all at once 🫡",
+    "url": "https://www.reddit.com/r/GTA6/comments/1xyekeu/the_last_48_hours_of_before_gta_6_jokes_throw_em/",
     "platform": "reddit",
-    "author": "/u/SozinMadeit",
+    "author": "/u/Tixer_01",
     "source_name": "r/GTA6 Trending RSS",
-    "published_at": "2026-11-16T23:41:13+00:00",
+    "published_at": "2026-11-17T07:51:39+00:00",
     "license_category": "unauthorized",
     "niche_tags": [
       "gta6_community",
       "reddit_hot"
     ],
-    "viral_score": 74.8,
+    "viral_score": 73.8,
     "score_breakdown": {
       "recency": 25.0,
-      "keyword_impact": 16.0,
+      "keyword_impact": 15.0,
       "source_authority": 23.75,
       "brazilian_fit": 10.0
     },
@@ -130,6 +159,57 @@
     "suggested_hook_pt": "👀 SE LIGA NESSE DETALHE DE GTA 6 QUE QUASE NINGUÉM PERCEBEU!",
     "status": "analyzed",
     "thumbnail": ""
+  },
+  {
+    "id": "e49cb88d385f06a9",
+    "title": "theHunter: Call of the Wild - Official Texas Hunting Reserve DLC Announcement Trailer",
+    "url": "https://www.youtube.com/watch?v=p-o2GXKNk2g",
+    "platform": "youtube",
+    "author": "IGN",
+    "source_name": "IGN Games Feed",
+    "published_at": "2026-11-17T15:40:52+00:00",
+    "license_category": "unauthorized",
+    "niche_tags": [
+      "trailer",
+      "xbox"
+    ],
+    "viral_score": 71.2,
+    "score_breakdown": {
+      "recency": 25.0,
+      "keyword_impact": 10.0,
+      "source_authority": 21.25,
+      "brazilian_fit": 15.0
+    },
+    "priority_level": "HIGH",
+    "recommended_angle_br": "Análise quadro a quadro de novidades e detalhes ocultos no novo material de GTA 6.",
+    "suggested_hook_pt": "🚨 VOCÊ VIU ISSO?! Novo material oficial de GTA 6 revelou detalhes inacreditáveis!",
+    "status": "analyzed",
+    "thumbnail": "https://i.ytimg.com/vi/p-o2GXKNk2g/hqdefault.jpg"
+  },
+  {
+    "id": "8e0734e3ae58a8e1",
+    "title": "Gundam Card Game - Official New Starter Decks Trailer (ST11～ST14)",
+    "url": "https://www.youtube.com/watch?v=i1pHd_WF34Q",
+    "platform": "youtube",
+    "author": "IGN",
+    "source_name": "IGN Games Feed",
+    "published_at": "2026-11-17T13:00:25+00:00",
+    "license_category": "unauthorized",
+    "niche_tags": [
+      "trailer"
+    ],
+    "viral_score": 71.2,
+    "score_breakdown": {
+      "recency": 25.0,
+      "keyword_impact": 10.0,
+      "source_authority": 21.25,
+      "brazilian_fit": 15.0
+    },
+    "priority_level": "HIGH",
+    "recommended_angle_br": "Análise quadro a quadro de novidades e detalhes ocultos no novo material de GTA 6.",
+    "suggested_hook_pt": "🚨 VOCÊ VIU ISSO?! Novo material oficial de GTA 6 revelou detalhes inacreditáveis!",
+    "status": "analyzed",
+    "thumbnail": "https://i.ytimg.com/vi/i1pHd_WF34Q/hqdefault.jpg"
   },
   {
     "id": "f01c489e2a655f17",
@@ -182,54 +262,30 @@
     "thumbnail": "https://i.ytimg.com/vi/yGdoKHi4XIg/hqdefault.jpg"
   },
   {
-    "id": "cdf23b05b82061b5",
-    "title": "Dragon Ball Super Card Game Fusion World: Brightness of Hope - Official FB11 Trailer",
-    "url": "https://www.youtube.com/watch?v=ZYbB28Rfz2U",
-    "platform": "youtube",
-    "author": "IGN",
-    "source_name": "IGN Games Feed",
-    "published_at": "2026-11-17T01:00:16+00:00",
+    "id": "4db097a9dfdc52e3",
+    "title": "Could this be the first GTA where you can navigate entirely using road signs and other in-world information, without relying on the minimap?",
+    "url": "https://www.reddit.com/r/GTA6/comments/1xygrkq/could_this_be_the_first_gta_where_you_can/",
+    "platform": "reddit",
+    "author": "/u/Intelligent_Ride3730",
+    "source_name": "r/GTA6 Trending RSS",
+    "published_at": "2026-11-17T10:11:20+00:00",
     "license_category": "unauthorized",
     "niche_tags": [
-      "trailer"
+      "gta6_community",
+      "reddit_hot"
     ],
-    "viral_score": 71.2,
+    "viral_score": 70.8,
     "score_breakdown": {
       "recency": 25.0,
-      "keyword_impact": 10.0,
-      "source_authority": 21.25,
+      "keyword_impact": 7.0,
+      "source_authority": 23.75,
       "brazilian_fit": 15.0
     },
     "priority_level": "HIGH",
-    "recommended_angle_br": "Análise quadro a quadro de novidades e detalhes ocultos no novo material de GTA 6.",
-    "suggested_hook_pt": "🚨 VOCÊ VIU ISSO?! Novo material oficial de GTA 6 revelou detalhes inacreditáveis!",
+    "recommended_angle_br": "Exploração da geografia de Vice City e tamanho comparado com Los Santos.",
+    "suggested_hook_pt": "🗺️ O MAPA DE VICE CITY TÁ SURREAL! Olha essa comparação com o GTA 5!",
     "status": "analyzed",
-    "thumbnail": "https://i.ytimg.com/vi/ZYbB28Rfz2U/hqdefault.jpg"
-  },
-  {
-    "id": "55111002a657d903",
-    "title": "Remain - Official Trailer (2027) Jake Gyllenhaal, Phoebe Dynevor",
-    "url": "https://www.youtube.com/watch?v=DkgLDVRzFUY",
-    "platform": "youtube",
-    "author": "IGN",
-    "source_name": "IGN Games Feed",
-    "published_at": "2026-11-17T00:00:10+00:00",
-    "license_category": "unauthorized",
-    "niche_tags": [
-      "trailer"
-    ],
-    "viral_score": 71.2,
-    "score_breakdown": {
-      "recency": 25.0,
-      "keyword_impact": 10.0,
-      "source_authority": 21.25,
-      "brazilian_fit": 15.0
-    },
-    "priority_level": "HIGH",
-    "recommended_angle_br": "Análise quadro a quadro de novidades e detalhes ocultos no novo material de GTA 6.",
-    "suggested_hook_pt": "🚨 VOCÊ VIU ISSO?! Novo material oficial de GTA 6 revelou detalhes inacreditáveis!",
-    "status": "analyzed",
-    "thumbnail": "https://i.ytimg.com/vi/DkgLDVRzFUY/hqdefault.jpg"
+    "thumbnail": ""
   },
   {
     "id": "ca1bdcf456d527a6",
@@ -258,64 +314,13 @@
     "thumbnail": "https://i.ytimg.com/vi/aMlb_46db8o/hqdefault.jpg"
   },
   {
-    "id": "77db0dc010860bdf",
-    "title": "Official GTA VI Support Articles (Pre-order, Pre-load, and Launch Day)",
-    "url": "https://www.reddit.com/r/GTA6/comments/1xvbbze/official_gta_vi_support_articles_preorder_preload/",
+    "id": "0ab1265263544f58",
+    "title": "Manni L. Perez officially confirmed to play Lucia",
+    "url": "https://www.reddit.com/r/GTA6/comments/1xypvuj/manni_l_perez_officially_confirmed_to_play_lucia/",
     "platform": "reddit",
-    "author": "/u/PapaXan",
+    "author": "/u/Silent_County_7188",
     "source_name": "r/GTA6 Trending RSS",
-    "published_at": "2026-11-13T15:49:01+00:00",
-    "license_category": "unauthorized",
-    "niche_tags": [
-      "gta6_community",
-      "reddit_hot"
-    ],
-    "viral_score": 68.8,
-    "score_breakdown": {
-      "recency": 15.0,
-      "keyword_impact": 15.0,
-      "source_authority": 23.75,
-      "brazilian_fit": 15.0
-    },
-    "priority_level": "MEDIUM",
-    "recommended_angle_br": "Análise quadro a quadro de novidades e detalhes ocultos no novo material de GTA 6.",
-    "suggested_hook_pt": "🚨 VOCÊ VIU ISSO?! Novo material oficial de GTA 6 revelou detalhes inacreditáveis!",
-    "status": "analyzed",
-    "thumbnail": ""
-  },
-  {
-    "id": "d2c2e27be411b46f",
-    "title": "Vice City Will Be Playable.. In NBA 2K27",
-    "url": "https://www.youtube.com/shorts/f3O_UgPXTog",
-    "platform": "youtube",
-    "author": "IGN",
-    "source_name": "IGN Games Feed",
-    "published_at": "2026-11-16T22:20:24+00:00",
-    "license_category": "unauthorized",
-    "niche_tags": [
-      "vice city"
-    ],
-    "viral_score": 68.2,
-    "score_breakdown": {
-      "recency": 25.0,
-      "keyword_impact": 12.0,
-      "source_authority": 21.25,
-      "brazilian_fit": 10.0
-    },
-    "priority_level": "MEDIUM",
-    "recommended_angle_br": "Exploração da geografia de Vice City e tamanho comparado com Los Santos.",
-    "suggested_hook_pt": "🗺️ O MAPA DE VICE CITY TÁ SURREAL! Olha essa comparação com o GTA 5!",
-    "status": "analyzed",
-    "thumbnail": "https://i.ytimg.com/vi/f3O_UgPXTog/hqdefault.jpg"
-  },
-  {
-    "id": "5572a765f1ec9857",
-    "title": "Rockstar teamed up with The Weather Channel with new screenshots describing the weather in game",
-    "url": "https://www.reddit.com/r/GTA6/comments/1xy0xst/rockstar_teamed_up_with_the_weather_channel_with/",
-    "platform": "reddit",
-    "author": "/u/ResponsibleRatio6569",
-    "source_name": "r/GTA6 Trending RSS",
-    "published_at": "2026-11-16T20:53:46+00:00",
+    "published_at": "2026-11-17T17:03:37+00:00",
     "license_category": "unauthorized",
     "niche_tags": [
       "gta6_community",
@@ -333,6 +338,110 @@
     "suggested_hook_pt": "👀 SE LIGA NESSE DETALHE DE GTA 6 QUE QUASE NINGUÉM PERCEBEU!",
     "status": "analyzed",
     "thumbnail": ""
+  },
+  {
+    "id": "0ae2b970b4477b8f",
+    "title": "Thank you underpaid reddit mods, see you tomorrow Leonida!",
+    "url": "https://www.reddit.com/r/GTA6/comments/1xymbtj/thank_you_underpaid_reddit_mods_see_you_tomorrow/",
+    "platform": "reddit",
+    "author": "/u/BaconShadow",
+    "source_name": "r/GTA6 Trending RSS",
+    "published_at": "2026-11-17T14:48:26+00:00",
+    "license_category": "unauthorized",
+    "niche_tags": [
+      "gta6_community",
+      "reddit_hot"
+    ],
+    "viral_score": 63.8,
+    "score_breakdown": {
+      "recency": 25.0,
+      "keyword_impact": 5.0,
+      "source_authority": 23.75,
+      "brazilian_fit": 10.0
+    },
+    "priority_level": "MEDIUM",
+    "recommended_angle_br": "Curiosidade imperdível sobre a ambientação e tecnologia da nova era de Vice City.",
+    "suggested_hook_pt": "👀 SE LIGA NESSE DETALHE DE GTA 6 QUE QUASE NINGUÉM PERCEBEU!",
+    "status": "analyzed",
+    "thumbnail": ""
+  },
+  {
+    "id": "a77ed4caa7d76ce0",
+    "title": "8-Hour Power Outage on Launch Day",
+    "url": "https://www.reddit.com/r/GTA6/comments/1xyneyx/8hour_power_outage_on_launch_day/",
+    "platform": "reddit",
+    "author": "/u/bselko",
+    "source_name": "r/GTA6 Trending RSS",
+    "published_at": "2026-11-17T15:31:18+00:00",
+    "license_category": "unauthorized",
+    "niche_tags": [
+      "gta6_community",
+      "reddit_hot"
+    ],
+    "viral_score": 63.8,
+    "score_breakdown": {
+      "recency": 25.0,
+      "keyword_impact": 0.0,
+      "source_authority": 23.75,
+      "brazilian_fit": 15.0
+    },
+    "priority_level": "MEDIUM",
+    "recommended_angle_br": "Análise quadro a quadro de novidades e detalhes ocultos no novo material de GTA 6.",
+    "suggested_hook_pt": "🚨 VOCÊ VIU ISSO?! Novo material oficial de GTA 6 revelou detalhes inacreditáveis!",
+    "status": "analyzed",
+    "thumbnail": ""
+  },
+  {
+    "id": "ce40eb1a9bdeb221",
+    "title": "Every Xbox Player tomorrow",
+    "url": "https://www.reddit.com/r/GTA6/comments/1xynq85/every_xbox_player_tomorrow/",
+    "platform": "reddit",
+    "author": "/u/ShadowDen3869",
+    "source_name": "r/GTA6 Trending RSS",
+    "published_at": "2026-11-17T15:43:37+00:00",
+    "license_category": "unauthorized",
+    "niche_tags": [
+      "gta6_community",
+      "reddit_hot"
+    ],
+    "viral_score": 62.8,
+    "score_breakdown": {
+      "recency": 25.0,
+      "keyword_impact": 4.0,
+      "source_authority": 23.75,
+      "brazilian_fit": 10.0
+    },
+    "priority_level": "MEDIUM",
+    "recommended_angle_br": "Curiosidade imperdível sobre a ambientação e tecnologia da nova era de Vice City.",
+    "suggested_hook_pt": "👀 SE LIGA NESSE DETALHE DE GTA 6 QUE QUASE NINGUÉM PERCEBEU!",
+    "status": "analyzed",
+    "thumbnail": ""
+  },
+  {
+    "id": "0dbc7243bb9c21f9",
+    "title": "Exodus - Official Female Jun Reveal & Scrappy Salvager Featurette",
+    "url": "https://www.youtube.com/watch?v=YCtM1qCNE_I",
+    "platform": "youtube",
+    "author": "IGN",
+    "source_name": "IGN Games Feed",
+    "published_at": "2026-11-17T16:27:57+00:00",
+    "license_category": "unauthorized",
+    "niche_tags": [
+      "ps5",
+      "xbox"
+    ],
+    "viral_score": 61.2,
+    "score_breakdown": {
+      "recency": 25.0,
+      "keyword_impact": 0.0,
+      "source_authority": 21.25,
+      "brazilian_fit": 15.0
+    },
+    "priority_level": "MEDIUM",
+    "recommended_angle_br": "Curiosidade imperdível sobre a ambientação e tecnologia da nova era de Vice City.",
+    "suggested_hook_pt": "👀 SE LIGA NESSE DETALHE DE GTA 6 QUE QUASE NINGUÉM PERCEBEU!",
+    "status": "analyzed",
+    "thumbnail": "https://i.ytimg.com/vi/YCtM1qCNE_I/hqdefault.jpg"
   },
   {
     "id": "c59b79211c90854b",
@@ -361,13 +470,13 @@
     "thumbnail": "https://i.ytimg.com/vi/Gmyq8J-Ox5I/hqdefault.jpg"
   },
   {
-    "id": "362202bcc6f1d524",
-    "title": "New screenshots posted by The Weather Channel",
-    "url": "https://www.reddit.com/r/GTA6/comments/1xy0wmw/new_screenshots_posted_by_the_weather_channel/",
+    "id": "f357e209aae4874a",
+    "title": "Last Hour Sub Closure until Release",
+    "url": "https://www.reddit.com/r/GTA6/comments/1xylow6/last_hour_sub_closure_until_release/",
     "platform": "reddit",
-    "author": "/u/Snak3D0ct0r",
+    "author": "/u/PapaXan",
     "source_name": "r/GTA6 Trending RSS",
-    "published_at": "2026-11-16T20:52:29+00:00",
+    "published_at": "2026-11-17T14:22:35+00:00",
     "license_category": "unauthorized",
     "niche_tags": [
       "gta6_community",
@@ -387,13 +496,13 @@
     "thumbnail": ""
   },
   {
-    "id": "2d45ae913018c848",
-    "title": "Goodbye Los Santos",
-    "url": "https://www.reddit.com/r/GTA6/comments/1xxv6yj/goodbye_los_santos/",
+    "id": "43ae5a01dafd96d0",
+    "title": "Maybe in another life... ? by (@Pinkiemme)",
+    "url": "https://www.reddit.com/r/GTA6/comments/1xyl62w/maybe_in_another_life_by_pinkiemme/",
     "platform": "reddit",
-    "author": "/u/smokie_hat",
+    "author": "/u/ResponsibleRatio6569",
     "source_name": "r/GTA6 Trending RSS",
-    "published_at": "2026-11-16T17:18:49+00:00",
+    "published_at": "2026-11-17T14:00:39+00:00",
     "license_category": "unauthorized",
     "niche_tags": [
       "gta6_community",
@@ -439,13 +548,13 @@
     "thumbnail": ""
   },
   {
-    "id": "12ebd91757d2b4a7",
-    "title": "WE LOVE TO SEE IT",
-    "url": "https://www.reddit.com/r/GTA6/comments/1xxpb5c/we_love_to_see_it/",
+    "id": "91e04e839925a18f",
+    "title": "What I find incredible is that in reality we didn’t see anything of the game",
+    "url": "https://www.reddit.com/r/GTA6/comments/1xyir1d/what_i_find_incredible_is_that_in_reality_we/",
     "platform": "reddit",
-    "author": "/u/Pistoluislero",
+    "author": "/u/kev013m",
     "source_name": "r/GTA6 Trending RSS",
-    "published_at": "2026-11-16T13:26:46+00:00",
+    "published_at": "2026-11-17T12:05:37+00:00",
     "license_category": "unauthorized",
     "niche_tags": [
       "gta6_community",
@@ -465,13 +574,13 @@
     "thumbnail": ""
   },
   {
-    "id": "2a14ab6c04c6a1ed",
-    "title": "The Mechanics We Haven't Seen",
-    "url": "https://www.reddit.com/r/GTA6/comments/1xyavw0/the_mechanics_we_havent_seen/",
+    "id": "e6c49071b81714aa",
+    "title": "Poland - Warsaw Central railway station",
+    "url": "https://www.reddit.com/r/GTA6/comments/1xyo2y1/poland_warsaw_central_railway_station/",
     "platform": "reddit",
-    "author": "/u/PoshVolt",
+    "author": "/u/zabovsky",
     "source_name": "r/GTA6 Trending RSS",
-    "published_at": "2026-11-17T04:18:14+00:00",
+    "published_at": "2026-11-17T15:56:43+00:00",
     "license_category": "unauthorized",
     "niche_tags": [
       "gta6_community",
@@ -491,13 +600,13 @@
     "thumbnail": ""
   },
   {
-    "id": "8f66bf49214690b7",
-    "title": "Are reviews coming out tomorrow?",
-    "url": "https://www.reddit.com/r/GTA6/comments/1xy3yd9/are_reviews_coming_out_tomorrow/",
+    "id": "4cecb61712ca64df",
+    "title": "Announced",
+    "url": "https://www.reddit.com/r/GTA6/comments/1xypu4l/announced/",
     "platform": "reddit",
-    "author": "/u/guacamoleandtomato",
+    "author": "/u/IndividualShame2629",
     "source_name": "r/GTA6 Trending RSS",
-    "published_at": "2026-11-16T22:54:23+00:00",
+    "published_at": "2026-11-17T17:01:56+00:00",
     "license_category": "unauthorized",
     "niche_tags": [
       "gta6_community",
@@ -517,13 +626,13 @@
     "thumbnail": ""
   },
   {
-    "id": "9d6209d8bea7c271",
-    "title": "See you on the other side",
-    "url": "https://www.reddit.com/r/GTA6/comments/1xxtnr6/see_you_on_the_other_side/",
+    "id": "e36e2a3512a4ed8b",
+    "title": "BELGIUM!",
+    "url": "https://www.reddit.com/r/GTA6/comments/1xykpni/belgium/",
     "platform": "reddit",
-    "author": "/u/Visara57",
+    "author": "/u/Confident-Town-4507",
     "source_name": "r/GTA6 Trending RSS",
-    "published_at": "2026-11-16T16:22:18+00:00",
+    "published_at": "2026-11-17T13:40:30+00:00",
     "license_category": "unauthorized",
     "niche_tags": [
       "gta6_community",
@@ -543,39 +652,13 @@
     "thumbnail": ""
   },
   {
-    "id": "f5a23dbc565ef417",
-    "title": "This gave me a good laugh tonight",
-    "url": "https://www.reddit.com/r/GTA6/comments/1xy4wqe/this_gave_me_a_good_laugh_tonight/",
+    "id": "4ae0ced408460690",
+    "title": "Marketing for this game is next level, the tube station at St Pancras / Kings Cross in London had one of the tunnels covered in posters and painted the colours of GTA6",
+    "url": "https://www.reddit.com/r/GTA6/comments/1xyh8ce/marketing_for_this_game_is_next_level_the_tube/",
     "platform": "reddit",
-    "author": "/u/CurlyWurly61",
+    "author": "/u/kj_gamer2614",
     "source_name": "r/GTA6 Trending RSS",
-    "published_at": "2026-11-16T23:35:17+00:00",
-    "license_category": "unauthorized",
-    "niche_tags": [
-      "gta6_community",
-      "reddit_hot"
-    ],
-    "viral_score": 58.8,
-    "score_breakdown": {
-      "recency": 25.0,
-      "keyword_impact": 0.0,
-      "source_authority": 23.75,
-      "brazilian_fit": 10.0
-    },
-    "priority_level": "MEDIUM",
-    "recommended_angle_br": "Curiosidade imperdível sobre a ambientação e tecnologia da nova era de Vice City.",
-    "suggested_hook_pt": "👀 SE LIGA NESSE DETALHE DE GTA 6 QUE QUASE NINGUÉM PERCEBEU!",
-    "status": "analyzed",
-    "thumbnail": ""
-  },
-  {
-    "id": "c5ff17ce52810e69",
-    "title": "This image in particular 😮‍💨",
-    "url": "https://www.reddit.com/r/GTA6/comments/1xy1syd/this_image_in_particular/",
-    "platform": "reddit",
-    "author": "/u/xanderico7",
-    "source_name": "r/GTA6 Trending RSS",
-    "published_at": "2026-11-16T21:26:44+00:00",
+    "published_at": "2026-11-17T10:39:19+00:00",
     "license_category": "unauthorized",
     "niche_tags": [
       "gta6_community",
@@ -621,57 +704,6 @@
     "thumbnail": "https://i.ytimg.com/vi/iEZUY04k3eQ/hqdefault.jpg"
   },
   {
-    "id": "2cd7e6638d13723c",
-    "title": "Evolution of Marvel Rivals",
-    "url": "https://www.youtube.com/watch?v=vZPTwgyF5dU",
-    "platform": "youtube",
-    "author": "GameSpot",
-    "source_name": "GameSpot",
-    "published_at": "2026-11-10T18:00:17+00:00",
-    "license_category": "unauthorized",
-    "niche_tags": [
-      "map"
-    ],
-    "viral_score": 58.2,
-    "score_breakdown": {
-      "recency": 15.0,
-      "keyword_impact": 7.0,
-      "source_authority": 21.25,
-      "brazilian_fit": 15.0
-    },
-    "priority_level": "MEDIUM",
-    "recommended_angle_br": "Curiosidade imperdível sobre a ambientação e tecnologia da nova era de Vice City.",
-    "suggested_hook_pt": "👀 SE LIGA NESSE DETALHE DE GTA 6 QUE QUASE NINGUÉM PERCEBEU!",
-    "status": "analyzed",
-    "thumbnail": "https://i.ytimg.com/vi/vZPTwgyF5dU/hqdefault.jpg"
-  },
-  {
-    "id": "0bb3f97c2bc6aa87",
-    "title": "Robert Pattinson Is the New James Bond 007 - IGN Daily Fix",
-    "url": "https://www.youtube.com/watch?v=ak29lP68Amg",
-    "platform": "youtube",
-    "author": "IGN",
-    "source_name": "IGN Games Feed",
-    "published_at": "2026-11-16T23:54:50+00:00",
-    "license_category": "unauthorized",
-    "niche_tags": [
-      "gta 6",
-      "xbox"
-    ],
-    "viral_score": 56.2,
-    "score_breakdown": {
-      "recency": 25.0,
-      "keyword_impact": 0.0,
-      "source_authority": 21.25,
-      "brazilian_fit": 10.0
-    },
-    "priority_level": "MEDIUM",
-    "recommended_angle_br": "Curiosidade imperdível sobre a ambientação e tecnologia da nova era de Vice City.",
-    "suggested_hook_pt": "👀 SE LIGA NESSE DETALHE DE GTA 6 QUE QUASE NINGUÉM PERCEBEU!",
-    "status": "analyzed",
-    "thumbnail": "https://i.ytimg.com/vi/ak29lP68Amg/hqdefault.jpg"
-  },
-  {
     "id": "1ec6f86c93cafc19",
     "title": "3 Unspoken Rules for Duelist Mains",
     "url": "https://www.youtube.com/shorts/umE5GjzHUlM",
@@ -697,21 +729,21 @@
     "thumbnail": "https://i.ytimg.com/vi/umE5GjzHUlM/hqdefault.jpg"
   },
   {
-    "id": "c65adf558de19870",
-    "title": "Physical Copy Release Issues Discussion Thread",
-    "url": "https://www.reddit.com/r/GTA6/comments/1xuv80g/physical_copy_release_issues_discussion_thread/",
+    "id": "a6eea3f774f6d556",
+    "title": "Release Day Plan Regarding Spoilers/NSFW",
+    "url": "https://www.reddit.com/r/GTA6/comments/1xisug9/release_day_plan_regarding_spoilersnsfw/",
     "platform": "reddit",
     "author": "/u/PapaXan",
     "source_name": "r/GTA6 Trending RSS",
-    "published_at": "2026-11-13T01:49:35+00:00",
+    "published_at": "2026-10-29T18:58:40+00:00",
     "license_category": "unauthorized",
     "niche_tags": [
       "gta6_community",
       "reddit_hot"
     ],
-    "viral_score": 48.8,
+    "viral_score": 43.8,
     "score_breakdown": {
-      "recency": 15.0,
+      "recency": 10.0,
       "keyword_impact": 0.0,
       "source_authority": 23.75,
       "brazilian_fit": 10.0
