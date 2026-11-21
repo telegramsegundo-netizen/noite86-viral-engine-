@@ -1,32 +1,5 @@
 [
   {
-    "id": "4b22687b0f1d7c07",
-    "title": "GTA 6: 99 Incredible Little Details",
-    "url": "https://www.youtube.com/watch?v=QV9A1GYQ4Sc",
-    "platform": "youtube",
-    "author": "IGN",
-    "source_name": "IGN Games Feed",
-    "published_at": "2026-11-21T14:00:04+00:00",
-    "license_category": "unauthorized",
-    "niche_tags": [
-      "gta 6",
-      "rockstar",
-      "gameplay"
-    ],
-    "viral_score": 87.2,
-    "score_breakdown": {
-      "recency": 25.0,
-      "keyword_impact": 31.0,
-      "source_authority": 21.25,
-      "brazilian_fit": 10.0
-    },
-    "priority_level": "HIGH",
-    "recommended_angle_br": "Curiosidade imperdível sobre a ambientação e tecnologia da nova era de Vice City.",
-    "suggested_hook_pt": "👀 SE LIGA NESSE DETALHE DE GTA 6 QUE QUASE NINGUÉM PERCEBEU!",
-    "status": "analyzed",
-    "thumbnail": "https://i.ytimg.com/vi/QV9A1GYQ4Sc/hqdefault.jpg"
-  },
-  {
     "id": "02d3f065ba7a7a8c",
     "title": "BeamNG.drive - Official Trailer",
     "url": "https://www.youtube.com/watch?v=B34chO-bwZA",
@@ -52,6 +25,84 @@
     "suggested_hook_pt": "🚨 VOCÊ VIU ISSO?! Novo material oficial de GTA 6 revelou detalhes inacreditáveis!",
     "status": "analyzed",
     "thumbnail": "https://i.ytimg.com/vi/B34chO-bwZA/hqdefault.jpg"
+  },
+  {
+    "id": "b50e0cb1163c88a1",
+    "title": "Minor Deity - Official Trailer",
+    "url": "https://www.youtube.com/watch?v=ynC5xH1NNZs",
+    "platform": "youtube",
+    "author": "IGN",
+    "source_name": "IGN Games Feed",
+    "published_at": "2026-11-21T21:03:50+00:00",
+    "license_category": "unauthorized",
+    "niche_tags": [
+      "trailer",
+      "gameplay"
+    ],
+    "viral_score": 79.2,
+    "score_breakdown": {
+      "recency": 25.0,
+      "keyword_impact": 18.0,
+      "source_authority": 21.25,
+      "brazilian_fit": 15.0
+    },
+    "priority_level": "HIGH",
+    "recommended_angle_br": "Análise quadro a quadro de novidades e detalhes ocultos no novo material de GTA 6.",
+    "suggested_hook_pt": "🚨 VOCÊ VIU ISSO?! Novo material oficial de GTA 6 revelou detalhes inacreditáveis!",
+    "status": "analyzed",
+    "thumbnail": "https://i.ytimg.com/vi/ynC5xH1NNZs/hqdefault.jpg"
+  },
+  {
+    "id": "b6c8a273a89cb4be",
+    "title": "Artificial - Official Trailer (2027) Andrew Garfield, Monica Barbaro, Jason Schwartzman",
+    "url": "https://www.youtube.com/watch?v=AbsMT4x3hBs",
+    "platform": "youtube",
+    "author": "IGN",
+    "source_name": "IGN Games Feed",
+    "published_at": "2026-11-21T20:00:06+00:00",
+    "license_category": "unauthorized",
+    "niche_tags": [
+      "jason",
+      "trailer"
+    ],
+    "viral_score": 79.2,
+    "score_breakdown": {
+      "recency": 25.0,
+      "keyword_impact": 18.0,
+      "source_authority": 21.25,
+      "brazilian_fit": 15.0
+    },
+    "priority_level": "HIGH",
+    "recommended_angle_br": "Análise quadro a quadro de novidades e detalhes ocultos no novo material de GTA 6.",
+    "suggested_hook_pt": "🚨 VOCÊ VIU ISSO?! Novo material oficial de GTA 6 revelou detalhes inacreditáveis!",
+    "status": "analyzed",
+    "thumbnail": "https://i.ytimg.com/vi/AbsMT4x3hBs/hqdefault.jpg"
+  },
+  {
+    "id": "ea463d655646fe3f",
+    "title": "Adapt - Official Playtest Gameplay Trailer | DevGamm Awards 2026",
+    "url": "https://www.youtube.com/watch?v=jSTzBY8RVmY",
+    "platform": "youtube",
+    "author": "IGN",
+    "source_name": "IGN Games Feed",
+    "published_at": "2026-11-21T18:00:16+00:00",
+    "license_category": "unauthorized",
+    "niche_tags": [
+      "trailer",
+      "gameplay"
+    ],
+    "viral_score": 79.2,
+    "score_breakdown": {
+      "recency": 25.0,
+      "keyword_impact": 18.0,
+      "source_authority": 21.25,
+      "brazilian_fit": 15.0
+    },
+    "priority_level": "HIGH",
+    "recommended_angle_br": "Análise quadro a quadro de novidades e detalhes ocultos no novo material de GTA 6.",
+    "suggested_hook_pt": "🚨 VOCÊ VIU ISSO?! Novo material oficial de GTA 6 revelou detalhes inacreditáveis!",
+    "status": "analyzed",
+    "thumbnail": "https://i.ytimg.com/vi/jSTzBY8RVmY/hqdefault.jpg"
   },
   {
     "id": "b6818a4de927799d",
@@ -82,24 +133,21 @@
     "thumbnail": "https://i.ytimg.com/vi/P-BbiYUPD-o/hqdefault.jpg"
   },
   {
-    "id": "f7852d00bb91aa25",
-    "title": "Darkest Dungeon 2: The Butcher's Asylum - Official Gameplay Trailer",
-    "url": "https://www.youtube.com/watch?v=JGtFAIw-00U",
+    "id": "70d73e43ceef187d",
+    "title": "Arcade Dreams - Official Trailer (2026) Documentary",
+    "url": "https://www.youtube.com/watch?v=fAJT9S-25yg",
     "platform": "youtube",
     "author": "IGN",
     "source_name": "IGN Games Feed",
-    "published_at": "2026-11-21T13:00:11+00:00",
+    "published_at": "2026-11-21T22:00:33+00:00",
     "license_category": "unauthorized",
     "niche_tags": [
-      "trailer",
-      "gameplay",
-      "ps5",
-      "xbox"
+      "trailer"
     ],
-    "viral_score": 79.2,
+    "viral_score": 71.2,
     "score_breakdown": {
       "recency": 25.0,
-      "keyword_impact": 18.0,
+      "keyword_impact": 10.0,
       "source_authority": 21.25,
       "brazilian_fit": 15.0
     },
@@ -107,42 +155,16 @@
     "recommended_angle_br": "Análise quadro a quadro de novidades e detalhes ocultos no novo material de GTA 6.",
     "suggested_hook_pt": "🚨 VOCÊ VIU ISSO?! Novo material oficial de GTA 6 revelou detalhes inacreditáveis!",
     "status": "analyzed",
-    "thumbnail": "https://i.ytimg.com/vi/JGtFAIw-00U/hqdefault.jpg"
+    "thumbnail": "https://i.ytimg.com/vi/fAJT9S-25yg/hqdefault.jpg"
   },
   {
-    "id": "bec5bd64079747ff",
-    "title": "Be a good boyfriend and fix your house for Lucia in GTA 6",
-    "url": "https://www.youtube.com/shorts/X2bhTfWp5VM",
+    "id": "53ff9a5f32184363",
+    "title": "GTA 6 - How to Get the Kingpin Bowling Safe Code",
+    "url": "https://www.youtube.com/watch?v=3--JEQYRQDI",
     "platform": "youtube",
     "author": "IGN",
     "source_name": "IGN Games Feed",
-    "published_at": "2026-11-21T02:42:20+00:00",
-    "license_category": "unauthorized",
-    "niche_tags": [
-      "gta 6",
-      "lucia"
-    ],
-    "viral_score": 79.2,
-    "score_breakdown": {
-      "recency": 25.0,
-      "keyword_impact": 23.0,
-      "source_authority": 21.25,
-      "brazilian_fit": 10.0
-    },
-    "priority_level": "HIGH",
-    "recommended_angle_br": "Curiosidade imperdível sobre a ambientação e tecnologia da nova era de Vice City.",
-    "suggested_hook_pt": "👀 SE LIGA NESSE DETALHE DE GTA 6 QUE QUASE NINGUÉM PERCEBEU!",
-    "status": "analyzed",
-    "thumbnail": "https://i.ytimg.com/vi/X2bhTfWp5VM/hqdefault.jpg"
-  },
-  {
-    "id": "8ccedf5ed278bec0",
-    "title": "Early fighter jet location in GTA 6",
-    "url": "https://www.youtube.com/shorts/idpGnMXQVW8",
-    "platform": "youtube",
-    "author": "IGN",
-    "source_name": "IGN Games Feed",
-    "published_at": "2026-11-21T03:12:29+00:00",
+    "published_at": "2026-11-21T21:30:54+00:00",
     "license_category": "unauthorized",
     "niche_tags": [
       "gta 6"
@@ -158,82 +180,60 @@
     "recommended_angle_br": "Curiosidade imperdível sobre a ambientação e tecnologia da nova era de Vice City.",
     "suggested_hook_pt": "👀 SE LIGA NESSE DETALHE DE GTA 6 QUE QUASE NINGUÉM PERCEBEU!",
     "status": "analyzed",
-    "thumbnail": "https://i.ytimg.com/vi/idpGnMXQVW8/hqdefault.jpg"
+    "thumbnail": "https://i.ytimg.com/vi/3--JEQYRQDI/hqdefault.jpg"
   },
   {
-    "id": "f07c4616c22409d0",
-    "title": "Dexter's apartment and kill room in GTA 6",
-    "url": "https://www.youtube.com/shorts/rutbTvubt-U",
+    "id": "9c88d43713a4f400",
+    "title": "Metal Slug Ultimate Collection - Official Metal Slug 1 & 2 Story Recap Trailer",
+    "url": "https://www.youtube.com/watch?v=FsIkYn0kcQc",
     "platform": "youtube",
     "author": "IGN",
     "source_name": "IGN Games Feed",
-    "published_at": "2026-11-21T02:44:10+00:00",
+    "published_at": "2026-11-21T17:00:36+00:00",
     "license_category": "unauthorized",
     "niche_tags": [
-      "gta 6"
+      "trailer",
+      "gameplay",
+      "ps5",
+      "xbox"
     ],
     "viral_score": 71.2,
     "score_breakdown": {
       "recency": 25.0,
-      "keyword_impact": 15.0,
+      "keyword_impact": 10.0,
       "source_authority": 21.25,
-      "brazilian_fit": 10.0
+      "brazilian_fit": 15.0
     },
     "priority_level": "HIGH",
-    "recommended_angle_br": "Curiosidade imperdível sobre a ambientação e tecnologia da nova era de Vice City.",
-    "suggested_hook_pt": "👀 SE LIGA NESSE DETALHE DE GTA 6 QUE QUASE NINGUÉM PERCEBEU!",
+    "recommended_angle_br": "Análise quadro a quadro de novidades e detalhes ocultos no novo material de GTA 6.",
+    "suggested_hook_pt": "🚨 VOCÊ VIU ISSO?! Novo material oficial de GTA 6 revelou detalhes inacreditáveis!",
     "status": "analyzed",
-    "thumbnail": "https://i.ytimg.com/vi/rutbTvubt-U/hqdefault.jpg"
+    "thumbnail": "https://i.ytimg.com/vi/FsIkYn0kcQc/hqdefault.jpg"
   },
   {
-    "id": "dc91e779899144a2",
-    "title": "You HAVE to find this house in GTA 6",
-    "url": "https://www.youtube.com/shorts/AtEFWFI5VmQ",
+    "id": "ae147854cc17955d",
+    "title": "KeyCapy - Official Announcement Trailer",
+    "url": "https://www.youtube.com/watch?v=WjiEzj6HWl0",
     "platform": "youtube",
     "author": "IGN",
     "source_name": "IGN Games Feed",
-    "published_at": "2026-11-21T02:41:16+00:00",
+    "published_at": "2026-11-21T17:00:05+00:00",
     "license_category": "unauthorized",
     "niche_tags": [
-      "gta 6"
+      "trailer"
     ],
     "viral_score": 71.2,
     "score_breakdown": {
       "recency": 25.0,
-      "keyword_impact": 15.0,
+      "keyword_impact": 10.0,
       "source_authority": 21.25,
-      "brazilian_fit": 10.0
+      "brazilian_fit": 15.0
     },
     "priority_level": "HIGH",
-    "recommended_angle_br": "Curiosidade imperdível sobre a ambientação e tecnologia da nova era de Vice City.",
-    "suggested_hook_pt": "👀 SE LIGA NESSE DETALHE DE GTA 6 QUE QUASE NINGUÉM PERCEBEU!",
+    "recommended_angle_br": "Análise quadro a quadro de novidades e detalhes ocultos no novo material de GTA 6.",
+    "suggested_hook_pt": "🚨 VOCÊ VIU ISSO?! Novo material oficial de GTA 6 revelou detalhes inacreditáveis!",
     "status": "analyzed",
-    "thumbnail": "https://i.ytimg.com/vi/AtEFWFI5VmQ/hqdefault.jpg"
-  },
-  {
-    "id": "d3ba01dfc3589daa",
-    "title": "You can start flying very early and easily in GTA 6",
-    "url": "https://www.youtube.com/shorts/WflJVoqAQQg",
-    "platform": "youtube",
-    "author": "IGN",
-    "source_name": "IGN Games Feed",
-    "published_at": "2026-11-21T02:40:39+00:00",
-    "license_category": "unauthorized",
-    "niche_tags": [
-      "gta 6"
-    ],
-    "viral_score": 71.2,
-    "score_breakdown": {
-      "recency": 25.0,
-      "keyword_impact": 15.0,
-      "source_authority": 21.25,
-      "brazilian_fit": 10.0
-    },
-    "priority_level": "HIGH",
-    "recommended_angle_br": "Curiosidade imperdível sobre a ambientação e tecnologia da nova era de Vice City.",
-    "suggested_hook_pt": "👀 SE LIGA NESSE DETALHE DE GTA 6 QUE QUASE NINGUÉM PERCEBEU!",
-    "status": "analyzed",
-    "thumbnail": "https://i.ytimg.com/vi/WflJVoqAQQg/hqdefault.jpg"
+    "thumbnail": "https://i.ytimg.com/vi/WjiEzj6HWl0/hqdefault.jpg"
   },
   {
     "id": "a6a7928a72689d66",
@@ -311,56 +311,6 @@
     "thumbnail": "https://i.ytimg.com/vi/7H6YGeREMgY/hqdefault.jpg"
   },
   {
-    "id": "ec53418d1449d00c",
-    "title": "GTA 6 Prologue Has Alternate Cutscenes",
-    "url": "https://www.youtube.com/shorts/AJ4FlSDxnwo",
-    "platform": "youtube",
-    "author": "GameSpot",
-    "source_name": "GameSpot",
-    "published_at": "2026-11-20T22:00:29+00:00",
-    "license_category": "unauthorized",
-    "niche_tags": [
-      "gta 6"
-    ],
-    "viral_score": 71.2,
-    "score_breakdown": {
-      "recency": 25.0,
-      "keyword_impact": 15.0,
-      "source_authority": 21.25,
-      "brazilian_fit": 10.0
-    },
-    "priority_level": "HIGH",
-    "recommended_angle_br": "Curiosidade imperdível sobre a ambientação e tecnologia da nova era de Vice City.",
-    "suggested_hook_pt": "👀 SE LIGA NESSE DETALHE DE GTA 6 QUE QUASE NINGUÉM PERCEBEU!",
-    "status": "analyzed",
-    "thumbnail": "https://i.ytimg.com/vi/AJ4FlSDxnwo/hqdefault.jpg"
-  },
-  {
-    "id": "0f9884a546ae1d99",
-    "title": "GTA 6 How to Unlock A Secret Radio Station",
-    "url": "https://www.youtube.com/shorts/tT7aN7UpnlQ",
-    "platform": "youtube",
-    "author": "GameSpot",
-    "source_name": "GameSpot",
-    "published_at": "2026-11-20T21:02:10+00:00",
-    "license_category": "unauthorized",
-    "niche_tags": [
-      "gta 6"
-    ],
-    "viral_score": 71.2,
-    "score_breakdown": {
-      "recency": 25.0,
-      "keyword_impact": 15.0,
-      "source_authority": 21.25,
-      "brazilian_fit": 10.0
-    },
-    "priority_level": "HIGH",
-    "recommended_angle_br": "Curiosidade imperdível sobre a ambientação e tecnologia da nova era de Vice City.",
-    "suggested_hook_pt": "👀 SE LIGA NESSE DETALHE DE GTA 6 QUE QUASE NINGUÉM PERCEBEU!",
-    "status": "analyzed",
-    "thumbnail": "https://i.ytimg.com/vi/tT7aN7UpnlQ/hqdefault.jpg"
-  },
-  {
     "id": "2f21c02d5340ebd0",
     "title": "GTA 6 Car Jacking Explained",
     "url": "https://www.youtube.com/shorts/jsy42SsvtPU",
@@ -386,47 +336,21 @@
     "thumbnail": "https://i.ytimg.com/vi/jsy42SsvtPU/hqdefault.jpg"
   },
   {
-    "id": "7956ed887538043e",
-    "title": "Wuthering Waves: Embers of the Everbright - Official Gameplay Reveal",
-    "url": "https://www.youtube.com/watch?v=k8X8Gt5KhKI",
-    "platform": "youtube",
-    "author": "IGN",
-    "source_name": "IGN Games Feed",
-    "published_at": "2026-11-21T03:00:14+00:00",
-    "license_category": "unauthorized",
-    "niche_tags": [
-      "gameplay"
-    ],
-    "viral_score": 69.2,
-    "score_breakdown": {
-      "recency": 25.0,
-      "keyword_impact": 8.0,
-      "source_authority": 21.25,
-      "brazilian_fit": 15.0
-    },
-    "priority_level": "MEDIUM",
-    "recommended_angle_br": "Curiosidade imperdível sobre a ambientação e tecnologia da nova era de Vice City.",
-    "suggested_hook_pt": "👀 SE LIGA NESSE DETALHE DE GTA 6 QUE QUASE NINGUÉM PERCEBEU!",
-    "status": "analyzed",
-    "thumbnail": "https://i.ytimg.com/vi/k8X8Gt5KhKI/hqdefault.jpg"
-  },
-  {
-    "id": "f2d3f5edc9a307a2",
-    "title": "This Had My Jaw On The Floor",
-    "url": "https://www.youtube.com/watch?v=OAN_BXmVR0g",
+    "id": "ec53418d1449d00c",
+    "title": "GTA 6 Prologue Has Alternate Cutscenes",
+    "url": "https://www.youtube.com/shorts/AJ4FlSDxnwo",
     "platform": "youtube",
     "author": "GameSpot",
     "source_name": "GameSpot",
-    "published_at": "2026-11-20T22:30:30+00:00",
+    "published_at": "2026-11-20T22:00:29+00:00",
     "license_category": "unauthorized",
     "niche_tags": [
-      "jason",
-      "leonida"
+      "gta 6"
     ],
-    "viral_score": 69.2,
+    "viral_score": 66.2,
     "score_breakdown": {
-      "recency": 25.0,
-      "keyword_impact": 13.0,
+      "recency": 20.0,
+      "keyword_impact": 15.0,
       "source_authority": 21.25,
       "brazilian_fit": 10.0
     },
@@ -434,7 +358,32 @@
     "recommended_angle_br": "Curiosidade imperdível sobre a ambientação e tecnologia da nova era de Vice City.",
     "suggested_hook_pt": "👀 SE LIGA NESSE DETALHE DE GTA 6 QUE QUASE NINGUÉM PERCEBEU!",
     "status": "analyzed",
-    "thumbnail": "https://i.ytimg.com/vi/OAN_BXmVR0g/hqdefault.jpg"
+    "thumbnail": "https://i.ytimg.com/vi/AJ4FlSDxnwo/hqdefault.jpg"
+  },
+  {
+    "id": "0f9884a546ae1d99",
+    "title": "GTA 6 How to Unlock A Secret Radio Station",
+    "url": "https://www.youtube.com/shorts/tT7aN7UpnlQ",
+    "platform": "youtube",
+    "author": "GameSpot",
+    "source_name": "GameSpot",
+    "published_at": "2026-11-20T21:02:10+00:00",
+    "license_category": "unauthorized",
+    "niche_tags": [
+      "gta 6"
+    ],
+    "viral_score": 66.2,
+    "score_breakdown": {
+      "recency": 20.0,
+      "keyword_impact": 15.0,
+      "source_authority": 21.25,
+      "brazilian_fit": 10.0
+    },
+    "priority_level": "MEDIUM",
+    "recommended_angle_br": "Curiosidade imperdível sobre a ambientação e tecnologia da nova era de Vice City.",
+    "suggested_hook_pt": "👀 SE LIGA NESSE DETALHE DE GTA 6 QUE QUASE NINGUÉM PERCEBEU!",
+    "status": "analyzed",
+    "thumbnail": "https://i.ytimg.com/vi/tT7aN7UpnlQ/hqdefault.jpg"
   },
   {
     "id": "9ccc4494bdf4bd38",
@@ -487,6 +436,32 @@
     "thumbnail": "https://i.ytimg.com/vi/1YEHOKYVTho/hqdefault.jpg"
   },
   {
+    "id": "f2d3f5edc9a307a2",
+    "title": "This Had My Jaw On The Floor",
+    "url": "https://www.youtube.com/watch?v=OAN_BXmVR0g",
+    "platform": "youtube",
+    "author": "GameSpot",
+    "source_name": "GameSpot",
+    "published_at": "2026-11-20T22:30:30+00:00",
+    "license_category": "unauthorized",
+    "niche_tags": [
+      "jason",
+      "leonida"
+    ],
+    "viral_score": 64.2,
+    "score_breakdown": {
+      "recency": 20.0,
+      "keyword_impact": 13.0,
+      "source_authority": 21.25,
+      "brazilian_fit": 10.0
+    },
+    "priority_level": "MEDIUM",
+    "recommended_angle_br": "Curiosidade imperdível sobre a ambientação e tecnologia da nova era de Vice City.",
+    "suggested_hook_pt": "👀 SE LIGA NESSE DETALHE DE GTA 6 QUE QUASE NINGUÉM PERCEBEU!",
+    "status": "analyzed",
+    "thumbnail": "https://i.ytimg.com/vi/OAN_BXmVR0g/hqdefault.jpg"
+  },
+  {
     "id": "a97616a9f0787cec",
     "title": "🚨BOOM! Plane Crash In The Leonida Grassrivers🚨",
     "url": "https://www.youtube.com/shorts/NE4NIKkv9IU",
@@ -498,9 +473,9 @@
     "niche_tags": [
       "leonida"
     ],
-    "viral_score": 61.2,
+    "viral_score": 56.2,
     "score_breakdown": {
-      "recency": 25.0,
+      "recency": 20.0,
       "keyword_impact": 5.0,
       "source_authority": 21.25,
       "brazilian_fit": 10.0
