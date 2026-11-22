@@ -1,22 +1,23 @@
 [
   {
-    "id": "02d3f065ba7a7a8c",
-    "title": "BeamNG.drive - Official Trailer",
-    "url": "https://www.youtube.com/watch?v=B34chO-bwZA",
+    "id": "eef71901692df3f4",
+    "title": "Worms: Galactic Tactics - Official Gameplay Overview Trailer",
+    "url": "https://www.youtube.com/watch?v=oNjLX8R0--0",
     "platform": "youtube",
     "author": "IGN",
     "source_name": "IGN Games Feed",
-    "published_at": "2026-11-21T16:00:22+00:00",
+    "published_at": "2026-11-22T01:00:38+00:00",
     "license_category": "unauthorized",
     "niche_tags": [
       "trailer",
-      "physics",
-      "ps5"
+      "gameplay",
+      "ps5",
+      "xbox"
     ],
-    "viral_score": 81.2,
+    "viral_score": 79.2,
     "score_breakdown": {
       "recency": 25.0,
-      "keyword_impact": 20.0,
+      "keyword_impact": 18.0,
       "source_authority": 21.25,
       "brazilian_fit": 15.0
     },
@@ -24,7 +25,7 @@
     "recommended_angle_br": "Análise quadro a quadro de novidades e detalhes ocultos no novo material de GTA 6.",
     "suggested_hook_pt": "🚨 VOCÊ VIU ISSO?! Novo material oficial de GTA 6 revelou detalhes inacreditáveis!",
     "status": "analyzed",
-    "thumbnail": "https://i.ytimg.com/vi/B34chO-bwZA/hqdefault.jpg"
+    "thumbnail": "https://i.ytimg.com/vi/oNjLX8R0--0/hqdefault.jpg"
   },
   {
     "id": "b50e0cb1163c88a1",
@@ -105,24 +106,21 @@
     "thumbnail": "https://i.ytimg.com/vi/jSTzBY8RVmY/hqdefault.jpg"
   },
   {
-    "id": "b6818a4de927799d",
-    "title": "GTA 6 : Playing Every Arcade and Console Game",
-    "url": "https://www.youtube.com/watch?v=P-BbiYUPD-o",
+    "id": "18742ae4ef11b6b1",
+    "title": "Don't miss these items from GTA 6 chapter 1!",
+    "url": "https://www.youtube.com/shorts/ssN0USivlkk",
     "platform": "youtube",
     "author": "IGN",
     "source_name": "IGN Games Feed",
-    "published_at": "2026-11-21T14:30:08+00:00",
+    "published_at": "2026-11-22T01:53:50+00:00",
     "license_category": "unauthorized",
     "niche_tags": [
-      "gta 6",
-      "gameplay",
-      "open world",
-      "xbox"
+      "gta 6"
     ],
-    "viral_score": 79.2,
+    "viral_score": 71.2,
     "score_breakdown": {
       "recency": 25.0,
-      "keyword_impact": 23.0,
+      "keyword_impact": 15.0,
       "source_authority": 21.25,
       "brazilian_fit": 10.0
     },
@@ -130,7 +128,59 @@
     "recommended_angle_br": "Curiosidade imperdível sobre a ambientação e tecnologia da nova era de Vice City.",
     "suggested_hook_pt": "👀 SE LIGA NESSE DETALHE DE GTA 6 QUE QUASE NINGUÉM PERCEBEU!",
     "status": "analyzed",
-    "thumbnail": "https://i.ytimg.com/vi/P-BbiYUPD-o/hqdefault.jpg"
+    "thumbnail": "https://i.ytimg.com/vi/ssN0USivlkk/hqdefault.jpg"
+  },
+  {
+    "id": "11b237daddee4e66",
+    "title": "Hell Let Loose - Official Lake Balaton Update 22 Teaser Trailer",
+    "url": "https://www.youtube.com/watch?v=m2cFHvp3EV0",
+    "platform": "youtube",
+    "author": "IGN",
+    "source_name": "IGN Games Feed",
+    "published_at": "2026-11-22T00:00:37+00:00",
+    "license_category": "unauthorized",
+    "niche_tags": [
+      "trailer",
+      "ps5",
+      "xbox"
+    ],
+    "viral_score": 71.2,
+    "score_breakdown": {
+      "recency": 25.0,
+      "keyword_impact": 10.0,
+      "source_authority": 21.25,
+      "brazilian_fit": 15.0
+    },
+    "priority_level": "HIGH",
+    "recommended_angle_br": "Análise quadro a quadro de novidades e detalhes ocultos no novo material de GTA 6.",
+    "suggested_hook_pt": "🚨 VOCÊ VIU ISSO?! Novo material oficial de GTA 6 revelou detalhes inacreditáveis!",
+    "status": "analyzed",
+    "thumbnail": "https://i.ytimg.com/vi/m2cFHvp3EV0/hqdefault.jpg"
+  },
+  {
+    "id": "5860fa65b7e37e42",
+    "title": "Heroes of Might and Magic 3 Remake - Official Closed Playtest Trailer",
+    "url": "https://www.youtube.com/watch?v=9Snwgs6IH0o",
+    "platform": "youtube",
+    "author": "IGN",
+    "source_name": "IGN Games Feed",
+    "published_at": "2026-11-21T23:00:24+00:00",
+    "license_category": "unauthorized",
+    "niche_tags": [
+      "trailer"
+    ],
+    "viral_score": 71.2,
+    "score_breakdown": {
+      "recency": 25.0,
+      "keyword_impact": 10.0,
+      "source_authority": 21.25,
+      "brazilian_fit": 15.0
+    },
+    "priority_level": "HIGH",
+    "recommended_angle_br": "Análise quadro a quadro de novidades e detalhes ocultos no novo material de GTA 6.",
+    "suggested_hook_pt": "🚨 VOCÊ VIU ISSO?! Novo material oficial de GTA 6 revelou detalhes inacreditáveis!",
+    "status": "analyzed",
+    "thumbnail": "https://i.ytimg.com/vi/9Snwgs6IH0o/hqdefault.jpg"
   },
   {
     "id": "70d73e43ceef187d",
@@ -183,59 +233,6 @@
     "thumbnail": "https://i.ytimg.com/vi/3--JEQYRQDI/hqdefault.jpg"
   },
   {
-    "id": "9c88d43713a4f400",
-    "title": "Metal Slug Ultimate Collection - Official Metal Slug 1 & 2 Story Recap Trailer",
-    "url": "https://www.youtube.com/watch?v=FsIkYn0kcQc",
-    "platform": "youtube",
-    "author": "IGN",
-    "source_name": "IGN Games Feed",
-    "published_at": "2026-11-21T17:00:36+00:00",
-    "license_category": "unauthorized",
-    "niche_tags": [
-      "trailer",
-      "gameplay",
-      "ps5",
-      "xbox"
-    ],
-    "viral_score": 71.2,
-    "score_breakdown": {
-      "recency": 25.0,
-      "keyword_impact": 10.0,
-      "source_authority": 21.25,
-      "brazilian_fit": 15.0
-    },
-    "priority_level": "HIGH",
-    "recommended_angle_br": "Análise quadro a quadro de novidades e detalhes ocultos no novo material de GTA 6.",
-    "suggested_hook_pt": "🚨 VOCÊ VIU ISSO?! Novo material oficial de GTA 6 revelou detalhes inacreditáveis!",
-    "status": "analyzed",
-    "thumbnail": "https://i.ytimg.com/vi/FsIkYn0kcQc/hqdefault.jpg"
-  },
-  {
-    "id": "ae147854cc17955d",
-    "title": "KeyCapy - Official Announcement Trailer",
-    "url": "https://www.youtube.com/watch?v=WjiEzj6HWl0",
-    "platform": "youtube",
-    "author": "IGN",
-    "source_name": "IGN Games Feed",
-    "published_at": "2026-11-21T17:00:05+00:00",
-    "license_category": "unauthorized",
-    "niche_tags": [
-      "trailer"
-    ],
-    "viral_score": 71.2,
-    "score_breakdown": {
-      "recency": 25.0,
-      "keyword_impact": 10.0,
-      "source_authority": 21.25,
-      "brazilian_fit": 15.0
-    },
-    "priority_level": "HIGH",
-    "recommended_angle_br": "Análise quadro a quadro de novidades e detalhes ocultos no novo material de GTA 6.",
-    "suggested_hook_pt": "🚨 VOCÊ VIU ISSO?! Novo material oficial de GTA 6 revelou detalhes inacreditáveis!",
-    "status": "analyzed",
-    "thumbnail": "https://i.ytimg.com/vi/WjiEzj6HWl0/hqdefault.jpg"
-  },
-  {
     "id": "a6a7928a72689d66",
     "title": "GTA 6 Has In-Game Video Games",
     "url": "https://www.youtube.com/shorts/RZhaYgJbSgc",
@@ -261,56 +258,6 @@
     "thumbnail": "https://i.ytimg.com/vi/RZhaYgJbSgc/hqdefault.jpg"
   },
   {
-    "id": "76561d3afdbf2d55",
-    "title": "How To Play GTA 6 in First Person with a Glitch",
-    "url": "https://www.youtube.com/shorts/aygLzhYFnn4",
-    "platform": "youtube",
-    "author": "GameSpot",
-    "source_name": "GameSpot",
-    "published_at": "2026-11-21T01:30:10+00:00",
-    "license_category": "unauthorized",
-    "niche_tags": [
-      "gta 6"
-    ],
-    "viral_score": 71.2,
-    "score_breakdown": {
-      "recency": 25.0,
-      "keyword_impact": 15.0,
-      "source_authority": 21.25,
-      "brazilian_fit": 10.0
-    },
-    "priority_level": "HIGH",
-    "recommended_angle_br": "Curiosidade imperdível sobre a ambientação e tecnologia da nova era de Vice City.",
-    "suggested_hook_pt": "👀 SE LIGA NESSE DETALHE DE GTA 6 QUE QUASE NINGUÉM PERCEBEU!",
-    "status": "analyzed",
-    "thumbnail": "https://i.ytimg.com/vi/aygLzhYFnn4/hqdefault.jpg"
-  },
-  {
-    "id": "1075f3d66626019c",
-    "title": "Play GTA 6 In First Person With This Glitch",
-    "url": "https://www.youtube.com/watch?v=7H6YGeREMgY",
-    "platform": "youtube",
-    "author": "GameSpot",
-    "source_name": "GameSpot",
-    "published_at": "2026-11-21T01:00:33+00:00",
-    "license_category": "unauthorized",
-    "niche_tags": [
-      "gta 6"
-    ],
-    "viral_score": 71.2,
-    "score_breakdown": {
-      "recency": 25.0,
-      "keyword_impact": 15.0,
-      "source_authority": 21.25,
-      "brazilian_fit": 10.0
-    },
-    "priority_level": "HIGH",
-    "recommended_angle_br": "Curiosidade imperdível sobre a ambientação e tecnologia da nova era de Vice City.",
-    "suggested_hook_pt": "👀 SE LIGA NESSE DETALHE DE GTA 6 QUE QUASE NINGUÉM PERCEBEU!",
-    "status": "analyzed",
-    "thumbnail": "https://i.ytimg.com/vi/7H6YGeREMgY/hqdefault.jpg"
-  },
-  {
     "id": "2f21c02d5340ebd0",
     "title": "GTA 6 Car Jacking Explained",
     "url": "https://www.youtube.com/shorts/jsy42SsvtPU",
@@ -334,6 +281,56 @@
     "suggested_hook_pt": "🚗 OS CARROS DE GTA 6 TÃO COM UMA FÍSICA ABSURDA! Se liga nesse detalhe!",
     "status": "analyzed",
     "thumbnail": "https://i.ytimg.com/vi/jsy42SsvtPU/hqdefault.jpg"
+  },
+  {
+    "id": "76561d3afdbf2d55",
+    "title": "How To Play GTA 6 in First Person with a Glitch",
+    "url": "https://www.youtube.com/shorts/aygLzhYFnn4",
+    "platform": "youtube",
+    "author": "GameSpot",
+    "source_name": "GameSpot",
+    "published_at": "2026-11-21T01:30:10+00:00",
+    "license_category": "unauthorized",
+    "niche_tags": [
+      "gta 6"
+    ],
+    "viral_score": 66.2,
+    "score_breakdown": {
+      "recency": 20.0,
+      "keyword_impact": 15.0,
+      "source_authority": 21.25,
+      "brazilian_fit": 10.0
+    },
+    "priority_level": "MEDIUM",
+    "recommended_angle_br": "Curiosidade imperdível sobre a ambientação e tecnologia da nova era de Vice City.",
+    "suggested_hook_pt": "👀 SE LIGA NESSE DETALHE DE GTA 6 QUE QUASE NINGUÉM PERCEBEU!",
+    "status": "analyzed",
+    "thumbnail": "https://i.ytimg.com/vi/aygLzhYFnn4/hqdefault.jpg"
+  },
+  {
+    "id": "1075f3d66626019c",
+    "title": "Play GTA 6 In First Person With This Glitch",
+    "url": "https://www.youtube.com/watch?v=7H6YGeREMgY",
+    "platform": "youtube",
+    "author": "GameSpot",
+    "source_name": "GameSpot",
+    "published_at": "2026-11-21T01:00:33+00:00",
+    "license_category": "unauthorized",
+    "niche_tags": [
+      "gta 6"
+    ],
+    "viral_score": 66.2,
+    "score_breakdown": {
+      "recency": 20.0,
+      "keyword_impact": 15.0,
+      "source_authority": 21.25,
+      "brazilian_fit": 10.0
+    },
+    "priority_level": "MEDIUM",
+    "recommended_angle_br": "Curiosidade imperdível sobre a ambientação e tecnologia da nova era de Vice City.",
+    "suggested_hook_pt": "👀 SE LIGA NESSE DETALHE DE GTA 6 QUE QUASE NINGUÉM PERCEBEU!",
+    "status": "analyzed",
+    "thumbnail": "https://i.ytimg.com/vi/7H6YGeREMgY/hqdefault.jpg"
   },
   {
     "id": "ec53418d1449d00c",
