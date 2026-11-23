@@ -105,34 +105,6 @@
     "thumbnail": "https://i.ytimg.com/vi/UyxxY0A_kow/hqdefault.jpg"
   },
   {
-    "id": "eef71901692df3f4",
-    "title": "Worms: Galactic Tactics - Official Gameplay Overview Trailer",
-    "url": "https://www.youtube.com/watch?v=oNjLX8R0--0",
-    "platform": "youtube",
-    "author": "IGN",
-    "source_name": "IGN Games Feed",
-    "published_at": "2026-11-22T01:00:38+00:00",
-    "license_category": "unauthorized",
-    "niche_tags": [
-      "trailer",
-      "gameplay",
-      "ps5",
-      "xbox"
-    ],
-    "viral_score": 79.2,
-    "score_breakdown": {
-      "recency": 25.0,
-      "keyword_impact": 18.0,
-      "source_authority": 21.25,
-      "brazilian_fit": 15.0
-    },
-    "priority_level": "HIGH",
-    "recommended_angle_br": "Análise quadro a quadro de novidades e detalhes ocultos no novo material de GTA 6.",
-    "suggested_hook_pt": "🚨 VOCÊ VIU ISSO?! Novo material oficial de GTA 6 revelou detalhes inacreditáveis!",
-    "status": "analyzed",
-    "thumbnail": "https://i.ytimg.com/vi/oNjLX8R0--0/hqdefault.jpg"
-  },
-  {
     "id": "1aa6bb679d9e8c6d",
     "title": "Wingsuit Simulator - Official Reveal Trailer",
     "url": "https://www.youtube.com/watch?v=-CjMTtCbUhU",
@@ -157,6 +129,34 @@
     "suggested_hook_pt": "🚨 VOCÊ VIU ISSO?! Novo material oficial de GTA 6 revelou detalhes inacreditáveis!",
     "status": "analyzed",
     "thumbnail": "https://i.ytimg.com/vi/-CjMTtCbUhU/hqdefault.jpg"
+  },
+  {
+    "id": "eef71901692df3f4",
+    "title": "Worms: Galactic Tactics - Official Gameplay Overview Trailer",
+    "url": "https://www.youtube.com/watch?v=oNjLX8R0--0",
+    "platform": "youtube",
+    "author": "IGN",
+    "source_name": "IGN Games Feed",
+    "published_at": "2026-11-22T01:00:38+00:00",
+    "license_category": "unauthorized",
+    "niche_tags": [
+      "trailer",
+      "gameplay",
+      "ps5",
+      "xbox"
+    ],
+    "viral_score": 74.2,
+    "score_breakdown": {
+      "recency": 20.0,
+      "keyword_impact": 18.0,
+      "source_authority": 21.25,
+      "brazilian_fit": 15.0
+    },
+    "priority_level": "HIGH",
+    "recommended_angle_br": "Análise quadro a quadro de novidades e detalhes ocultos no novo material de GTA 6.",
+    "suggested_hook_pt": "🚨 VOCÊ VIU ISSO?! Novo material oficial de GTA 6 revelou detalhes inacreditáveis!",
+    "status": "analyzed",
+    "thumbnail": "https://i.ytimg.com/vi/oNjLX8R0--0/hqdefault.jpg"
   },
   {
     "id": "ae62d45c89a83ad6",
@@ -209,31 +209,6 @@
     "thumbnail": "https://i.ytimg.com/vi/7cMa5RKQjTQ/hqdefault.jpg"
   },
   {
-    "id": "18742ae4ef11b6b1",
-    "title": "Don't miss these items from GTA 6 chapter 1!",
-    "url": "https://www.youtube.com/shorts/ssN0USivlkk",
-    "platform": "youtube",
-    "author": "IGN",
-    "source_name": "IGN Games Feed",
-    "published_at": "2026-11-22T01:53:50+00:00",
-    "license_category": "unauthorized",
-    "niche_tags": [
-      "gta 6"
-    ],
-    "viral_score": 71.2,
-    "score_breakdown": {
-      "recency": 25.0,
-      "keyword_impact": 15.0,
-      "source_authority": 21.25,
-      "brazilian_fit": 10.0
-    },
-    "priority_level": "HIGH",
-    "recommended_angle_br": "Curiosidade imperdível sobre a ambientação e tecnologia da nova era de Vice City.",
-    "suggested_hook_pt": "👀 SE LIGA NESSE DETALHE DE GTA 6 QUE QUASE NINGUÉM PERCEBEU!",
-    "status": "analyzed",
-    "thumbnail": "https://i.ytimg.com/vi/ssN0USivlkk/hqdefault.jpg"
-  },
-  {
     "id": "2f21c02d5340ebd0",
     "title": "GTA 6 Car Jacking Explained",
     "url": "https://www.youtube.com/shorts/jsy42SsvtPU",
@@ -257,6 +232,31 @@
     "suggested_hook_pt": "🚗 OS CARROS DE GTA 6 TÃO COM UMA FÍSICA ABSURDA! Se liga nesse detalhe!",
     "status": "analyzed",
     "thumbnail": "https://i.ytimg.com/vi/jsy42SsvtPU/hqdefault.jpg"
+  },
+  {
+    "id": "18742ae4ef11b6b1",
+    "title": "Don't miss these items from GTA 6 chapter 1!",
+    "url": "https://www.youtube.com/shorts/ssN0USivlkk",
+    "platform": "youtube",
+    "author": "IGN",
+    "source_name": "IGN Games Feed",
+    "published_at": "2026-11-22T01:53:50+00:00",
+    "license_category": "unauthorized",
+    "niche_tags": [
+      "gta 6"
+    ],
+    "viral_score": 66.2,
+    "score_breakdown": {
+      "recency": 20.0,
+      "keyword_impact": 15.0,
+      "source_authority": 21.25,
+      "brazilian_fit": 10.0
+    },
+    "priority_level": "MEDIUM",
+    "recommended_angle_br": "Curiosidade imperdível sobre a ambientação e tecnologia da nova era de Vice City.",
+    "suggested_hook_pt": "👀 SE LIGA NESSE DETALHE DE GTA 6 QUE QUASE NINGUÉM PERCEBEU!",
+    "status": "analyzed",
+    "thumbnail": "https://i.ytimg.com/vi/ssN0USivlkk/hqdefault.jpg"
   },
   {
     "id": "a6a7928a72689d66",
@@ -384,56 +384,6 @@
     "thumbnail": "https://i.ytimg.com/vi/tT7aN7UpnlQ/hqdefault.jpg"
   },
   {
-    "id": "9ccc4494bdf4bd38",
-    "title": "Polar Bear Attack In GTA 6",
-    "url": "https://www.youtube.com/shorts/vVERSQeYlLc",
-    "platform": "youtube",
-    "author": "GameSpot",
-    "source_name": "GameSpot",
-    "published_at": "2026-11-20T02:00:35+00:00",
-    "license_category": "unauthorized",
-    "niche_tags": [
-      "gta 6"
-    ],
-    "viral_score": 66.2,
-    "score_breakdown": {
-      "recency": 20.0,
-      "keyword_impact": 15.0,
-      "source_authority": 21.25,
-      "brazilian_fit": 10.0
-    },
-    "priority_level": "MEDIUM",
-    "recommended_angle_br": "Curiosidade imperdível sobre a ambientação e tecnologia da nova era de Vice City.",
-    "suggested_hook_pt": "👀 SE LIGA NESSE DETALHE DE GTA 6 QUE QUASE NINGUÉM PERCEBEU!",
-    "status": "analyzed",
-    "thumbnail": "https://i.ytimg.com/vi/vVERSQeYlLc/hqdefault.jpg"
-  },
-  {
-    "id": "8e22393df8d71156",
-    "title": "How To Make Money Fast In GTA 6",
-    "url": "https://www.youtube.com/watch?v=1YEHOKYVTho",
-    "platform": "youtube",
-    "author": "GameSpot",
-    "source_name": "GameSpot",
-    "published_at": "2026-11-20T01:30:31+00:00",
-    "license_category": "unauthorized",
-    "niche_tags": [
-      "gta 6"
-    ],
-    "viral_score": 66.2,
-    "score_breakdown": {
-      "recency": 20.0,
-      "keyword_impact": 15.0,
-      "source_authority": 21.25,
-      "brazilian_fit": 10.0
-    },
-    "priority_level": "MEDIUM",
-    "recommended_angle_br": "Curiosidade imperdível sobre a ambientação e tecnologia da nova era de Vice City.",
-    "suggested_hook_pt": "👀 SE LIGA NESSE DETALHE DE GTA 6 QUE QUASE NINGUÉM PERCEBEU!",
-    "status": "analyzed",
-    "thumbnail": "https://i.ytimg.com/vi/1YEHOKYVTho/hqdefault.jpg"
-  },
-  {
     "id": "944279fb897287e4",
     "title": "Wardens of Avalon - Official Exploration and Combat Gameplay Developer Overview Video",
     "url": "https://www.youtube.com/watch?v=j6rVn529Hi4",
@@ -483,6 +433,56 @@
     "suggested_hook_pt": "👀 SE LIGA NESSE DETALHE DE GTA 6 QUE QUASE NINGUÉM PERCEBEU!",
     "status": "analyzed",
     "thumbnail": "https://i.ytimg.com/vi/OAN_BXmVR0g/hqdefault.jpg"
+  },
+  {
+    "id": "9ccc4494bdf4bd38",
+    "title": "Polar Bear Attack In GTA 6",
+    "url": "https://www.youtube.com/shorts/vVERSQeYlLc",
+    "platform": "youtube",
+    "author": "GameSpot",
+    "source_name": "GameSpot",
+    "published_at": "2026-11-20T02:00:35+00:00",
+    "license_category": "unauthorized",
+    "niche_tags": [
+      "gta 6"
+    ],
+    "viral_score": 61.2,
+    "score_breakdown": {
+      "recency": 15.0,
+      "keyword_impact": 15.0,
+      "source_authority": 21.25,
+      "brazilian_fit": 10.0
+    },
+    "priority_level": "MEDIUM",
+    "recommended_angle_br": "Curiosidade imperdível sobre a ambientação e tecnologia da nova era de Vice City.",
+    "suggested_hook_pt": "👀 SE LIGA NESSE DETALHE DE GTA 6 QUE QUASE NINGUÉM PERCEBEU!",
+    "status": "analyzed",
+    "thumbnail": "https://i.ytimg.com/vi/vVERSQeYlLc/hqdefault.jpg"
+  },
+  {
+    "id": "8e22393df8d71156",
+    "title": "How To Make Money Fast In GTA 6",
+    "url": "https://www.youtube.com/watch?v=1YEHOKYVTho",
+    "platform": "youtube",
+    "author": "GameSpot",
+    "source_name": "GameSpot",
+    "published_at": "2026-11-20T01:30:31+00:00",
+    "license_category": "unauthorized",
+    "niche_tags": [
+      "gta 6"
+    ],
+    "viral_score": 61.2,
+    "score_breakdown": {
+      "recency": 15.0,
+      "keyword_impact": 15.0,
+      "source_authority": 21.25,
+      "brazilian_fit": 10.0
+    },
+    "priority_level": "MEDIUM",
+    "recommended_angle_br": "Curiosidade imperdível sobre a ambientação e tecnologia da nova era de Vice City.",
+    "suggested_hook_pt": "👀 SE LIGA NESSE DETALHE DE GTA 6 QUE QUASE NINGUÉM PERCEBEU!",
+    "status": "analyzed",
+    "thumbnail": "https://i.ytimg.com/vi/1YEHOKYVTho/hqdefault.jpg"
   },
   {
     "id": "a97616a9f0787cec",
