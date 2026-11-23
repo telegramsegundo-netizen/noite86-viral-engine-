@@ -27,6 +27,33 @@
     "thumbnail": "https://i.ytimg.com/vi/JPnJPuH4N6Q/hqdefault.jpg"
   },
   {
+    "id": "f05b6d9733b8604a",
+    "title": "Teardown - Official Rally Mode Release Date Trailer",
+    "url": "https://www.youtube.com/watch?v=xgrO_UfbLWc",
+    "platform": "youtube",
+    "author": "IGN",
+    "source_name": "IGN Games Feed",
+    "published_at": "2026-11-23T13:00:02+00:00",
+    "license_category": "unauthorized",
+    "niche_tags": [
+      "trailer",
+      "map",
+      "release date"
+    ],
+    "viral_score": 85.2,
+    "score_breakdown": {
+      "recency": 25.0,
+      "keyword_impact": 24.0,
+      "source_authority": 21.25,
+      "brazilian_fit": 15.0
+    },
+    "priority_level": "HIGH",
+    "recommended_angle_br": "Análise quadro a quadro de novidades e detalhes ocultos no novo material de GTA 6.",
+    "suggested_hook_pt": "🚨 VOCÊ VIU ISSO?! Novo material oficial de GTA 6 revelou detalhes inacreditáveis!",
+    "status": "analyzed",
+    "thumbnail": "https://i.ytimg.com/vi/xgrO_UfbLWc/hqdefault.jpg"
+  },
+  {
     "id": "edb4e683e271875b",
     "title": "This Is the One Thing I’ll Never Do Again in GTA 6",
     "url": "https://www.youtube.com/watch?v=JeSwaKPVvOY",
@@ -131,34 +158,6 @@
     "thumbnail": "https://i.ytimg.com/vi/-CjMTtCbUhU/hqdefault.jpg"
   },
   {
-    "id": "eef71901692df3f4",
-    "title": "Worms: Galactic Tactics - Official Gameplay Overview Trailer",
-    "url": "https://www.youtube.com/watch?v=oNjLX8R0--0",
-    "platform": "youtube",
-    "author": "IGN",
-    "source_name": "IGN Games Feed",
-    "published_at": "2026-11-22T01:00:38+00:00",
-    "license_category": "unauthorized",
-    "niche_tags": [
-      "trailer",
-      "gameplay",
-      "ps5",
-      "xbox"
-    ],
-    "viral_score": 74.2,
-    "score_breakdown": {
-      "recency": 20.0,
-      "keyword_impact": 18.0,
-      "source_authority": 21.25,
-      "brazilian_fit": 15.0
-    },
-    "priority_level": "HIGH",
-    "recommended_angle_br": "Análise quadro a quadro de novidades e detalhes ocultos no novo material de GTA 6.",
-    "suggested_hook_pt": "🚨 VOCÊ VIU ISSO?! Novo material oficial de GTA 6 revelou detalhes inacreditáveis!",
-    "status": "analyzed",
-    "thumbnail": "https://i.ytimg.com/vi/oNjLX8R0--0/hqdefault.jpg"
-  },
-  {
     "id": "ae62d45c89a83ad6",
     "title": "Astrider - Official Demo Launch Trailer",
     "url": "https://www.youtube.com/watch?v=ljEukoe7IyY",
@@ -207,31 +206,6 @@
     "suggested_hook_pt": "🚨 VOCÊ VIU ISSO?! Novo material oficial de GTA 6 revelou detalhes inacreditáveis!",
     "status": "analyzed",
     "thumbnail": "https://i.ytimg.com/vi/7cMa5RKQjTQ/hqdefault.jpg"
-  },
-  {
-    "id": "2f21c02d5340ebd0",
-    "title": "GTA 6 Car Jacking Explained",
-    "url": "https://www.youtube.com/shorts/jsy42SsvtPU",
-    "platform": "youtube",
-    "author": "GameSpot",
-    "source_name": "GameSpot",
-    "published_at": "2026-11-20T03:00:37+00:00",
-    "license_category": "unauthorized",
-    "niche_tags": [
-      "gta 6"
-    ],
-    "viral_score": 71.2,
-    "score_breakdown": {
-      "recency": 20.0,
-      "keyword_impact": 15.0,
-      "source_authority": 21.25,
-      "brazilian_fit": 15.0
-    },
-    "priority_level": "HIGH",
-    "recommended_angle_br": "Física automotiva e customização dos carros anos 80 em Vice City.",
-    "suggested_hook_pt": "🚗 OS CARROS DE GTA 6 TÃO COM UMA FÍSICA ABSURDA! Se liga nesse detalhe!",
-    "status": "analyzed",
-    "thumbnail": "https://i.ytimg.com/vi/jsy42SsvtPU/hqdefault.jpg"
   },
   {
     "id": "18742ae4ef11b6b1",
@@ -382,6 +356,31 @@
     "suggested_hook_pt": "👀 SE LIGA NESSE DETALHE DE GTA 6 QUE QUASE NINGUÉM PERCEBEU!",
     "status": "analyzed",
     "thumbnail": "https://i.ytimg.com/vi/tT7aN7UpnlQ/hqdefault.jpg"
+  },
+  {
+    "id": "2f21c02d5340ebd0",
+    "title": "GTA 6 Car Jacking Explained",
+    "url": "https://www.youtube.com/shorts/jsy42SsvtPU",
+    "platform": "youtube",
+    "author": "GameSpot",
+    "source_name": "GameSpot",
+    "published_at": "2026-11-20T03:00:37+00:00",
+    "license_category": "unauthorized",
+    "niche_tags": [
+      "gta 6"
+    ],
+    "viral_score": 66.2,
+    "score_breakdown": {
+      "recency": 15.0,
+      "keyword_impact": 15.0,
+      "source_authority": 21.25,
+      "brazilian_fit": 15.0
+    },
+    "priority_level": "MEDIUM",
+    "recommended_angle_br": "Física automotiva e customização dos carros anos 80 em Vice City.",
+    "suggested_hook_pt": "🚗 OS CARROS DE GTA 6 TÃO COM UMA FÍSICA ABSURDA! Se liga nesse detalhe!",
+    "status": "analyzed",
+    "thumbnail": "https://i.ytimg.com/vi/jsy42SsvtPU/hqdefault.jpg"
   },
   {
     "id": "944279fb897287e4",
