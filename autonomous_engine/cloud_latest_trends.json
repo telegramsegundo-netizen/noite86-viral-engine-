@@ -1,22 +1,21 @@
 [
   {
-    "id": "4334ae58625ff447",
-    "title": "I Fed Jason 55,780 Calories in GTA 6... (Instant Regret)",
-    "url": "https://www.youtube.com/watch?v=nm8R4rk1-HM",
+    "id": "7051b7428a930593",
+    "title": "GTA 6 - How to Fast Travel (And Travel Fast)",
+    "url": "https://www.youtube.com/watch?v=JOaRN1tsv_E",
     "platform": "youtube",
     "author": "IGN",
     "source_name": "IGN Games Feed",
-    "published_at": "2026-11-24T16:30:39+00:00",
+    "published_at": "2026-11-25T01:17:42+00:00",
     "license_category": "unauthorized",
     "niche_tags": [
       "gta 6",
-      "lucia",
-      "jason"
+      "map"
     ],
-    "viral_score": 92.2,
+    "viral_score": 83.2,
     "score_breakdown": {
       "recency": 25.0,
-      "keyword_impact": 31.0,
+      "keyword_impact": 22.0,
       "source_authority": 21.25,
       "brazilian_fit": 15.0
     },
@@ -24,20 +23,47 @@
     "recommended_angle_br": "Curiosidade imperdível sobre a ambientação e tecnologia da nova era de Vice City.",
     "suggested_hook_pt": "👀 SE LIGA NESSE DETALHE DE GTA 6 QUE QUASE NINGUÉM PERCEBEU!",
     "status": "analyzed",
-    "thumbnail": "https://i.ytimg.com/vi/nm8R4rk1-HM/hqdefault.jpg"
+    "thumbnail": "https://i.ytimg.com/vi/JOaRN1tsv_E/hqdefault.jpg"
   },
   {
-    "id": "f5667c88137ba3c2",
-    "title": "What's your favorite little detail you've found in GTA 6? #gta6 #animation #details #gameplay #ign",
-    "url": "https://www.youtube.com/shorts/x_w8FbkNjWo",
+    "id": "8e5586e0fe1b8067",
+    "title": "GTA 6 - How to Find the PS2 Vice City Easter Egg",
+    "url": "https://www.youtube.com/watch?v=gNMTCbS8Ytg",
     "platform": "youtube",
     "author": "IGN",
     "source_name": "IGN Games Feed",
-    "published_at": "2026-11-24T21:44:59+00:00",
+    "published_at": "2026-11-25T00:23:31+00:00",
     "license_category": "unauthorized",
     "niche_tags": [
       "gta 6",
-      "gameplay"
+      "vice city"
+    ],
+    "viral_score": 83.2,
+    "score_breakdown": {
+      "recency": 25.0,
+      "keyword_impact": 27.0,
+      "source_authority": 21.25,
+      "brazilian_fit": 10.0
+    },
+    "priority_level": "HIGH",
+    "recommended_angle_br": "Exploração da geografia de Vice City e tamanho comparado com Los Santos.",
+    "suggested_hook_pt": "🗺️ O MAPA DE VICE CITY TÁ SURREAL! Olha essa comparação com o GTA 5!",
+    "status": "analyzed",
+    "thumbnail": "https://i.ytimg.com/vi/gNMTCbS8Ytg/hqdefault.jpg"
+  },
+  {
+    "id": "550819c2cf25694f",
+    "title": "Go To Hell In GTA 6 (And Get A Permanent Health Boost)",
+    "url": "https://www.youtube.com/watch?v=Y3tU0mXzto0",
+    "platform": "youtube",
+    "author": "GameSpot",
+    "source_name": "GameSpot",
+    "published_at": "2026-11-25T01:00:00+00:00",
+    "license_category": "unauthorized",
+    "niche_tags": [
+      "gta 6",
+      "rockstar",
+      "open world"
     ],
     "viral_score": 79.2,
     "score_breakdown": {
@@ -50,7 +76,58 @@
     "recommended_angle_br": "Curiosidade imperdível sobre a ambientação e tecnologia da nova era de Vice City.",
     "suggested_hook_pt": "👀 SE LIGA NESSE DETALHE DE GTA 6 QUE QUASE NINGUÉM PERCEBEU!",
     "status": "analyzed",
-    "thumbnail": "https://i.ytimg.com/vi/x_w8FbkNjWo/hqdefault.jpg"
+    "thumbnail": "https://i.ytimg.com/vi/Y3tU0mXzto0/hqdefault.jpg"
+  },
+  {
+    "id": "774cd3161eb8789e",
+    "title": "Jason's Jump In GTA 6 Reminds Us Of Seinfeld",
+    "url": "https://www.youtube.com/shorts/GKg4FmJhfhY",
+    "platform": "youtube",
+    "author": "GameSpot",
+    "source_name": "GameSpot",
+    "published_at": "2026-11-24T22:27:04+00:00",
+    "license_category": "unauthorized",
+    "niche_tags": [
+      "gta 6",
+      "jason"
+    ],
+    "viral_score": 79.2,
+    "score_breakdown": {
+      "recency": 25.0,
+      "keyword_impact": 23.0,
+      "source_authority": 21.25,
+      "brazilian_fit": 10.0
+    },
+    "priority_level": "HIGH",
+    "recommended_angle_br": "Curiosidade imperdível sobre a ambientação e tecnologia da nova era de Vice City.",
+    "suggested_hook_pt": "👀 SE LIGA NESSE DETALHE DE GTA 6 QUE QUASE NINGUÉM PERCEBEU!",
+    "status": "analyzed",
+    "thumbnail": "https://i.ytimg.com/vi/GKg4FmJhfhY/hqdefault.jpg"
+  },
+  {
+    "id": "79c1aa8887c3b059",
+    "title": "Did you know you could put your boat on autopilot in GTA 6? #gta6 #vehicle #boat #car #ign #secret",
+    "url": "https://www.youtube.com/shorts/sCZPxhaYWyg",
+    "platform": "youtube",
+    "author": "IGN",
+    "source_name": "IGN Games Feed",
+    "published_at": "2026-11-25T00:48:56+00:00",
+    "license_category": "unauthorized",
+    "niche_tags": [
+      "gta 6"
+    ],
+    "viral_score": 76.2,
+    "score_breakdown": {
+      "recency": 25.0,
+      "keyword_impact": 15.0,
+      "source_authority": 21.25,
+      "brazilian_fit": 15.0
+    },
+    "priority_level": "HIGH",
+    "recommended_angle_br": "Física automotiva e customização dos carros anos 80 em Vice City.",
+    "suggested_hook_pt": "🚗 OS CARROS DE GTA 6 TÃO COM UMA FÍSICA ABSURDA! Se liga nesse detalhe!",
+    "status": "analyzed",
+    "thumbnail": "https://i.ytimg.com/vi/sCZPxhaYWyg/hqdefault.jpg"
   },
   {
     "id": "dc1e5bf90d6e0f58",
@@ -65,9 +142,9 @@
       "gta 6",
       "jason"
     ],
-    "viral_score": 79.2,
+    "viral_score": 74.2,
     "score_breakdown": {
-      "recency": 25.0,
+      "recency": 20.0,
       "keyword_impact": 23.0,
       "source_authority": 21.25,
       "brazilian_fit": 10.0
@@ -77,61 +154,6 @@
     "suggested_hook_pt": "👀 SE LIGA NESSE DETALHE DE GTA 6 QUE QUASE NINGUÉM PERCEBEU!",
     "status": "analyzed",
     "thumbnail": "https://i.ytimg.com/vi/i7l7Lu69V_c/hqdefault.jpg"
-  },
-  {
-    "id": "88018c6566d7db84",
-    "title": "Marvel Rivals - Official Incursion Point Map Reveal Trailer",
-    "url": "https://www.youtube.com/watch?v=VUlxa_DPco4",
-    "platform": "youtube",
-    "author": "IGN",
-    "source_name": "IGN Games Feed",
-    "published_at": "2026-11-24T16:41:13+00:00",
-    "license_category": "unauthorized",
-    "niche_tags": [
-      "trailer",
-      "map",
-      "ps5",
-      "xbox"
-    ],
-    "viral_score": 78.2,
-    "score_breakdown": {
-      "recency": 25.0,
-      "keyword_impact": 17.0,
-      "source_authority": 21.25,
-      "brazilian_fit": 15.0
-    },
-    "priority_level": "HIGH",
-    "recommended_angle_br": "Análise quadro a quadro de novidades e detalhes ocultos no novo material de GTA 6.",
-    "suggested_hook_pt": "🚨 VOCÊ VIU ISSO?! Novo material oficial de GTA 6 revelou detalhes inacreditáveis!",
-    "status": "analyzed",
-    "thumbnail": "https://i.ytimg.com/vi/VUlxa_DPco4/hqdefault.jpg"
-  },
-  {
-    "id": "3ee7557011a914f9",
-    "title": "Dead by Daylight x Terrifier - Official Trailer (Uncensored)",
-    "url": "https://www.youtube.com/watch?v=vWZvnm8zdGg",
-    "platform": "youtube",
-    "author": "IGN",
-    "source_name": "IGN Games Feed",
-    "published_at": "2026-11-24T18:00:15+00:00",
-    "license_category": "unauthorized",
-    "niche_tags": [
-      "trailer",
-      "map",
-      "xbox"
-    ],
-    "viral_score": 75.2,
-    "score_breakdown": {
-      "recency": 25.0,
-      "keyword_impact": 14.0,
-      "source_authority": 21.25,
-      "brazilian_fit": 15.0
-    },
-    "priority_level": "HIGH",
-    "recommended_angle_br": "Análise quadro a quadro de novidades e detalhes ocultos no novo material de GTA 6.",
-    "suggested_hook_pt": "🚨 VOCÊ VIU ISSO?! Novo material oficial de GTA 6 revelou detalhes inacreditáveis!",
-    "status": "analyzed",
-    "thumbnail": "https://i.ytimg.com/vi/vWZvnm8zdGg/hqdefault.jpg"
   },
   {
     "id": "a6d05656cd167edb",
@@ -161,39 +183,13 @@
     "thumbnail": "https://i.ytimg.com/vi/kxao4SnZDFg/hqdefault.jpg"
   },
   {
-    "id": "783ad6ef4ceb0ea7",
-    "title": "theHunter: Call of the Wild - Official Texas Hunting Reserve Animal Roster Trailer",
-    "url": "https://www.youtube.com/watch?v=nGdsClCUNZo",
+    "id": "db37904932d0d443",
+    "title": "You can wear Nintendo-inspired hats in GTA 6 if you find this floating block. #gta6 #nintendo #ign",
+    "url": "https://www.youtube.com/shorts/wOvEmjUkLZs",
     "platform": "youtube",
     "author": "IGN",
     "source_name": "IGN Games Feed",
-    "published_at": "2026-11-24T20:00:12+00:00",
-    "license_category": "unauthorized",
-    "niche_tags": [
-      "trailer",
-      "xbox"
-    ],
-    "viral_score": 71.2,
-    "score_breakdown": {
-      "recency": 25.0,
-      "keyword_impact": 10.0,
-      "source_authority": 21.25,
-      "brazilian_fit": 15.0
-    },
-    "priority_level": "HIGH",
-    "recommended_angle_br": "Análise quadro a quadro de novidades e detalhes ocultos no novo material de GTA 6.",
-    "suggested_hook_pt": "🚨 VOCÊ VIU ISSO?! Novo material oficial de GTA 6 revelou detalhes inacreditáveis!",
-    "status": "analyzed",
-    "thumbnail": "https://i.ytimg.com/vi/nGdsClCUNZo/hqdefault.jpg"
-  },
-  {
-    "id": "5e18b9fdd5bf65e3",
-    "title": "GTA 6: Grab This Free $5,000 as Soon as Chapter 2 Begins",
-    "url": "https://www.youtube.com/watch?v=ndzIjeSdOBQ",
-    "platform": "youtube",
-    "author": "IGN",
-    "source_name": "IGN Games Feed",
-    "published_at": "2026-11-24T19:22:14+00:00",
+    "published_at": "2026-11-25T00:32:06+00:00",
     "license_category": "unauthorized",
     "niche_tags": [
       "gta 6"
@@ -209,58 +205,83 @@
     "recommended_angle_br": "Curiosidade imperdível sobre a ambientação e tecnologia da nova era de Vice City.",
     "suggested_hook_pt": "👀 SE LIGA NESSE DETALHE DE GTA 6 QUE QUASE NINGUÉM PERCEBEU!",
     "status": "analyzed",
-    "thumbnail": "https://i.ytimg.com/vi/ndzIjeSdOBQ/hqdefault.jpg"
+    "thumbnail": "https://i.ytimg.com/vi/wOvEmjUkLZs/hqdefault.jpg"
   },
   {
-    "id": "7f9bfb724e4c3184",
-    "title": "Dune: Part Three - Exclusive Teaser Trailer (2026) Timothée Chalamet, Zendaya, Robert Pattinson",
-    "url": "https://www.youtube.com/watch?v=ErhPysTk6Jc",
+    "id": "fe29f2c1c69d3a85",
+    "title": "GTA 6 IRL",
+    "url": "https://www.youtube.com/shorts/hGztw01STyE",
     "platform": "youtube",
     "author": "IGN",
     "source_name": "IGN Games Feed",
-    "published_at": "2026-11-24T17:00:37+00:00",
+    "published_at": "2026-11-24T23:11:35+00:00",
     "license_category": "unauthorized",
     "niche_tags": [
-      "jason",
-      "trailer"
+      "gta 6"
     ],
     "viral_score": 71.2,
     "score_breakdown": {
       "recency": 25.0,
-      "keyword_impact": 10.0,
+      "keyword_impact": 15.0,
       "source_authority": 21.25,
-      "brazilian_fit": 15.0
+      "brazilian_fit": 10.0
     },
     "priority_level": "HIGH",
-    "recommended_angle_br": "Análise quadro a quadro de novidades e detalhes ocultos no novo material de GTA 6.",
-    "suggested_hook_pt": "🚨 VOCÊ VIU ISSO?! Novo material oficial de GTA 6 revelou detalhes inacreditáveis!",
+    "recommended_angle_br": "Curiosidade imperdível sobre a ambientação e tecnologia da nova era de Vice City.",
+    "suggested_hook_pt": "👀 SE LIGA NESSE DETALHE DE GTA 6 QUE QUASE NINGUÉM PERCEBEU!",
     "status": "analyzed",
-    "thumbnail": "https://i.ytimg.com/vi/ErhPysTk6Jc/hqdefault.jpg"
+    "thumbnail": "https://i.ytimg.com/vi/hGztw01STyE/hqdefault.jpg"
   },
   {
-    "id": "e6dbd21c880a3ff4",
-    "title": "The Cube - Official Archive File #1 Teaser Trailer",
-    "url": "https://www.youtube.com/watch?v=M69kuiyffsY",
+    "id": "bfd7dc72bb6c2cef",
+    "title": "GTA 6: How to Get the Cursed Knife | Ghost Ship Lighthouse Easter Egg",
+    "url": "https://www.youtube.com/watch?v=IqKb-yJGroE",
     "platform": "youtube",
     "author": "IGN",
     "source_name": "IGN Games Feed",
-    "published_at": "2026-11-24T16:50:49+00:00",
+    "published_at": "2026-11-24T23:00:25+00:00",
     "license_category": "unauthorized",
     "niche_tags": [
-      "trailer"
+      "gta 6",
+      "map"
     ],
     "viral_score": 71.2,
     "score_breakdown": {
       "recency": 25.0,
-      "keyword_impact": 10.0,
+      "keyword_impact": 15.0,
       "source_authority": 21.25,
-      "brazilian_fit": 15.0
+      "brazilian_fit": 10.0
     },
     "priority_level": "HIGH",
-    "recommended_angle_br": "Análise quadro a quadro de novidades e detalhes ocultos no novo material de GTA 6.",
-    "suggested_hook_pt": "🚨 VOCÊ VIU ISSO?! Novo material oficial de GTA 6 revelou detalhes inacreditáveis!",
+    "recommended_angle_br": "Curiosidade imperdível sobre a ambientação e tecnologia da nova era de Vice City.",
+    "suggested_hook_pt": "👀 SE LIGA NESSE DETALHE DE GTA 6 QUE QUASE NINGUÉM PERCEBEU!",
     "status": "analyzed",
-    "thumbnail": "https://i.ytimg.com/vi/M69kuiyffsY/hqdefault.jpg"
+    "thumbnail": "https://i.ytimg.com/vi/IqKb-yJGroE/hqdefault.jpg"
+  },
+  {
+    "id": "830ca1c172b5914b",
+    "title": "There is a haunted hotel in the middle of Vice City with a safe inside! #gta6 #haunted #hotel #ign",
+    "url": "https://www.youtube.com/shorts/jT1LwojE1eI",
+    "platform": "youtube",
+    "author": "IGN",
+    "source_name": "IGN Games Feed",
+    "published_at": "2026-11-25T02:34:06+00:00",
+    "license_category": "unauthorized",
+    "niche_tags": [
+      "vice city"
+    ],
+    "viral_score": 68.2,
+    "score_breakdown": {
+      "recency": 25.0,
+      "keyword_impact": 12.0,
+      "source_authority": 21.25,
+      "brazilian_fit": 10.0
+    },
+    "priority_level": "MEDIUM",
+    "recommended_angle_br": "Exploração da geografia de Vice City e tamanho comparado com Los Santos.",
+    "suggested_hook_pt": "🗺️ O MAPA DE VICE CITY TÁ SURREAL! Olha essa comparação com o GTA 5!",
+    "status": "analyzed",
+    "thumbnail": "https://i.ytimg.com/vi/jT1LwojE1eI/hqdefault.jpg"
   },
   {
     "id": "a6a7928a72689d66",
@@ -336,56 +357,6 @@
     "suggested_hook_pt": "👀 SE LIGA NESSE DETALHE DE GTA 6 QUE QUASE NINGUÉM PERCEBEU!",
     "status": "analyzed",
     "thumbnail": "https://i.ytimg.com/vi/7H6YGeREMgY/hqdefault.jpg"
-  },
-  {
-    "id": "ec53418d1449d00c",
-    "title": "GTA 6 Prologue Has Alternate Cutscenes",
-    "url": "https://www.youtube.com/shorts/AJ4FlSDxnwo",
-    "platform": "youtube",
-    "author": "GameSpot",
-    "source_name": "GameSpot",
-    "published_at": "2026-11-20T22:00:29+00:00",
-    "license_category": "unauthorized",
-    "niche_tags": [
-      "gta 6"
-    ],
-    "viral_score": 61.2,
-    "score_breakdown": {
-      "recency": 15.0,
-      "keyword_impact": 15.0,
-      "source_authority": 21.25,
-      "brazilian_fit": 10.0
-    },
-    "priority_level": "MEDIUM",
-    "recommended_angle_br": "Curiosidade imperdível sobre a ambientação e tecnologia da nova era de Vice City.",
-    "suggested_hook_pt": "👀 SE LIGA NESSE DETALHE DE GTA 6 QUE QUASE NINGUÉM PERCEBEU!",
-    "status": "analyzed",
-    "thumbnail": "https://i.ytimg.com/vi/AJ4FlSDxnwo/hqdefault.jpg"
-  },
-  {
-    "id": "0f9884a546ae1d99",
-    "title": "GTA 6 How to Unlock A Secret Radio Station",
-    "url": "https://www.youtube.com/shorts/tT7aN7UpnlQ",
-    "platform": "youtube",
-    "author": "GameSpot",
-    "source_name": "GameSpot",
-    "published_at": "2026-11-20T21:02:10+00:00",
-    "license_category": "unauthorized",
-    "niche_tags": [
-      "gta 6"
-    ],
-    "viral_score": 61.2,
-    "score_breakdown": {
-      "recency": 15.0,
-      "keyword_impact": 15.0,
-      "source_authority": 21.25,
-      "brazilian_fit": 10.0
-    },
-    "priority_level": "MEDIUM",
-    "recommended_angle_br": "Curiosidade imperdível sobre a ambientação e tecnologia da nova era de Vice City.",
-    "suggested_hook_pt": "👀 SE LIGA NESSE DETALHE DE GTA 6 QUE QUASE NINGUÉM PERCEBEU!",
-    "status": "analyzed",
-    "thumbnail": "https://i.ytimg.com/vi/tT7aN7UpnlQ/hqdefault.jpg"
   },
   {
     "id": "f2d3f5edc9a307a2",
