@@ -166,6 +166,31 @@
     "thumbnail": "https://i.ytimg.com/vi/GKg4FmJhfhY/hqdefault.jpg"
   },
   {
+    "id": "7228dbc4191ff7f4",
+    "title": "gta 6 or family time?",
+    "url": "https://www.youtube.com/shorts/gtY0glun7OU",
+    "platform": "youtube",
+    "author": "IGN",
+    "source_name": "IGN Games Feed",
+    "published_at": "2026-11-27T05:27:40+00:00",
+    "license_category": "unauthorized",
+    "niche_tags": [
+      "gta 6"
+    ],
+    "viral_score": 71.2,
+    "score_breakdown": {
+      "recency": 25.0,
+      "keyword_impact": 15.0,
+      "source_authority": 21.25,
+      "brazilian_fit": 10.0
+    },
+    "priority_level": "HIGH",
+    "recommended_angle_br": "Curiosidade imperdível sobre a ambientação e tecnologia da nova era de Vice City.",
+    "suggested_hook_pt": "👀 SE LIGA NESSE DETALHE DE GTA 6 QUE QUASE NINGUÉM PERCEBEU!",
+    "status": "analyzed",
+    "thumbnail": "https://i.ytimg.com/vi/gtY0glun7OU/hqdefault.jpg"
+  },
+  {
     "id": "3dcc266076e91af0",
     "title": "Hitman World of Assassination - Official Bawma's Elusive Targets Trailer (ft. Lenny Kravitz)",
     "url": "https://www.youtube.com/watch?v=btn5MdU6mWg",
@@ -217,59 +242,6 @@
     "suggested_hook_pt": "🚨 VOCÊ VIU ISSO?! Novo material oficial de GTA 6 revelou detalhes inacreditáveis!",
     "status": "analyzed",
     "thumbnail": "https://i.ytimg.com/vi/TungdtfXmVc/hqdefault.jpg"
-  },
-  {
-    "id": "11d531c31ccab4e0",
-    "title": "Infinity Nikki - Official 3.0 Launch Trailer",
-    "url": "https://www.youtube.com/watch?v=5FuzrhCY27Q",
-    "platform": "youtube",
-    "author": "IGN",
-    "source_name": "IGN Games Feed",
-    "published_at": "2026-11-26T11:32:06+00:00",
-    "license_category": "unauthorized",
-    "niche_tags": [
-      "trailer",
-      "ps5"
-    ],
-    "viral_score": 71.2,
-    "score_breakdown": {
-      "recency": 25.0,
-      "keyword_impact": 10.0,
-      "source_authority": 21.25,
-      "brazilian_fit": 15.0
-    },
-    "priority_level": "HIGH",
-    "recommended_angle_br": "Análise quadro a quadro de novidades e detalhes ocultos no novo material de GTA 6.",
-    "suggested_hook_pt": "🚨 VOCÊ VIU ISSO?! Novo material oficial de GTA 6 revelou detalhes inacreditáveis!",
-    "status": "analyzed",
-    "thumbnail": "https://i.ytimg.com/vi/5FuzrhCY27Q/hqdefault.jpg"
-  },
-  {
-    "id": "d5c9f549b1d92d73",
-    "title": "The Biggest Game Releases of December 2026",
-    "url": "https://www.youtube.com/watch?v=a55WmP7l_8I",
-    "platform": "youtube",
-    "author": "IGN",
-    "source_name": "IGN Games Feed",
-    "published_at": "2026-11-26T10:15:31+00:00",
-    "license_category": "unauthorized",
-    "niche_tags": [
-      "gta 6",
-      "ps5",
-      "xbox"
-    ],
-    "viral_score": 71.2,
-    "score_breakdown": {
-      "recency": 25.0,
-      "keyword_impact": 15.0,
-      "source_authority": 21.25,
-      "brazilian_fit": 10.0
-    },
-    "priority_level": "HIGH",
-    "recommended_angle_br": "Curiosidade imperdível sobre a ambientação e tecnologia da nova era de Vice City.",
-    "suggested_hook_pt": "👀 SE LIGA NESSE DETALHE DE GTA 6 QUE QUASE NINGUÉM PERCEBEU!",
-    "status": "analyzed",
-    "thumbnail": "https://i.ytimg.com/vi/a55WmP7l_8I/hqdefault.jpg"
   },
   {
     "id": "c07958c0df8323da",
@@ -350,16 +322,44 @@
     "thumbnail": "https://i.ytimg.com/vi/kxao4SnZDFg/hqdefault.jpg"
   },
   {
-    "id": "1a5cc504817906c9",
-    "title": "Pro's and Con's of GTA 6's fast travel options",
-    "url": "https://www.youtube.com/shorts/_KPcl2IlAc0",
+    "id": "11d531c31ccab4e0",
+    "title": "Infinity Nikki - Official 3.0 Launch Trailer",
+    "url": "https://www.youtube.com/watch?v=5FuzrhCY27Q",
     "platform": "youtube",
     "author": "IGN",
     "source_name": "IGN Games Feed",
-    "published_at": "2026-11-26T03:52:50+00:00",
+    "published_at": "2026-11-26T11:32:06+00:00",
     "license_category": "unauthorized",
     "niche_tags": [
-      "gta 6"
+      "trailer",
+      "ps5"
+    ],
+    "viral_score": 66.2,
+    "score_breakdown": {
+      "recency": 20.0,
+      "keyword_impact": 10.0,
+      "source_authority": 21.25,
+      "brazilian_fit": 15.0
+    },
+    "priority_level": "MEDIUM",
+    "recommended_angle_br": "Análise quadro a quadro de novidades e detalhes ocultos no novo material de GTA 6.",
+    "suggested_hook_pt": "🚨 VOCÊ VIU ISSO?! Novo material oficial de GTA 6 revelou detalhes inacreditáveis!",
+    "status": "analyzed",
+    "thumbnail": "https://i.ytimg.com/vi/5FuzrhCY27Q/hqdefault.jpg"
+  },
+  {
+    "id": "d5c9f549b1d92d73",
+    "title": "The Biggest Game Releases of December 2026",
+    "url": "https://www.youtube.com/watch?v=a55WmP7l_8I",
+    "platform": "youtube",
+    "author": "IGN",
+    "source_name": "IGN Games Feed",
+    "published_at": "2026-11-26T10:15:31+00:00",
+    "license_category": "unauthorized",
+    "niche_tags": [
+      "gta 6",
+      "ps5",
+      "xbox"
     ],
     "viral_score": 66.2,
     "score_breakdown": {
@@ -372,7 +372,7 @@
     "recommended_angle_br": "Curiosidade imperdível sobre a ambientação e tecnologia da nova era de Vice City.",
     "suggested_hook_pt": "👀 SE LIGA NESSE DETALHE DE GTA 6 QUE QUASE NINGUÉM PERCEBEU!",
     "status": "analyzed",
-    "thumbnail": "https://i.ytimg.com/vi/_KPcl2IlAc0/hqdefault.jpg"
+    "thumbnail": "https://i.ytimg.com/vi/a55WmP7l_8I/hqdefault.jpg"
   },
   {
     "id": "83669ccd92181237",
@@ -448,6 +448,31 @@
     "suggested_hook_pt": "👀 SE LIGA NESSE DETALHE DE GTA 6 QUE QUASE NINGUÉM PERCEBEU!",
     "status": "analyzed",
     "thumbnail": "https://i.ytimg.com/vi/aygLzhYFnn4/hqdefault.jpg"
+  },
+  {
+    "id": "909dc5d7470e52cd",
+    "title": "The Best Black Friday Amazon Gaming Deals for 2026",
+    "url": "https://www.youtube.com/watch?v=L8lQ_npReMs",
+    "platform": "youtube",
+    "author": "IGN",
+    "source_name": "IGN Games Feed",
+    "published_at": "2026-11-27T08:00:21+00:00",
+    "license_category": "unauthorized",
+    "niche_tags": [
+      "xbox"
+    ],
+    "viral_score": 56.2,
+    "score_breakdown": {
+      "recency": 25.0,
+      "keyword_impact": 0.0,
+      "source_authority": 21.25,
+      "brazilian_fit": 10.0
+    },
+    "priority_level": "MEDIUM",
+    "recommended_angle_br": "Curiosidade imperdível sobre a ambientação e tecnologia da nova era de Vice City.",
+    "suggested_hook_pt": "👀 SE LIGA NESSE DETALHE DE GTA 6 QUE QUASE NINGUÉM PERCEBEU!",
+    "status": "analyzed",
+    "thumbnail": "https://i.ytimg.com/vi/L8lQ_npReMs/hqdefault.jpg"
   },
   {
     "id": "6fed11a1dba8b5a5",
